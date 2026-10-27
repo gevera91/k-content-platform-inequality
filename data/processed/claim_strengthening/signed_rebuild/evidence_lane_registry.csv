@@ -1,0 +1,8 @@
+lane_id,lane_description,can_enter_core_composite,headline_role,direct_or_bound,why_separate
+domestic_rule_burden,"Direct local-rule burden observed on Korean-market Korean-platform rows",yes,core,direct_or_partial_direct,"This is the cleanest direct burden lane and should not be mixed with institutional under-reach."
+foreign_platform_reach_gap,"Difference in Korean enforcement reach and filing visibility between domestic and foreign rows in Korea",no,supporting_or_extended,bound_or_direct,"Reach asymmetry is conceptually distinct from ordinary domestic rule burden."
+creator_artist_protection_incidence,"Incidence of creator- and artist-protection costs in Korea",no,extended_or_case_study,direct_proxy_bound,"Normative protection can still produce a positive Korean-platform burden score if domestic platforms bear more of the cost."
+risk_recovery_gap,"Funding, cashflow, and recovery-pressure burden in Korean-market comparisons",yes,core,direct_or_partial_direct,"This lane is closest to observable financial burden."
+market_transfer_gap,"Switching, bundle leverage, and local-share erosion pressure in Korea",yes,core_if_rebuilt,proxy_heavy_then_direct,"This lane needs explicit guardrails because the legacy market proxy overcompresses different mechanisms."
+tax_enforceability_gap,"Difference between implied Korean-market tax liability and actually visible tax capture of foreign platforms",no,sidecar_or_extended,bound_or_case_study,"Tax enforceability is important but is often single-firm and case-study driven."
+optional_sidecars,"Non-core mechanism modules such as monitoring IT cost or data-combination opportunity cost",no,appendix_or_extended,proxy_or_hypothesis,"Useful for enrichment but unsafe as core headline evidence."

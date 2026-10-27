@@ -1,0 +1,174 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{kakao_report_style}[2026/10/27 Professional Korean research report]
+% Presentation only. Preserve the report's data, equations, and page width.
+% Compile the report on the author's request.
+\RequirePackage{titlesec}
+\RequirePackage{titletoc}
+\RequirePackage{fancyhdr}
+\RequirePackage{tcolorbox}
+\tcbuselibrary{breakable,skins}
+
+% Dark text and restrained accents remain legible in print.
+\definecolor{ReportNavy}{HTML}{17324D}
+\definecolor{ReportTeal}{HTML}{197D88}
+\definecolor{ReportGold}{HTML}{E3B741}
+\definecolor{ReportInk}{HTML}{263442}
+\definecolor{ReportMuted}{HTML}{586B7B}
+\definecolor{ReportRule}{HTML}{B7CBD4}
+\definecolor{ReportTableHead}{HTML}{E9F1F5}
+\definecolor{ReportTint}{HTML}{F1F7F8}
+\definecolor{ReportWarm}{HTML}{FBF7E9}
+
+% Korean sans-serif headings complement the existing Batang body font.
+\setsanshangulfont[
+  Path=/usr/local/texlive/2024/texmf-dist/fonts/truetype/public/unfonts-core/,
+  BoldFont=UnDotumBold.ttf,
+  ItalicFont=UnDotum.ttf,
+  BoldItalicFont=UnDotumBold.ttf,
+  ItalicFeatures={FakeSlant=0.16},
+  BoldItalicFeatures={FakeSlant=0.16}
+]{UnDotum.ttf}
+
+% Numbered chapters and appendices retain their existing numbering.
+\titleformat{\chapter}[display]
+  {\normalfont\sffamily\color{ReportNavy}}
+  {\small\bfseries\color{ReportTeal}\chaptertitlename\enspace\thechapter}
+  {10pt}
+  {\fontsize{25}{32}\selectfont\bfseries}
+  [\vspace{8pt}{\color{ReportGold}\titlerule[1.8pt]}]
+\titleformat{name=\chapter,numberless}[display]
+  {\normalfont\sffamily\color{ReportNavy}}
+  {}{0pt}{\fontsize{25}{32}\selectfont\bfseries}
+  [\vspace{8pt}{\color{ReportGold}\titlerule[1.8pt]}]
+\titlespacing*{\chapter}{0pt}{10pt}{24pt}
+\titleformat{\section}
+  {\normalfont\sffamily\large\bfseries\color{ReportNavy}}
+  {\color{ReportTeal}\thesection}{0.7em}{}
+\titlespacing*{\section}{0pt}{20pt plus 4pt minus 2pt}{8pt}
+\titleformat{\subsection}
+  {\normalfont\sffamily\normalsize\bfseries\color{ReportTeal}}
+  {\thesubsection}{0.65em}{}
+\titlespacing*{\subsection}{0pt}{15pt plus 3pt minus 2pt}{6pt}
+\titleformat{\subsubsection}
+  {\normalfont\sffamily\normalsize\bfseries\color{ReportNavy}}
+  {\thesubsubsection}{0.6em}{}
+
+% Compact, readable navigation without changing the contents depth.
+\contentsmargin{1.85em}
+\titlecontents{chapter}[2.2em]
+  {\addvspace{7pt}\sffamily\bfseries\color{ReportNavy}}
+  {\contentslabel{2.2em}}{}
+  {\hfill\contentspage}
+\titlecontents{section}[3.3em]
+  {\small\color{ReportInk}}
+  {\contentslabel{2.9em}}{}
+  {\titlerule*[0.65pc]{.}\contentspage}
+\titlecontents{subsection}[5.1em]
+  {\footnotesize\color{ReportMuted}}
+  {\contentslabel{3.6em}}{}
+  {\titlerule*[0.65pc]{.}\contentspage}
+
+% Short running titles avoid collisions with Korean chapter names.
+\setlength{\headheight}{21pt}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\fontsize{8}{10}\selectfont\color{ReportMuted}K-콘텐츠 플랫폼 생태계 연구}
+\fancyhead[R]{\sffamily\fontsize{8}{10}\selectfont\color{ReportTeal}CPII\enspace /\enspace 종합 연구보고서}
+\fancyfoot[L]{\sffamily\fontsize{8}{10}\selectfont\color{ReportMuted}카카오엔터테인먼트}
+\fancyfoot[R]{\sffamily\small\bfseries\color{ReportNavy}\thepage}
+\renewcommand{\headrulewidth}{0.35pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{ReportRule}\leaders\hrule height\headrulewidth\hfill}}
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyfoot[L]{\sffamily\fontsize{8}{10}\selectfont\color{ReportMuted}카카오엔터테인먼트}%
+  \fancyfoot[R]{\sffamily\small\bfseries\color{ReportNavy}\thepage}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \renewcommand{\footrulewidth}{0pt}%
+}
+
+% Table dimensions are deliberately unchanged; only color and captions vary.
+\arrayrulecolor{ReportRule}
+\setlength{\heavyrulewidth}{0.7pt}
+\setlength{\lightrulewidth}{0.35pt}
+\captionsetup{
+  format=hang,
+  font=small,
+  labelfont={sf,bf,color=ReportTeal},
+  textfont={color=ReportInk},
+  labelsep=quad,
+  justification=raggedright,
+  singlelinecheck=false,
+  skip=7pt
+}
+\captionsetup[table]{position=top}
+\captionsetup[figure]{position=bottom}
+\renewcommand{\footnoterule}{%
+  \kern-3pt
+  {\color{ReportRule}\hrule width 0.22\columnwidth height 0.4pt}%
+  \kern2.6pt
+}
+\setlist[itemize,1]{label={\textcolor{ReportTeal}{\textbullet}}}
+\renewcommand{\sourcefootnote}[1]{\footnote{\textcolor{ReportTeal}{\textbf{출처:}} #1}}
+
+% Use only around selected prose, never around tables, figures, or footnotes.
+\newtcolorbox{ReportCallout}{
+  enhanced jigsaw,
+  breakable,
+  colback=ReportTint,
+  colframe=ReportTeal,
+  coltext=ReportInk,
+  boxrule=0pt,
+  borderline west={2.2pt}{0pt}{ReportTeal},
+  sharp corners,
+  left=10pt,right=10pt,top=7pt,bottom=7pt,
+  before skip=10pt,after skip=10pt
+}
+
+% Full-width color block on the cover; no external artwork is required.
+\newcommand{\ReportCover}{%
+  \begin{titlepage}
+  \thispagestyle{empty}
+  \sffamily\raggedright
+  {\fontsize{9}{12}\selectfont\bfseries\color{ReportMuted}KAKAO ENTERTAINMENT\hfill RESEARCH REPORT\par}
+  \vspace{15mm}
+  {\small\bfseries\color{ReportTeal}카카오엔터테인먼트 제출용 종합 연구보고서\par}
+  \vspace{6mm}
+  {\setlength{\fboxsep}{16pt}%
+  \noindent\colorbox{ReportNavy}{%
+    \parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+      \raggedright\color{white}
+      \vspace{6mm}
+      {\fontsize{25}{35}\selectfont\bfseries
+       K-콘텐츠 플랫폼 생태계의\\[2mm]
+       구조적 불평등 계량화\\[2mm]
+       및 정책 대안 연구\par}
+      \vspace{9mm}
+      {\color{ReportGold}\rule{24mm}{2.5pt}\par}
+      \vspace{5mm}
+      {\fontsize{12}{18}\selectfont
+       콘텐츠 플랫폼 불평등 지수(CPII)\\
+       설계 및 실증분석\par}
+      \vspace{5mm}
+    }%
+  }\par}
+  \vspace{8mm}
+  {\small\color{ReportTeal}음악\enspace /\enspace 웹툰 및 스토리\enspace /\enspace 디지털 인프라\par}
+  \vfill
+  {\color{ReportRule}\rule{\textwidth}{0.5pt}\par}
+  \vspace{5mm}
+  {\color{ReportNavy}\bfseries 연구진\par}
+  \vspace{3mm}
+  {\normalsize\color{ReportInk}
+   전성민\enspace\textcolor{ReportMuted}{가천대학교}\par
+   \vspace{2mm}
+   강형구\enspace\textcolor{ReportMuted}{한양대학교 · 교신저자}\par}
+  \vspace{11mm}
+  {\small\color{ReportMuted}공개데이터 기반 정량분석 보고서\par}
+  \vspace{2mm}
+  {\small\bfseries\color{ReportNavy}2026년 10월 27일 통합 개정본\par}
+  \end{titlepage}%
+}
+
+\AtBeginDocument{\color{ReportInk}}
+\endinput

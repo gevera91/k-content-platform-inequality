@@ -1,0 +1,8 @@
+reported_artifact_id,reported_result_count,lineage_row_count,upstream_file_count,lineage_stages,upstream_files,notes
+T09,15,70,1,aggregation_input,data/processed/cpii_panel_sector_quarter.csv,Artifact-level lineage coverage summary.
+T10,10,40,1,direct_match,data/processed/cpii_panel_sector_quarter.csv,Artifact-level lineage coverage summary.
+T11-Infra,4,352,4,model_input_row|model_output_row,data/processed/cpii_panel_sector_country_quarter.csv|data/processed/variable_panel_platform_quarter.csv|outputs/tables/regression_results_cross_country.csv|outputs/tables/regression_results_infra.csv,Artifact-level lineage coverage summary.
+T11-Music,8,8577,3,model_input_row|model_output_row,data/processed/event_study_panel.csv|data/processed/variable_panel_platform_month.csv|outputs/tables/regression_results_music.csv,Artifact-level lineage coverage summary.
+T11-Webtoon,4,557,3,model_input_row|model_output_row,data/processed/event_study_panel.csv|data/processed/variable_panel_platform_quarter.csv|outputs/tables/regression_results_webtoon.csv,Artifact-level lineage coverage summary.
+T12,396,484,4,scenario_baseline_row|scenario_output_row|scenario_parameter_row|sensitivity_output_row,data/processed/policy_simulator_baseline_inputs.csv|data/processed/policy_simulator_calibrated_parameters.csv|outputs/tables/policy_scenario_summary.csv|outputs/tables/policy_sensitivity_summary.csv,Artifact-level lineage coverage summary.
+TEXT,16,131,4,aggregation_input|direct_match|model_input_row|model_output_row,data/processed/cpii_panel_sector_country_quarter.csv|data/processed/cpii_panel_sector_quarter.csv|outputs/tables/policy_scenario_summary.csv|outputs/tables/regression_results_cross_country.csv,Artifact-level lineage coverage summary.

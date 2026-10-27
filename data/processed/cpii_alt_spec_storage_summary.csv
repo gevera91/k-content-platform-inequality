@@ -1,0 +1,7 @@
+panel_level,alt_spec_variant,spec_code,total_rows,baseline_computed_rows,computed_rows,not_computed_rows,computed_share,retention_vs_baseline,identical_to_baseline_rows,differs_from_baseline_rows,input_panel_path,output_panel_path
+sector_country_quarter,alt_a,CPII_SCQ_ALT_A_REGRISK_V1,159,91,91,68,0.5723270440,1.0000000000,24,67,data/processed/cpii_panel_sector_country_quarter.csv,data/processed/cpii_panel_sector_country_quarter_alt_a.csv
+sector_country_quarter,alt_b,CPII_SCQ_ALT_B_COMPLETE_V1,159,91,64,95,0.4025157233,0.7032967033,64,0,data/processed/cpii_panel_sector_country_quarter.csv,data/processed/cpii_panel_sector_country_quarter_alt_b.csv
+sector_quarter,alt_a,CPII_SQ_ALT_A_REGRISK_V1,19,14,14,5,0.7368421053,1.0000000000,0,14,data/processed/cpii_panel_sector_quarter.csv,data/processed/cpii_panel_sector_quarter_alt_a.csv
+sector_quarter,alt_b,CPII_SQ_ALT_B_COMPLETE_V1,19,14,14,5,0.7368421053,1.0000000000,14,0,data/processed/cpii_panel_sector_quarter.csv,data/processed/cpii_panel_sector_quarter_alt_b.csv
+firm_country_quarter,alt_a,CPII_FCQ_ALT_A_REGRISK_V1,580,270,270,310,0.4655172414,1.0000000000,42,228,data/processed/cpii_panel_firm_country_quarter.csv,data/processed/cpii_panel_firm_country_quarter_alt_a.csv
+firm_country_quarter,alt_b,CPII_FCQ_ALT_B_COMPLETE_V1,580,270,170,410,0.2931034483,0.6296296296,170,0,data/processed/cpii_panel_firm_country_quarter.csv,data/processed/cpii_panel_firm_country_quarter_alt_b.csv

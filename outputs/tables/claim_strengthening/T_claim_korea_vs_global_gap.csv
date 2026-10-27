@@ -1,0 +1,4 @@
+peer_group_id,korean_firm_count,global_peer_count,korean_mean_composite,global_peer_mean_composite,korea_minus_global_gap,gap_direction,best_korean_firm_std,best_korean_composite,best_global_firm_std,best_global_composite,korean_fallback_firm_count,all_korean_eligible_flag,interpretation_note
+infra_traffic_ott,3,1,36.629550,39.255321,-2.625771,global_higher,kt,51.805736,netflix,39.255321,0,yes,Korean mean uses only rank-eligible firm composites
+mus_label_ip_export,2,1,21.604775,51.849736,-30.244961,global_higher,jyp_ent,30.709550,warner_music,51.849736,0,yes,Korean mean uses only rank-eligible firm composites
+mus_streaming_paid_core,2,1,41.666667,25.074689,16.591978,korean_higher,dreamus,50.000000,spotify,25.074689,1,no,Korean mean uses at least one fallback firm

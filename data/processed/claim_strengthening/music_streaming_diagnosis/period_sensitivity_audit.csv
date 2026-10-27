@@ -1,0 +1,6 @@
+spec_id,time_window_or_panel_rule,gap,gap_sign,supports_korean_higher_yes_no,stable_yes_no,notes
+PSA01,current_balanced_summary_common_period_level_gap_2025_09_to_2026_03,16.591978,positive,yes,yes,Current balanced summary is unchanged from the stored previous unbalanced gap but still relies on a KR-only three-month common-period panel with one Korean fallback row.
+PSA02,previous_unbalanced_level_gap_legacy_core_row,16.591978,positive,yes,yes,The previous unbalanced gap equals the current balanced gap because the current streaming core was already effectively narrowed to the same KR-only usable cell.
+PSA03,latest_matched_quarter_event_linked_transfer_2026Q1,-0.084032723,negative,no,no,The latest matched quarterly direct transfer gap points the opposite way and indicates global_higher rather than korean_higher.
+PSA04,latest_matched_month_event_linked_transfer_2026_03,0.000000,zero,no,no,The latest matched monthly transfer point is exactly zero so it does not support a Korean-higher reading.
+PSA05,event_related_transfer_summary_quarter_mean_matched_period_count_1,-0.084032723,negative,no,no,The event-related transfer summary is represented by the quarterly mean gap because it is the only nonzero direct event-window aggregate; it duplicates the latest quarter because only one matched quarter exists, which itself shows fragility.

@@ -1,0 +1,5236 @@
+{
+  "active_order": [
+    "effective_tax_rate_gap",
+    "infra_dependency_ratio",
+    "network_cost_ratio",
+    "cashflow_recovery_ratio",
+    "funding_cost_spread",
+    "investment_recovery_ratio",
+    "ip_assetization_gap",
+    "cross_market_transfer_index",
+    "foreign_dependency_ratio",
+    "outflow_to_capex_ratio"
+  ],
+  "anchor_rank_keys": [
+    {
+      "rank_key_directed": -0.1416111014,
+      "reference_order": 1,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.1416111014,
+      "reference_order": 2,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.1416111014,
+      "reference_order": 3,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.1416111014,
+      "reference_order": 4,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0708055507,
+      "reference_order": 5,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0708055507,
+      "reference_order": 6,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0708055507,
+      "reference_order": 7,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0708055507,
+      "reference_order": 8,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0359904895,
+      "reference_order": 9,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0300760628,
+      "reference_order": 10,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0300760628,
+      "reference_order": 11,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0300760628,
+      "reference_order": 12,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.029703355,
+      "reference_order": 13,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.029703355,
+      "reference_order": 14,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.029703355,
+      "reference_order": 15,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0244004593,
+      "reference_order": 16,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0244004593,
+      "reference_order": 17,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0244004593,
+      "reference_order": 18,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.021099575,
+      "reference_order": 19,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0196039726,
+      "reference_order": 20,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.0196039726,
+      "reference_order": 21,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 22,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 23,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 24,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 25,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 26,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 27,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 28,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 29,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 30,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 31,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 32,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 33,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0037092283,
+      "reference_order": 34,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0037092283,
+      "reference_order": 35,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0037092283,
+      "reference_order": 36,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0037092283,
+      "reference_order": 37,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0037092283,
+      "reference_order": 38,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0049929863,
+      "reference_order": 39,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0049929863,
+      "reference_order": 40,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0049929863,
+      "reference_order": 41,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0049929863,
+      "reference_order": 42,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0049929863,
+      "reference_order": 43,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0055961472,
+      "reference_order": 44,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0055961472,
+      "reference_order": 45,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0055961472,
+      "reference_order": 46,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0055961472,
+      "reference_order": 47,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0055961472,
+      "reference_order": 48,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0074184565,
+      "reference_order": 49,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0074184565,
+      "reference_order": 50,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0074184565,
+      "reference_order": 51,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0206448957,
+      "reference_order": 52,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0206448957,
+      "reference_order": 53,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0206448957,
+      "reference_order": 54,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0206448957,
+      "reference_order": 55,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0206448957,
+      "reference_order": 56,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0525437451,
+      "reference_order": 57,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0574876739,
+      "reference_order": 58,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0658624508,
+      "reference_order": 59,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0681609407,
+      "reference_order": 60,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0681609407,
+      "reference_order": 61,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0681609407,
+      "reference_order": 62,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0681609407,
+      "reference_order": 63,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0885217451,
+      "reference_order": 64,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0885217451,
+      "reference_order": 65,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.0970622489,
+      "reference_order": 66,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.139917026,
+      "reference_order": 67,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.139917026,
+      "reference_order": 68,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.1896855316,
+      "reference_order": 69,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.1896855316,
+      "reference_order": 70,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.1954037625,
+      "reference_order": 71,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.1954037625,
+      "reference_order": 72,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.2683650488,
+      "reference_order": 73,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": 0.2683650488,
+      "reference_order": 74,
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "rank_key_directed": -0.10705024705171803,
+      "reference_order": 1,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": -0.10161060219999998,
+      "reference_order": 2,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.1180769369,
+      "reference_order": 3,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.1324389742,
+      "reference_order": 4,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.1324389742,
+      "reference_order": 5,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.135233049,
+      "reference_order": 6,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.15168183360000004,
+      "reference_order": 7,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.15168183360000004,
+      "reference_order": 8,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2471186071,
+      "reference_order": 9,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2518299147,
+      "reference_order": 10,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2527359881,
+      "reference_order": 11,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2550784721,
+      "reference_order": 12,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2550784721,
+      "reference_order": 13,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2559858722,
+      "reference_order": 14,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2795853536,
+      "reference_order": 15,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2831495402,
+      "reference_order": 16,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2833354373,
+      "reference_order": 17,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.284375247,
+      "reference_order": 18,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2845332302,
+      "reference_order": 19,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2881904686,
+      "reference_order": 20,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.28841989590000006,
+      "reference_order": 21,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.2894575617,
+      "reference_order": 22,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.3108030848,
+      "reference_order": 23,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.3147979818,
+      "reference_order": 24,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.3150485913,
+      "reference_order": 25,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.31618206080000005,
+      "reference_order": 26,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.3206969261,
+      "reference_order": 27,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.3246917661,
+      "reference_order": 28,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.3248189933,
+      "reference_order": 29,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.3250775805,
+      "reference_order": 30,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.32624713189999993,
+      "reference_order": 31,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.37186819619999995,
+      "reference_order": 32,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5042430825,
+      "reference_order": 33,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5177590237,
+      "reference_order": 34,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5177590237,
+      "reference_order": 35,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5252820675,
+      "reference_order": 36,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5252820675,
+      "reference_order": 37,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5252820675,
+      "reference_order": 38,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5271852539,
+      "reference_order": 39,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5724743283,
+      "reference_order": 40,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5724743283,
+      "reference_order": 41,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5742743013,
+      "reference_order": 42,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5929873629,
+      "reference_order": 43,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.5929873629,
+      "reference_order": 44,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6007883832,
+      "reference_order": 45,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6007883832,
+      "reference_order": 46,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.601942312,
+      "reference_order": 47,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6037831871,
+      "reference_order": 48,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6289336337,
+      "reference_order": 49,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6289336337,
+      "reference_order": 50,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6316341245,
+      "reference_order": 51,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6335152762,
+      "reference_order": 52,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6335152762,
+      "reference_order": 53,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6887086344,
+      "reference_order": 54,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6887086344,
+      "reference_order": 55,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6900314309000001,
+      "reference_order": 56,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6987299272,
+      "reference_order": 57,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.6987299272,
+      "reference_order": 58,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.7017301066,
+      "reference_order": 59,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.7209727021000001,
+      "reference_order": 60,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.7209727021000001,
+      "reference_order": 61,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.7240683866,
+      "reference_order": 62,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.7604905373,
+      "reference_order": 63,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.8008753865408955,
+      "reference_order": 64,
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "rank_key_directed": -0.1395374353,
+      "reference_order": 1,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": -0.1395374353,
+      "reference_order": 2,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": -0.1395374353,
+      "reference_order": 3,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.1621499388,
+      "reference_order": 4,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.1621499388,
+      "reference_order": 5,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.1621499388,
+      "reference_order": 6,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.1818727022,
+      "reference_order": 7,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.1818727022,
+      "reference_order": 8,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.1818727022,
+      "reference_order": 9,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.1818727022,
+      "reference_order": 10,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.2524241223,
+      "reference_order": 11,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.2862833581,
+      "reference_order": 12,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.2862833581,
+      "reference_order": 13,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3393572706,
+      "reference_order": 14,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3411669426000001,
+      "reference_order": 15,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3411669426000001,
+      "reference_order": 16,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3411669426000001,
+      "reference_order": 17,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3411669426000001,
+      "reference_order": 18,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3444836324,
+      "reference_order": 19,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3455521206,
+      "reference_order": 20,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3455521206,
+      "reference_order": 21,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3455521206,
+      "reference_order": 22,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3455521206,
+      "reference_order": 23,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3458271052,
+      "reference_order": 24,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.34582721329999994,
+      "reference_order": 25,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.34582721329999994,
+      "reference_order": 26,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.34582721329999994,
+      "reference_order": 27,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.34582721329999994,
+      "reference_order": 28,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3470713765,
+      "reference_order": 29,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3470714169,
+      "reference_order": 30,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3470714169,
+      "reference_order": 31,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3470714169,
+      "reference_order": 32,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3470714169,
+      "reference_order": 33,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3487761475999999,
+      "reference_order": 34,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.3515343015,
+      "reference_order": 35,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4179956459,
+      "reference_order": 36,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4179956459,
+      "reference_order": 37,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4458851273,
+      "reference_order": 38,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4458851273,
+      "reference_order": 39,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.446823515,
+      "reference_order": 40,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.446823515,
+      "reference_order": 41,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.446823515,
+      "reference_order": 42,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4548314159,
+      "reference_order": 43,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4548314159,
+      "reference_order": 44,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4548314159,
+      "reference_order": 45,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4593055456,
+      "reference_order": 46,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4593055456,
+      "reference_order": 47,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4593055456,
+      "reference_order": 48,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4787150397,
+      "reference_order": 49,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4787150397,
+      "reference_order": 50,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.4787150397,
+      "reference_order": 51,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.492848679,
+      "reference_order": 52,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.5659293855,
+      "reference_order": 53,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.5765994155,
+      "reference_order": 54,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.5765994155,
+      "reference_order": 55,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.5765994155,
+      "reference_order": 56,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.5765994155,
+      "reference_order": 57,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.5765994155,
+      "reference_order": 58,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.5765994155,
+      "reference_order": 59,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6284021167,
+      "reference_order": 60,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6284021167,
+      "reference_order": 61,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6284021167,
+      "reference_order": 62,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6284021167,
+      "reference_order": 63,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6303779377,
+      "reference_order": 64,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6303779377,
+      "reference_order": 65,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6780165984,
+      "reference_order": 66,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6802048179000001,
+      "reference_order": 67,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6802048179000001,
+      "reference_order": 68,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6802048179000001,
+      "reference_order": 69,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6802048179000001,
+      "reference_order": 70,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6841564599,
+      "reference_order": 71,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.6841564599,
+      "reference_order": 72,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7110160227000001,
+      "reference_order": 73,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7110160227000001,
+      "reference_order": 74,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7110160227000001,
+      "reference_order": 75,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7110160227000001,
+      "reference_order": 76,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7110160227000001,
+      "reference_order": 77,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7110160227000001,
+      "reference_order": 78,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.723960656,
+      "reference_order": 79,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.723960656,
+      "reference_order": 80,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7326687599999999,
+      "reference_order": 81,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7326687599999999,
+      "reference_order": 82,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7326687599999999,
+      "reference_order": 83,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7326687599999999,
+      "reference_order": 84,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7340759903,
+      "reference_order": 85,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7340759903,
+      "reference_order": 86,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7669922362,
+      "reference_order": 87,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7669922362,
+      "reference_order": 88,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7669922362,
+      "reference_order": 89,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7669922362,
+      "reference_order": 90,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7669922362,
+      "reference_order": 91,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7669922362,
+      "reference_order": 92,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7702855176999999,
+      "reference_order": 93,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7702855176999999,
+      "reference_order": 94,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.7702855176999999,
+      "reference_order": 95,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.9274274845000001,
+      "reference_order": 96,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": 0.9274274845000001,
+      "reference_order": 97,
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "rank_key_directed": -300.75,
+      "reference_order": 1,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -300.75,
+      "reference_order": 2,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -277.99999999999994,
+      "reference_order": 3,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -277.99999999999994,
+      "reference_order": 4,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -277.99999999999994,
+      "reference_order": 5,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -277.99999999999994,
+      "reference_order": 6,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -156.48439691450005,
+      "reference_order": 7,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -156.48439691450005,
+      "reference_order": 8,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -145.1093969145,
+      "reference_order": 9,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -145.1093969145,
+      "reference_order": 10,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -145.1093969145,
+      "reference_order": 11,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -145.1093969145,
+      "reference_order": 12,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -143.09999999999994,
+      "reference_order": 13,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -143.09999999999994,
+      "reference_order": 14,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -143.09999999999994,
+      "reference_order": 15,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -143.09999999999994,
+      "reference_order": 16,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -99.06000549860002,
+      "reference_order": 17,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -99.06000549860002,
+      "reference_order": 18,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -71.25961166400002,
+      "reference_order": 19,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -71.25961166400002,
+      "reference_order": 20,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -58.19975524030001,
+      "reference_order": 21,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -56.12281363629999,
+      "reference_order": 22,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -56.12281363629999,
+      "reference_order": 23,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -56.12281363629999,
+      "reference_order": 24,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -56.12281363629999,
+      "reference_order": 25,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -46.05517982540001,
+      "reference_order": 26,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -46.05517982540001,
+      "reference_order": 27,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -12.218793828899999,
+      "reference_order": 28,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -12.218793828899999,
+      "reference_order": 29,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -12.218793828899999,
+      "reference_order": 30,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -12.218793828899999,
+      "reference_order": 31,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -12.218793828899999,
+      "reference_order": 32,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -12.218793828899999,
+      "reference_order": 33,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -4.1477805917,
+      "reference_order": 34,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.4984921384,
+      "reference_order": 35,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -1.4118478609,
+      "reference_order": 36,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.9268741189999999,
+      "reference_order": 37,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.9268741189999999,
+      "reference_order": 38,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.9268741189999999,
+      "reference_order": 39,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.8894760414,
+      "reference_order": 40,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.8268524067,
+      "reference_order": 41,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.8268524067,
+      "reference_order": 42,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.8268524067,
+      "reference_order": 43,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.7441561099000001,
+      "reference_order": 44,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.7441561099000001,
+      "reference_order": 45,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.7441561099000001,
+      "reference_order": 46,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.6142685074,
+      "reference_order": 47,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.6142685074,
+      "reference_order": 48,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.6142685074,
+      "reference_order": 49,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.5488519037,
+      "reference_order": 50,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.5488519037,
+      "reference_order": 51,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.5488519037,
+      "reference_order": 52,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.5488519037,
+      "reference_order": 53,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.5488519037,
+      "reference_order": 54,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.4963298976,
+      "reference_order": 55,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.4963298976,
+      "reference_order": 56,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.4963298976,
+      "reference_order": 57,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.4963298976,
+      "reference_order": 58,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.4963298976,
+      "reference_order": 59,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.48181950479999996,
+      "reference_order": 60,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.48181950479999996,
+      "reference_order": 61,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.48181950479999996,
+      "reference_order": 62,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.48181950479999996,
+      "reference_order": 63,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.48181950479999996,
+      "reference_order": 64,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 0.3538820013000001,
+      "reference_order": 65,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 0.3538820013000001,
+      "reference_order": 66,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 0.3538820013000001,
+      "reference_order": 67,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 0.3538820013000001,
+      "reference_order": 68,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 0.3538820013000001,
+      "reference_order": 69,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 4.8215680804000005,
+      "reference_order": 70,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 4.8215680804000005,
+      "reference_order": 71,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 4.8215680804000005,
+      "reference_order": 72,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 12.315213688399998,
+      "reference_order": 73,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 12.315213688399998,
+      "reference_order": 74,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 16.789272011,
+      "reference_order": 75,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 16.8302144713,
+      "reference_order": 76,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 22.537918236799996,
+      "reference_order": 77,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 22.537918236799996,
+      "reference_order": 78,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 22.537918236799996,
+      "reference_order": 79,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 22.537918236799996,
+      "reference_order": 80,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 26.87916895880001,
+      "reference_order": 81,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 27.8611713487,
+      "reference_order": 82,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 27.8611713487,
+      "reference_order": 83,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 27.8611713487,
+      "reference_order": 84,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 37.83608628060001,
+      "reference_order": 85,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 37.83608628060001,
+      "reference_order": 86,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 37.83608628060001,
+      "reference_order": 87,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 37.83608628060001,
+      "reference_order": 88,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 37.83608628060001,
+      "reference_order": 89,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 37.83608628060001,
+      "reference_order": 90,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 39.65865199280001,
+      "reference_order": 91,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 39.65865199280001,
+      "reference_order": 92,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 39.65865199280001,
+      "reference_order": 93,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 42.6920305469,
+      "reference_order": 94,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 42.6920305469,
+      "reference_order": 95,
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -0.4430292903,
+      "reference_order": 1,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.4430292903,
+      "reference_order": 2,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.4430292903,
+      "reference_order": 3,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.4430292903,
+      "reference_order": 4,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.2001465834,
+      "reference_order": 5,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.2001465834,
+      "reference_order": 6,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.003414083,
+      "reference_order": 7,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.003414083,
+      "reference_order": 8,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.003414083,
+      "reference_order": 9,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.003414083,
+      "reference_order": 10,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.003414083,
+      "reference_order": 11,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.0032035345,
+      "reference_order": 12,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.0032035345,
+      "reference_order": 13,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.001999222,
+      "reference_order": 14,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.001999222,
+      "reference_order": 15,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.001999222,
+      "reference_order": 16,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.001999222,
+      "reference_order": 17,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.001999222,
+      "reference_order": 18,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.0011008694,
+      "reference_order": 19,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.0011008694,
+      "reference_order": 20,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.0011008694,
+      "reference_order": 21,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.0011008694,
+      "reference_order": 22,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -0.0011008694,
+      "reference_order": 23,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 24,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 25,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 26,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 27,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0020862738,
+      "reference_order": 28,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0020862738,
+      "reference_order": 29,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0020862738,
+      "reference_order": 30,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0020862738,
+      "reference_order": 31,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0020862738,
+      "reference_order": 32,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0023203560000000004,
+      "reference_order": 33,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0023203560000000004,
+      "reference_order": 34,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0023203560000000004,
+      "reference_order": 35,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0032662517,
+      "reference_order": 36,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0032662517,
+      "reference_order": 37,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0032662517,
+      "reference_order": 38,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0042669455,
+      "reference_order": 39,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0042669455,
+      "reference_order": 40,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0042669455,
+      "reference_order": 41,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0054722235,
+      "reference_order": 42,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0060859416,
+      "reference_order": 43,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0103274916,
+      "reference_order": 44,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0103274916,
+      "reference_order": 45,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0103274916,
+      "reference_order": 46,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0121761004,
+      "reference_order": 47,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0141003368,
+      "reference_order": 48,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.050714872,
+      "reference_order": 49,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0662884989,
+      "reference_order": 50,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0849255577,
+      "reference_order": 51,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.0849255577,
+      "reference_order": 52,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.1329753392,
+      "reference_order": 53,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.1329753392,
+      "reference_order": 54,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.2760736322,
+      "reference_order": 55,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.2760736322,
+      "reference_order": 56,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.5068913103,
+      "reference_order": 57,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": 0.5068913103,
+      "reference_order": 58,
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "rank_key_directed": -3163.7500000000014,
+      "reference_order": 1,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -3163.7500000000014,
+      "reference_order": 2,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2148.2500000000005,
+      "reference_order": 3,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2148.2500000000005,
+      "reference_order": 4,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2148.2500000000005,
+      "reference_order": 5,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2148.2500000000005,
+      "reference_order": 6,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -1601.7915497895995,
+      "reference_order": 7,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -1601.7915497895995,
+      "reference_order": 8,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -1094.0415497895995,
+      "reference_order": 9,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -1094.0415497895995,
+      "reference_order": 10,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -1094.0415497895995,
+      "reference_order": 11,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -1094.0415497895995,
+      "reference_order": 12,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -1017.9955674736999,
+      "reference_order": 13,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -1017.9955674736999,
+      "reference_order": 14,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -706.8302813590002,
+      "reference_order": 15,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -706.8302813590002,
+      "reference_order": 16,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -706.8302813590002,
+      "reference_order": 17,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -706.8302813590002,
+      "reference_order": 18,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -548.6921919133998,
+      "reference_order": 19,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -548.6921919133998,
+      "reference_order": 20,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -485.27376561269995,
+      "reference_order": 21,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -344.423065352,
+      "reference_order": 22,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -344.423065352,
+      "reference_order": 23,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -344.423065352,
+      "reference_order": 24,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -344.423065352,
+      "reference_order": 25,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -325.45446530969997,
+      "reference_order": 26,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -325.45446530969997,
+      "reference_order": 27,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -146.76604352680002,
+      "reference_order": 28,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -146.76604352680002,
+      "reference_order": 29,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -146.76604352680002,
+      "reference_order": 30,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -134.3475514963,
+      "reference_order": 31,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -134.3475514963,
+      "reference_order": 32,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -134.3475514963,
+      "reference_order": 33,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -134.3475514963,
+      "reference_order": 34,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -134.3475514963,
+      "reference_order": 35,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -134.3475514963,
+      "reference_order": 36,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -50.50978687780001,
+      "reference_order": 37,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -48.48368756799999,
+      "reference_order": 38,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -45.929462255900006,
+      "reference_order": 39,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -39.8330995792,
+      "reference_order": 40,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -39.8330995792,
+      "reference_order": 41,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -39.8330995792,
+      "reference_order": 42,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -39.8330995792,
+      "reference_order": 43,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -39.8330995792,
+      "reference_order": 44,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -39.8330995792,
+      "reference_order": 45,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -38.37869036130001,
+      "reference_order": 46,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -38.37869036130001,
+      "reference_order": 47,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -38.37869036130001,
+      "reference_order": 48,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -38.37869036130001,
+      "reference_order": 49,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -38.37869036130001,
+      "reference_order": 50,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -36.08164189840001,
+      "reference_order": 51,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -36.08164189840001,
+      "reference_order": 52,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -36.08164189840001,
+      "reference_order": 53,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -36.08164189840001,
+      "reference_order": 54,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -36.08164189840001,
+      "reference_order": 55,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -35.7589005451,
+      "reference_order": 56,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -35.7589005451,
+      "reference_order": 57,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -35.7589005451,
+      "reference_order": 58,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -35.7589005451,
+      "reference_order": 59,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -35.7589005451,
+      "reference_order": 60,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -35.388802072100006,
+      "reference_order": 61,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -30.769048952500004,
+      "reference_order": 62,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -30.769048952500004,
+      "reference_order": 63,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -30.769048952500004,
+      "reference_order": 64,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -30.769048952500004,
+      "reference_order": 65,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -30.769048952500004,
+      "reference_order": 66,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.9276358851,
+      "reference_order": 67,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.9276358851,
+      "reference_order": 68,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.9276358851,
+      "reference_order": 69,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.7519859992999995,
+      "reference_order": 70,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.7519859992999995,
+      "reference_order": 71,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.7519859992999995,
+      "reference_order": 72,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.6428056498,
+      "reference_order": 73,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.6428056498,
+      "reference_order": 74,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.6428056498,
+      "reference_order": 75,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.4039624456,
+      "reference_order": 76,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.4039624456,
+      "reference_order": 77,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -2.4039624456,
+      "reference_order": 78,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 8.124008293500001,
+      "reference_order": 79,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 8.164950753800001,
+      "reference_order": 80,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 10.984233280200002,
+      "reference_order": 81,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 10.984233280200002,
+      "reference_order": 82,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 10.984233280200002,
+      "reference_order": 83,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 10.984233280200002,
+      "reference_order": 84,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 65.0203278333,
+      "reference_order": 85,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 65.0203278333,
+      "reference_order": 86,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 65.0203278333,
+      "reference_order": 87,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 115.25755537640003,
+      "reference_order": 88,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 133.2056587711,
+      "reference_order": 89,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 133.2056587711,
+      "reference_order": 90,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 185.5482604925,
+      "reference_order": 91,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 185.5482604925,
+      "reference_order": 92,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 185.5482604925,
+      "reference_order": 93,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 189.68191301719997,
+      "reference_order": 94,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": 189.68191301719997,
+      "reference_order": 95,
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "rank_key_directed": -1.6707152386,
+      "reference_order": 1,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -1.6707152386,
+      "reference_order": 2,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -1.1561178694,
+      "reference_order": 3,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -1.1561178694,
+      "reference_order": 4,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -1.1561178694,
+      "reference_order": 5,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.922604996,
+      "reference_order": 6,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.922604996,
+      "reference_order": 7,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.922604996,
+      "reference_order": 8,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.7771637889999999,
+      "reference_order": 9,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.7771637889999999,
+      "reference_order": 10,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.7771637889999999,
+      "reference_order": 11,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.6428000259,
+      "reference_order": 12,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.6428000259,
+      "reference_order": 13,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.6428000259,
+      "reference_order": 14,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.6339761172,
+      "reference_order": 15,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.6339761172,
+      "reference_order": 16,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.47878281899999997,
+      "reference_order": 17,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.3623726838,
+      "reference_order": 18,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.3623726838,
+      "reference_order": 19,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.3623726838,
+      "reference_order": 20,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.294917563,
+      "reference_order": 21,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.294917563,
+      "reference_order": 22,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.283475567,
+      "reference_order": 23,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.283475567,
+      "reference_order": 24,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.283475567,
+      "reference_order": 25,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.283475567,
+      "reference_order": 26,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.283475567,
+      "reference_order": 27,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1936803023,
+      "reference_order": 28,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1936803023,
+      "reference_order": 29,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1936803023,
+      "reference_order": 30,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1936803023,
+      "reference_order": 31,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1936803023,
+      "reference_order": 32,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1432426334,
+      "reference_order": 33,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1432426334,
+      "reference_order": 34,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1432426334,
+      "reference_order": 35,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1432426334,
+      "reference_order": 36,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1432426334,
+      "reference_order": 37,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1346685377,
+      "reference_order": 38,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.1346685377,
+      "reference_order": 39,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0851027842,
+      "reference_order": 40,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0820870854,
+      "reference_order": 41,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0740303462,
+      "reference_order": 42,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0692446156,
+      "reference_order": 43,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0561424209,
+      "reference_order": 44,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0561424209,
+      "reference_order": 45,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0561424209,
+      "reference_order": 46,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0561424209,
+      "reference_order": 47,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0561424209,
+      "reference_order": 48,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0508104747,
+      "reference_order": 49,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0249839526,
+      "reference_order": 50,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0249839526,
+      "reference_order": 51,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0249839526,
+      "reference_order": 52,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0249839526,
+      "reference_order": 53,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0249839526,
+      "reference_order": 54,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": -0.0249839526,
+      "reference_order": 55,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 56,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 57,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 58,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 59,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 60,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 61,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 62,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 63,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 64,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 65,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 66,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 67,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 68,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 69,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 70,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.1066613385,
+      "reference_order": 71,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.1066613385,
+      "reference_order": 72,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.21332267710000002,
+      "reference_order": 73,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.21332267710000002,
+      "reference_order": 74,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.22211591119999996,
+      "reference_order": 75,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.22211591119999996,
+      "reference_order": 76,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.22211591119999996,
+      "reference_order": 77,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.22211591119999996,
+      "reference_order": 78,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.3858166278,
+      "reference_order": 79,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.3858166278,
+      "reference_order": 80,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.3858166278,
+      "reference_order": 81,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.3858166278,
+      "reference_order": 82,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.4138756074,
+      "reference_order": 83,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.4138756074,
+      "reference_order": 84,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.4138756074,
+      "reference_order": 85,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.4138756074,
+      "reference_order": 86,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.4715377623,
+      "reference_order": 87,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.4715377623,
+      "reference_order": 88,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.7716332556000001,
+      "reference_order": 89,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.7716332556000001,
+      "reference_order": 90,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.7716332556000001,
+      "reference_order": 91,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.7716332556000001,
+      "reference_order": 92,
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 1,
+      "variable_name": "cross_market_transfer_index"
+    },
+    {
+      "rank_key_directed": 0.0,
+      "reference_order": 2,
+      "variable_name": "cross_market_transfer_index"
+    },
+    {
+      "rank_key_directed": 0.7356067113,
+      "reference_order": 3,
+      "variable_name": "cross_market_transfer_index"
+    },
+    {
+      "rank_key_directed": 0.7587051325360435,
+      "reference_order": 4,
+      "variable_name": "cross_market_transfer_index"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 1,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 2,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 3,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 4,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 5,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 6,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 7,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 8,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 9,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 10,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 11,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 12,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 13,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 14,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 15,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 16,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 17,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.728196,
+      "reference_order": 18,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 19,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 20,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 21,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 22,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 23,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 24,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 25,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 26,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 27,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 28,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 29,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 30,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 31,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.82,
+      "reference_order": 32,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 33,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 34,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 35,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 36,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 37,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 38,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 39,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 40,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 41,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 42,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 43,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 44,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 45,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 46,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 47,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 48,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 49,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 50,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.834,
+      "reference_order": 51,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.891,
+      "reference_order": 52,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.891,
+      "reference_order": 53,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.891,
+      "reference_order": 54,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.891,
+      "reference_order": 55,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.891,
+      "reference_order": 56,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 57,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 58,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 59,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 60,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 61,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 62,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 63,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 64,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 65,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 66,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 67,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 68,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 69,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.911,
+      "reference_order": 70,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 71,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 72,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 73,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 74,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 75,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 76,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 77,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 78,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 79,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 80,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 81,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 82,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 83,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": 0.94,
+      "reference_order": 84,
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "rank_key_directed": -123.5385890408,
+      "reference_order": 1,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -123.5385890408,
+      "reference_order": 2,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -85.87304581699998,
+      "reference_order": 3,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -85.87304581699998,
+      "reference_order": 4,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -51.29995827390001,
+      "reference_order": 5,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -51.29995827390001,
+      "reference_order": 6,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -51.29995827390001,
+      "reference_order": 7,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -16.7377447283,
+      "reference_order": 8,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -16.7377447283,
+      "reference_order": 9,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -16.7377447283,
+      "reference_order": 10,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -16.7377447283,
+      "reference_order": 11,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -16.7377447283,
+      "reference_order": 12,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -16.7377447283,
+      "reference_order": 13,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -14.033614841300004,
+      "reference_order": 14,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -13.617818677699999,
+      "reference_order": 15,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -13.617818677699999,
+      "reference_order": 16,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": -13.617818677699999,
+      "reference_order": 17,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 2.7849243362,
+      "reference_order": 18,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 2.7849243362,
+      "reference_order": 19,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 4.4564271873,
+      "reference_order": 20,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 4.4774153209,
+      "reference_order": 21,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 7.1310779403,
+      "reference_order": 22,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.129703191000003,
+      "reference_order": 23,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.2830369641,
+      "reference_order": 24,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.3145799056,
+      "reference_order": 25,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.3145799056,
+      "reference_order": 26,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.3145799056,
+      "reference_order": 27,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.3145799056,
+      "reference_order": 28,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.3145799874,
+      "reference_order": 29,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.903158403000003,
+      "reference_order": 30,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.903158403000003,
+      "reference_order": 31,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.903158403000003,
+      "reference_order": 32,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.903158403000003,
+      "reference_order": 33,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.980114584399999,
+      "reference_order": 34,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.980114584399999,
+      "reference_order": 35,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.980114584399999,
+      "reference_order": 36,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 8.980114584399999,
+      "reference_order": 37,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 9.000536697999998,
+      "reference_order": 38,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 11.582916100100002,
+      "reference_order": 39,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 11.582916100100002,
+      "reference_order": 40,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 11.582916100100002,
+      "reference_order": 41,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 11.582916100100002,
+      "reference_order": 42,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 11.582916109299997,
+      "reference_order": 43,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 17.798486980599996,
+      "reference_order": 44,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 17.798486980599996,
+      "reference_order": 45,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 17.798486980599996,
+      "reference_order": 46,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 19.578401376000002,
+      "reference_order": 47,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 19.578401376000002,
+      "reference_order": 48,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 19.578401376000002,
+      "reference_order": 49,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 19.581749161100003,
+      "reference_order": 50,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 19.581749161100003,
+      "reference_order": 51,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 19.581749161100003,
+      "reference_order": 52,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 25.324936720900002,
+      "reference_order": 53,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 25.324936720900002,
+      "reference_order": 54,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 25.324936720900002,
+      "reference_order": 55,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 29.728567935300003,
+      "reference_order": 56,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 29.728567935300003,
+      "reference_order": 57,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 35.78405445640001,
+      "reference_order": 58,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 35.78405445640001,
+      "reference_order": 59,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 39.65133171909999,
+      "reference_order": 60,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 39.65133171909999,
+      "reference_order": 61,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 39.65133171909999,
+      "reference_order": 62,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 39.65133171909999,
+      "reference_order": 63,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 39.65133171909999,
+      "reference_order": 64,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 39.65133171909999,
+      "reference_order": 65,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 57.7984661134,
+      "reference_order": 66,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 116.03021191289994,
+      "reference_order": 67,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 116.03021191289994,
+      "reference_order": 68,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 116.03021191289994,
+      "reference_order": 69,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 130.82566585949994,
+      "reference_order": 70,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 130.82566585949994,
+      "reference_order": 71,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 139.1946449665,
+      "reference_order": 72,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 139.1946449665,
+      "reference_order": 73,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 139.1946449665,
+      "reference_order": 74,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 139.1946449665,
+      "reference_order": 75,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 139.1946449665,
+      "reference_order": 76,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 139.1946449665,
+      "reference_order": 77,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 194.06163963109998,
+      "reference_order": 78,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 194.06163963109998,
+      "reference_order": 79,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 215.70266001439998,
+      "reference_order": 80,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 215.70266001439998,
+      "reference_order": 81,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 215.70266001439998,
+      "reference_order": 82,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 215.70266001439998,
+      "reference_order": 83,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 222.00000000000003,
+      "reference_order": 84,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 222.00000000000003,
+      "reference_order": 85,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 312.0274431778001,
+      "reference_order": 86,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 312.0274431778001,
+      "reference_order": 87,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 312.0274431778001,
+      "reference_order": 88,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 312.0274431778001,
+      "reference_order": 89,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 506.9089991928999,
+      "reference_order": 90,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 506.9089991928999,
+      "reference_order": 91,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 506.9089991928999,
+      "reference_order": 92,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 506.9089991928999,
+      "reference_order": 93,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 974.1666666666999,
+      "reference_order": 94,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 974.1666666666999,
+      "reference_order": 95,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 974.1666666666999,
+      "reference_order": 96,
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "rank_key_directed": 974.1666666666999,
+      "reference_order": 97,
+      "variable_name": "outflow_to_capex_ratio"
+    }
+  ],
+  "benchmarks": [
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "benchmark_version": "BM_SYNTHETIC_V1",
+      "calculation_rule": "median by active benchmark-gap feature",
+      "cohort_definition": "methodology-demo non-KR peer cohort",
+      "notes": "방법론 설명용으로 실제 비교집단이 아님",
+      "reporting_period": "2025Q4",
+      "sector": "digital_content",
+      "source_hash": "37ce0afdbab9f73c20c867ea40074af397a5eeac16ecc235f149942962362ade",
+      "source_type": "synthetic",
+      "status": "synthetic_only"
+    }
+  ],
+  "companies": [
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": 0,
+      "cashflow_recovery_ratio": 0.42,
+      "company_exposure_factor": 0.82,
+      "company_group": "domestic",
+      "company_name": "가온 콘텐츠",
+      "construction_mode": "derived",
+      "cross_market_transfer_index": 0.28,
+      "currency": "KRW",
+      "effective_tax_rate_gap": -0.02,
+      "focal_market": "Korea",
+      "foreign_dependency_ratio": 0.74,
+      "funding_cost_spread": 0.012,
+      "infra_dependency_ratio": 0.1332,
+      "input_quality": "SYNTHETIC",
+      "investment_recovery_ratio": 3.2,
+      "ip_assetization_gap": 0.08,
+      "market_common_exposure_adjusted": "yes",
+      "network_cost_ratio": 0.18,
+      "observation_id": "SYN-A",
+      "outflow_to_capex_ratio": 8.5,
+      "price_year": 2025,
+      "reporting_period": "2025Q4",
+      "sector": "digital_content",
+      "service_scope": "integrated_content",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-METHOD-DEMO",
+      "source_note": "방법론 설명용 합성자료; 실제 기업 추정이 아님",
+      "synthetic_flag": "yes"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": 0,
+      "cashflow_recovery_ratio": 0.73,
+      "company_exposure_factor": 0.7,
+      "company_group": "foreign",
+      "company_name": "누리 미디어",
+      "construction_mode": "derived",
+      "cross_market_transfer_index": 0.16,
+      "currency": "KRW",
+      "effective_tax_rate_gap": -0.055,
+      "focal_market": "Korea",
+      "foreign_dependency_ratio": 0.61,
+      "funding_cost_spread": 0.004,
+      "infra_dependency_ratio": 0.06405,
+      "input_quality": "SYNTHETIC",
+      "investment_recovery_ratio": 4.1,
+      "ip_assetization_gap": 0.025,
+      "market_common_exposure_adjusted": "yes",
+      "network_cost_ratio": 0.105,
+      "observation_id": "SYN-B",
+      "outflow_to_capex_ratio": 4.0,
+      "price_year": 2025,
+      "reporting_period": "2025Q4",
+      "sector": "digital_content",
+      "service_scope": "integrated_content",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-METHOD-DEMO",
+      "source_note": "방법론 설명용 합성자료; 실제 기업 추정이 아님",
+      "synthetic_flag": "yes"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": 0,
+      "cashflow_recovery_ratio": 0.18,
+      "company_exposure_factor": 0.64,
+      "company_group": "foreign",
+      "company_name": "다온 스토리",
+      "construction_mode": "derived",
+      "cross_market_transfer_index": 0.34,
+      "currency": "KRW",
+      "effective_tax_rate_gap": 0.01,
+      "focal_market": "Korea",
+      "foreign_dependency_ratio": 0.68,
+      "funding_cost_spread": 0.018,
+      "infra_dependency_ratio": 0.0986,
+      "input_quality": "SYNTHETIC",
+      "investment_recovery_ratio": 2.65,
+      "ip_assetization_gap": 0.11,
+      "market_common_exposure_adjusted": "yes",
+      "network_cost_ratio": 0.145,
+      "observation_id": "SYN-C",
+      "outflow_to_capex_ratio": 6.8,
+      "price_year": 2025,
+      "reporting_period": "2025Q4",
+      "sector": "digital_content",
+      "service_scope": "integrated_content",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-METHOD-DEMO",
+      "source_note": "방법론 설명용 합성자료; 실제 기업 추정이 아님",
+      "synthetic_flag": "yes"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": 0,
+      "cashflow_recovery_ratio": 0.51,
+      "company_exposure_factor": 0.77,
+      "company_group": "domestic",
+      "company_name": "라온 플레이",
+      "construction_mode": "derived",
+      "cross_market_transfer_index": 0.24,
+      "currency": "KRW",
+      "effective_tax_rate_gap": -0.005,
+      "focal_market": "Korea",
+      "foreign_dependency_ratio": 0.71,
+      "funding_cost_spread": 0.009,
+      "infra_dependency_ratio": 0.1136,
+      "input_quality": "SYNTHETIC",
+      "investment_recovery_ratio": 3.55,
+      "ip_assetization_gap": 0.065,
+      "market_common_exposure_adjusted": "yes",
+      "network_cost_ratio": 0.16,
+      "observation_id": "SYN-D",
+      "outflow_to_capex_ratio": 7.4,
+      "price_year": 2025,
+      "reporting_period": "2025Q4",
+      "sector": "digital_content",
+      "service_scope": "integrated_content",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-METHOD-DEMO",
+      "source_note": "방법론 설명용 합성자료; 실제 기업 추정이 아님",
+      "synthetic_flag": "yes"
+    }
+  ],
+  "expected_scores": [
+    {
+      "CPII": 39.89561107334345,
+      "I_market": 33.590612449799195,
+      "I_reg": 12.738163187649489,
+      "I_risk": 73.35805758258167,
+      "norm_cashflow_recovery_ratio": 0.675531914893617,
+      "norm_cross_market_transfer_index": 0.5,
+      "norm_effective_tax_rate_gap": 0.2534246575342466,
+      "norm_foreign_dependency_ratio": 0.21084337349397592,
+      "norm_funding_cost_spread": 0.7982456140350878,
+      "norm_infra_dependency_ratio": 0.07142857142857142,
+      "norm_investment_recovery_ratio": 0.6968085106382979,
+      "norm_ip_assetization_gap": 0.7637362637362637,
+      "norm_network_cost_ratio": 0.057291666666666664,
+      "norm_outflow_to_capex_ratio": 0.296875,
+      "observation_id": "SYN-A"
+    },
+    {
+      "CPII": 32.21744929663617,
+      "I_market": 26.50393239625167,
+      "I_reg": 5.086363883452925,
+      "I_risk": 65.06205161020391,
+      "norm_cashflow_recovery_ratio": 0.48404255319148937,
+      "norm_cross_market_transfer_index": 0.5,
+      "norm_effective_tax_rate_gap": 0.10273972602739725,
+      "norm_foreign_dependency_ratio": 0.10240963855421686,
+      "norm_funding_cost_spread": 0.6578947368421053,
+      "norm_infra_dependency_ratio": 0.023809523809523808,
+      "norm_investment_recovery_ratio": 0.6968085106382979,
+      "norm_ip_assetization_gap": 0.7637362637362637,
+      "norm_network_cost_ratio": 0.026041666666666668,
+      "norm_outflow_to_capex_ratio": 0.19270833333333334,
+      "observation_id": "SYN-B"
+    },
+    {
+      "CPII": 42.7666299052785,
+      "I_market": 27.198376840696117,
+      "I_reg": 24.721067079799955,
+      "I_risk": 76.38044579533941,
+      "norm_cashflow_recovery_ratio": 0.675531914893617,
+      "norm_cross_market_transfer_index": 0.5,
+      "norm_effective_tax_rate_gap": 0.6917808219178082,
+      "norm_foreign_dependency_ratio": 0.10240963855421686,
+      "norm_funding_cost_spread": 0.8333333333333334,
+      "norm_infra_dependency_ratio": 0.023809523809523808,
+      "norm_investment_recovery_ratio": 0.7606382978723404,
+      "norm_ip_assetization_gap": 0.7857142857142857,
+      "norm_network_cost_ratio": 0.026041666666666668,
+      "norm_outflow_to_capex_ratio": 0.21354166666666666,
+      "observation_id": "SYN-C"
+    },
+    {
+      "CPII": 35.98357654884811,
+      "I_market": 27.54559906291834,
+      "I_reg": 11.022436942813655,
+      "I_risk": 69.38269364081235,
+      "norm_cashflow_recovery_ratio": 0.5691489361702128,
+      "norm_cross_market_transfer_index": 0.5,
+      "norm_effective_tax_rate_gap": 0.2808219178082192,
+      "norm_foreign_dependency_ratio": 0.10240963855421686,
+      "norm_funding_cost_spread": 0.7456140350877193,
+      "norm_infra_dependency_ratio": 0.023809523809523808,
+      "norm_investment_recovery_ratio": 0.6968085106382979,
+      "norm_ip_assetization_gap": 0.7637362637362637,
+      "norm_network_cost_ratio": 0.026041666666666668,
+      "norm_outflow_to_capex_ratio": 0.22395833333333334,
+      "observation_id": "SYN-D"
+    }
+  ],
+  "exposures": [
+    {
+      "average_interest_bearing_debt_base": 300000000000.0,
+      "average_interest_bearing_debt_high": 330000000000.0,
+      "average_interest_bearing_debt_low": 270000000000.0,
+      "content_investment_base": 220000000000.0,
+      "content_investment_high": 242000000000.00003,
+      "content_investment_low": 198000000000.0,
+      "currency": "KRW",
+      "eligible_market_revenue_base": 250000000000.0,
+      "eligible_market_revenue_high": 275000000000.0,
+      "eligible_market_revenue_low": 225000000000.0,
+      "exposure_note": "방법론 설명용 합성 노출액; low/high는 신뢰구간이 아님",
+      "exposure_period": "2025",
+      "exposure_quality": "SYNTHETIC",
+      "exposure_source_id": "SYNTHETIC-ECON-DEMO",
+      "observation_id": "SYN-A",
+      "period_year_fraction": 1.0,
+      "positive_pretax_income_base": 80000000000.0,
+      "positive_pretax_income_high": 88000000000.0,
+      "positive_pretax_income_low": 72000000000.0,
+      "price_year": 2025,
+      "revenue_base": 1000000000000.0,
+      "revenue_high": 1100000000000.0,
+      "revenue_low": 900000000000.0,
+      "scenario_conversion_rate_base": 0.04,
+      "scenario_conversion_rate_high": 0.048,
+      "scenario_conversion_rate_low": 0.032
+    },
+    {
+      "average_interest_bearing_debt_base": 220000000000.0,
+      "average_interest_bearing_debt_high": 242000000000.00003,
+      "average_interest_bearing_debt_low": 198000000000.0,
+      "content_investment_base": 180000000000.0,
+      "content_investment_high": 198000000000.00003,
+      "content_investment_low": 162000000000.0,
+      "currency": "KRW",
+      "eligible_market_revenue_base": 350000000000.0,
+      "eligible_market_revenue_high": 385000000000.00006,
+      "eligible_market_revenue_low": 315000000000.0,
+      "exposure_note": "방법론 설명용 합성 노출액; low/high는 신뢰구간이 아님",
+      "exposure_period": "2025",
+      "exposure_quality": "SYNTHETIC",
+      "exposure_source_id": "SYNTHETIC-ECON-DEMO",
+      "observation_id": "SYN-B",
+      "period_year_fraction": 1.0,
+      "positive_pretax_income_base": 140000000000.0,
+      "positive_pretax_income_high": 154000000000.0,
+      "positive_pretax_income_low": 126000000000.0,
+      "price_year": 2025,
+      "revenue_base": 1400000000000.0,
+      "revenue_high": 1540000000000.0002,
+      "revenue_low": 1260000000000.0,
+      "scenario_conversion_rate_base": 0.025,
+      "scenario_conversion_rate_high": 0.03,
+      "scenario_conversion_rate_low": 0.020000000000000004
+    },
+    {
+      "average_interest_bearing_debt_base": 150000000000.0,
+      "average_interest_bearing_debt_high": 165000000000.0,
+      "average_interest_bearing_debt_low": 135000000000.0,
+      "content_investment_base": 200000000000.0,
+      "content_investment_high": 220000000000.00003,
+      "content_investment_low": 180000000000.0,
+      "currency": "KRW",
+      "eligible_market_revenue_base": 180000000000.0,
+      "eligible_market_revenue_high": 198000000000.00003,
+      "eligible_market_revenue_low": 162000000000.0,
+      "exposure_note": "방법론 설명용 합성 노출액; low/high는 신뢰구간이 아님",
+      "exposure_period": "2025",
+      "exposure_quality": "SYNTHETIC",
+      "exposure_source_id": "SYNTHETIC-ECON-DEMO",
+      "observation_id": "SYN-C",
+      "period_year_fraction": 1.0,
+      "positive_pretax_income_base": 30000000000.0,
+      "positive_pretax_income_high": 33000000000.000004,
+      "positive_pretax_income_low": 27000000000.0,
+      "price_year": 2025,
+      "revenue_base": 600000000000.0,
+      "revenue_high": 660000000000.0,
+      "revenue_low": 540000000000.0,
+      "scenario_conversion_rate_base": 0.06,
+      "scenario_conversion_rate_high": 0.072,
+      "scenario_conversion_rate_low": 0.048
+    },
+    {
+      "average_interest_bearing_debt_base": 400000000000.0,
+      "average_interest_bearing_debt_high": 440000000000.00006,
+      "average_interest_bearing_debt_low": 360000000000.0,
+      "content_investment_base": 300000000000.0,
+      "content_investment_high": 330000000000.0,
+      "content_investment_low": 270000000000.0,
+      "currency": "KRW",
+      "eligible_market_revenue_base": 500000000000.0,
+      "eligible_market_revenue_high": 550000000000.0,
+      "eligible_market_revenue_low": 450000000000.0,
+      "exposure_note": "방법론 설명용 합성 노출액; low/high는 신뢰구간이 아님",
+      "exposure_period": "2025",
+      "exposure_quality": "SYNTHETIC",
+      "exposure_source_id": "SYNTHETIC-ECON-DEMO",
+      "observation_id": "SYN-D",
+      "period_year_fraction": 1.0,
+      "positive_pretax_income_base": 200000000000.0,
+      "positive_pretax_income_high": 220000000000.00003,
+      "positive_pretax_income_low": 180000000000.0,
+      "price_year": 2025,
+      "revenue_base": 2000000000000.0,
+      "revenue_high": 2200000000000.0,
+      "revenue_low": 1800000000000.0,
+      "scenario_conversion_rate_base": 0.03,
+      "scenario_conversion_rate_high": 0.036,
+      "scenario_conversion_rate_low": 0.024
+    }
+  ],
+  "feature_config": [
+    {
+      "actual_scale_rule": "company-specific level times company exposure",
+      "aggregation_rule": "never_auto_sum",
+      "anchor_observed_max": "0.2683650488",
+      "anchor_observed_min": "-0.1416111014",
+      "benchmark_rule": "same sector and reporting period; non-KR peer median; identical benchmark_id required",
+      "bridge_status": "enabled",
+      "causal_status": "descriptive_not_causal",
+      "common_size_rule": "pair arithmetic-mean exposure",
+      "construction_type": "benchmark_relative_gap",
+      "direction_code": 1,
+      "display_name_ko": "유효세율 격차",
+      "economic_base": "positive_pretax_income",
+      "effective_feature_weight": 0.1111111111111111,
+      "entity_scope": "firm_quarter",
+      "formula_code": "directional_gap_times_base",
+      "input_unit": "decimal_ratio",
+      "interpretation_class": "conditional_accounting_equivalent",
+      "low_support_anchor": "no",
+      "monetization_class": "conditional_accounting_equivalent",
+      "notes": "0.01 means 1 percentage point; negative values are valid",
+      "operational_definition": "기업 유효세율(법인세비용/양의 세전이익)에서 동일 분야·분기 비한국 비교군 중앙값을 차감한 값",
+      "output_unit": "currency",
+      "overlap_family": "tax_burden",
+      "period_factor_required": "no",
+      "plain_language_ko": "세전이익 기준의 조건부 세부담 상당액",
+      "preferred_input_level": "derived_gap_with_shared_benchmark",
+      "rank_key_lower": -0.1416111014,
+      "rank_key_upper": 0.2683650488,
+      "reference_n": 74,
+      "report_alignment": "aligned_with_executable_reduced_spec",
+      "requires_benchmark": "yes",
+      "soft_max": "1",
+      "soft_min": "-1",
+      "status": "active",
+      "subindex": "I_reg",
+      "transform": "signed_log1p",
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "actual_scale_rule": "not applicable",
+      "aggregation_rule": "never_auto_sum",
+      "anchor_observed_max": "0.8717818355",
+      "anchor_observed_min": "-0.116374221",
+      "benchmark_rule": "not_applicable",
+      "bridge_status": "disabled",
+      "causal_status": "not_identified",
+      "common_size_rule": "not applicable",
+      "construction_type": "derived_exposure_proxy",
+      "direction_code": 1,
+      "display_name_ko": "인프라 비용·해외의존 결합비율",
+      "economic_base": "none",
+      "effective_feature_weight": 0.1111111111111111,
+      "entity_scope": "firm_market_quarter",
+      "formula_code": "none",
+      "input_unit": "decimal_ratio",
+      "interpretation_class": "non_monetizable",
+      "low_support_anchor": "no",
+      "monetization_class": "non_monetizable",
+      "notes": "보고서의 외부 인프라 지출/서비스비용 정의와 다름; network_cost_ratio 금액과 중복합산 금지",
+      "operational_definition": "실행코드상 network_cost_ratio와 foreign_dependency_ratio의 곱",
+      "output_unit": "none",
+      "overlap_family": "network_infrastructure",
+      "period_factor_required": "no",
+      "plain_language_ko": "독립적 가격·비용 계수가 없고 네트워크 비용과 중복될 수 있음",
+      "preferred_input_level": "derived_from_company_inputs",
+      "rank_key_lower": -0.10705024705171803,
+      "rank_key_upper": 0.8008753865408955,
+      "reference_n": 64,
+      "report_alignment": "report_definition_mismatch",
+      "requires_benchmark": "no",
+      "soft_max": "1",
+      "soft_min": "0",
+      "status": "active",
+      "subindex": "I_reg",
+      "transform": "signed_log1p",
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "actual_scale_rule": "company-specific level times company exposure",
+      "aggregation_rule": "never_auto_sum",
+      "anchor_observed_max": "0.9274274845",
+      "anchor_observed_min": "-0.1395374353",
+      "benchmark_rule": "not_applicable",
+      "bridge_status": "enabled",
+      "causal_status": "descriptive_not_causal",
+      "common_size_rule": "pair arithmetic-mean exposure",
+      "construction_type": "absolute_or_proxy_ratio",
+      "direction_code": 1,
+      "display_name_ko": "네트워크 비용률",
+      "economic_base": "revenue",
+      "effective_feature_weight": 0.1111111111111111,
+      "entity_scope": "firm_market_quarter",
+      "formula_code": "directional_gap_times_base",
+      "input_unit": "decimal_ratio",
+      "interpretation_class": "conditional_accounting_equivalent",
+      "low_support_anchor": "no",
+      "monetization_class": "conditional_accounting_equivalent",
+      "notes": "보고서는 국내-글로벌 격차로 설명하지만 실행코드는 회사별 비용률 자체를 사용; 음수 legacy 관측은 품질경고 대상",
+      "operational_definition": "네트워크·클라우드·CDN 관련 비용 또는 실행자료의 대응 비용항목을 매출로 나눈 절대 비율",
+      "output_unit": "currency",
+      "overlap_family": "network_infrastructure",
+      "period_factor_required": "no",
+      "plain_language_ko": "매출 기준의 네트워크 비용 차이 상당액",
+      "preferred_input_level": "company_level_ratio",
+      "rank_key_lower": -0.1395374353,
+      "rank_key_upper": 0.9274274845000001,
+      "reference_n": 97,
+      "report_alignment": "report_label_mismatch",
+      "requires_benchmark": "no",
+      "soft_max": "1",
+      "soft_min": "0",
+      "status": "active",
+      "subindex": "I_reg",
+      "transform": "signed_log1p",
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "actual_scale_rule": "company-specific direction-aligned level times company exposure",
+      "aggregation_rule": "never_auto_sum",
+      "anchor_observed_max": "300.75",
+      "anchor_observed_min": "-42.6920305469",
+      "benchmark_rule": "not_applicable",
+      "bridge_status": "enabled",
+      "causal_status": "descriptive_not_causal",
+      "common_size_rule": "pair arithmetic-mean exposure",
+      "construction_type": "proxy_multiple",
+      "direction_code": -1,
+      "display_name_ko": "세전이익 기반 회수 대리값",
+      "economic_base": "content_investment",
+      "effective_feature_weight": 0.08333333333333333,
+      "entity_scope": "firm_or_service_quarter",
+      "formula_code": "directional_gap_times_base",
+      "input_unit": "multiple",
+      "interpretation_class": "conditional_performance_equivalent",
+      "low_support_anchor": "no",
+      "monetization_class": "conditional_performance_equivalent",
+      "notes": "보고서의 영업현금흐름/콘텐츠 투자액과 불일치; 명칭 유지 시 proxy 표시 필수; investment_recovery_ratio와 자동합산 금지",
+      "operational_definition": "실행코드상 세전이익/콘텐츠 투자액; 웹툰 대체경로에서는 역순위×local-IP 대리값",
+      "output_unit": "currency",
+      "overlap_family": "recovery",
+      "period_factor_required": "no",
+      "plain_language_ko": "콘텐츠투자액 기준 세전이익 회수 차이 상당액",
+      "preferred_input_level": "company_level_ratio",
+      "rank_key_lower": -300.75,
+      "rank_key_upper": 42.6920305469,
+      "reference_n": 95,
+      "report_alignment": "report_definition_mismatch",
+      "requires_benchmark": "no",
+      "soft_max": "10",
+      "soft_min": "-10",
+      "status": "active",
+      "subindex": "I_risk",
+      "transform": "signed_log1p",
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "actual_scale_rule": "company-specific level times company exposure and period fraction",
+      "aggregation_rule": "never_auto_sum",
+      "anchor_observed_max": "0.5068913103",
+      "anchor_observed_min": "-0.4430292903",
+      "benchmark_rule": "same sector and reporting period; non-KR peer median; identical benchmark_id required",
+      "bridge_status": "enabled",
+      "causal_status": "descriptive_not_causal",
+      "common_size_rule": "pair arithmetic-mean exposure and period fraction",
+      "construction_type": "benchmark_relative_gap",
+      "direction_code": 1,
+      "display_name_ko": "자금조달비용 스프레드",
+      "economic_base": "average_interest_bearing_debt",
+      "effective_feature_weight": 0.08333333333333333,
+      "entity_scope": "firm_quarter",
+      "formula_code": "directional_gap_times_base_and_period",
+      "input_unit": "decimal_ratio",
+      "interpretation_class": "conditional_accounting_equivalent",
+      "low_support_anchor": "no",
+      "monetization_class": "conditional_accounting_equivalent",
+      "notes": "0.01 means 1 percentage point; period fraction required for nonannual amounts",
+      "operational_definition": "기업 이자비용/이자부부채에서 동일 분야·분기 비한국 비교군 중앙값을 차감한 값",
+      "output_unit": "currency",
+      "overlap_family": "financing_ip",
+      "period_factor_required": "yes",
+      "plain_language_ko": "평균 이자부부채와 기간을 반영한 조달비용 상당액",
+      "preferred_input_level": "derived_gap_with_shared_benchmark",
+      "rank_key_lower": -0.4430292903,
+      "rank_key_upper": 0.5068913103,
+      "reference_n": 58,
+      "report_alignment": "aligned_with_executable_reduced_spec",
+      "requires_benchmark": "yes",
+      "soft_max": "1",
+      "soft_min": "-1",
+      "status": "active",
+      "subindex": "I_risk",
+      "transform": "signed_log1p",
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "actual_scale_rule": "company-specific direction-aligned level times company exposure",
+      "aggregation_rule": "never_auto_sum",
+      "anchor_observed_max": "3163.75",
+      "anchor_observed_min": "-189.6819130172",
+      "benchmark_rule": "not_applicable",
+      "bridge_status": "enabled",
+      "causal_status": "descriptive_not_causal",
+      "common_size_rule": "pair arithmetic-mean exposure",
+      "construction_type": "absolute_or_proxy_multiple",
+      "direction_code": -1,
+      "display_name_ko": "투자 회수율",
+      "economic_base": "content_investment",
+      "effective_feature_weight": 0.08333333333333333,
+      "entity_scope": "firm_or_service_quarter",
+      "formula_code": "directional_gap_times_base",
+      "input_unit": "multiple",
+      "interpretation_class": "conditional_performance_equivalent",
+      "low_support_anchor": "no",
+      "monetization_class": "conditional_performance_equivalent",
+      "notes": "높을수록 회수여건이 좋아 방향코드 -1; 음수·극단 legacy 값과 웹툰 proxy는 품질경고",
+      "operational_definition": "실행코드상 매출/콘텐츠 투자액; 웹툰 대체경로에서는 역순위 대리값을 사용할 수 있음",
+      "output_unit": "currency",
+      "overlap_family": "recovery",
+      "period_factor_required": "no",
+      "plain_language_ko": "콘텐츠투자액 기준 매출 회수성 차이 상당액",
+      "preferred_input_level": "company_level_ratio",
+      "rank_key_lower": -3163.7500000000014,
+      "rank_key_upper": 189.68191301719997,
+      "reference_n": 95,
+      "report_alignment": "partially_aligned_with_report",
+      "requires_benchmark": "no",
+      "soft_max": "20",
+      "soft_min": "0",
+      "status": "active",
+      "subindex": "I_risk",
+      "transform": "signed_log1p",
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "actual_scale_rule": "company-specific level times company exposure",
+      "aggregation_rule": "never_auto_sum",
+      "anchor_observed_max": "0.7716332556",
+      "anchor_observed_min": "-1.6707152386",
+      "benchmark_rule": "same sector and reporting period; non-KR peer median; identical benchmark_id required",
+      "bridge_status": "enabled",
+      "causal_status": "scenario_not_causal",
+      "common_size_rule": "pair arithmetic-mean exposure",
+      "construction_type": "benchmark_relative_gap",
+      "direction_code": 1,
+      "display_name_ko": "IP 자산화 결손",
+      "economic_base": "revenue",
+      "effective_feature_weight": 0.08333333333333333,
+      "entity_scope": "firm_quarter",
+      "formula_code": "directional_gap_times_base",
+      "input_unit": "decimal_ratio",
+      "interpretation_class": "scenario_only",
+      "low_support_anchor": "no",
+      "monetization_class": "scenario_only",
+      "notes": "자산화·담보가능성의 직접 측정치가 아니라 무형자산 비율 대리값",
+      "operational_definition": "동일 분야·분기 비한국 비교군의 무형자산/매출 중앙값에서 기업 무형자산/매출을 차감한 값",
+      "output_unit": "currency",
+      "overlap_family": "financing_ip",
+      "period_factor_required": "no",
+      "plain_language_ko": "매출 기준 IP 자산화 결손 시나리오 금액",
+      "preferred_input_level": "derived_gap_with_shared_benchmark",
+      "rank_key_lower": -1.6707152386,
+      "rank_key_upper": 0.7716332556000001,
+      "reference_n": 92,
+      "report_alignment": "proxy_narrower_than_report_concept",
+      "requires_benchmark": "yes",
+      "soft_max": "2",
+      "soft_min": "-2",
+      "status": "active",
+      "subindex": "I_risk",
+      "transform": "signed_log1p",
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "actual_scale_rule": "company-specific level times company exposure and conversion assumption",
+      "aggregation_rule": "never_auto_sum",
+      "anchor_observed_max": "0.7594243965",
+      "anchor_observed_min": "0",
+      "benchmark_rule": "not_applicable",
+      "bridge_status": "enabled",
+      "causal_status": "scenario_not_causal",
+      "common_size_rule": "pair arithmetic-mean exposure and conversion assumption",
+      "construction_type": "derived_exposure_proxy",
+      "direction_code": 1,
+      "display_name_ko": "시장간 전이 대리지수",
+      "economic_base": "eligible_market_revenue",
+      "effective_feature_weight": 0.1111111111111111,
+      "entity_scope": "service_market_quarter",
+      "formula_code": "directional_gap_times_base_and_conversion",
+      "input_unit": "index_0_1",
+      "interpretation_class": "scenario_only",
+      "low_support_anchor": "yes",
+      "monetization_class": "scenario_only",
+      "notes": "anchor N=4·고유값 3으로 저해상도 경고; 직접 회계 환산은 금지하며 명시적 전환율을 둔 시나리오만 허용",
+      "operational_definition": "음악은 bundle×foreign_dependency×(1-chart_share), 웹툰은 번역작 역순위 대리값으로 구성되는 이질적 proxy",
+      "output_unit": "currency",
+      "overlap_family": "market_transfer",
+      "period_factor_required": "no",
+      "plain_language_ko": "대상매출과 가정 전환율을 적용한 시장전이 시나리오",
+      "preferred_input_level": "derived_from_company_inputs",
+      "rank_key_lower": 0.0,
+      "rank_key_upper": 0.7587051325360435,
+      "reference_n": 4,
+      "report_alignment": "heterogeneous_proxy",
+      "requires_benchmark": "no",
+      "soft_max": "1",
+      "soft_min": "0",
+      "status": "active",
+      "subindex": "I_market",
+      "transform": "signed_log1p",
+      "variable_name": "cross_market_transfer_index"
+    },
+    {
+      "actual_scale_rule": "not applicable",
+      "aggregation_rule": "never_auto_sum",
+      "anchor_observed_max": "0.94",
+      "anchor_observed_min": "0.728196",
+      "benchmark_rule": "not_applicable",
+      "bridge_status": "disabled",
+      "causal_status": "not_identified",
+      "common_size_rule": "not applicable",
+      "construction_type": "market_exposure_ratio",
+      "direction_code": 1,
+      "display_name_ko": "해외의존비율",
+      "economic_base": "none",
+      "effective_feature_weight": 0.1111111111111111,
+      "entity_scope": "service_or_country_quarter",
+      "formula_code": "none",
+      "input_unit": "decimal_ratio",
+      "interpretation_class": "non_monetizable",
+      "low_support_anchor": "yes",
+      "monetization_class": "non_monetizable",
+      "notes": "기업고유 노출이 없으면 시장공통값일 수 있음; anchor 고유값 6으로 저해상도 경고",
+      "operational_definition": "해외 트래픽 또는 외부 인프라 의존의 서비스·국가·분기 비율/대리값",
+      "output_unit": "none",
+      "overlap_family": "network_infrastructure",
+      "period_factor_required": "no",
+      "plain_language_ko": "독립적 가격·비용 계수가 없으므로 지수 위치로만 해석",
+      "preferred_input_level": "company_or_market_exposure",
+      "rank_key_lower": 0.728196,
+      "rank_key_upper": 0.94,
+      "reference_n": 84,
+      "report_alignment": "aligned_as_exposure_proxy",
+      "requires_benchmark": "no",
+      "soft_max": "1",
+      "soft_min": "0",
+      "status": "active",
+      "subindex": "I_market",
+      "transform": "identity",
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "actual_scale_rule": "not applicable",
+      "aggregation_rule": "never_auto_sum",
+      "anchor_observed_max": "974.1666666667",
+      "anchor_observed_min": "-123.5385890408",
+      "benchmark_rule": "not_applicable",
+      "bridge_status": "disabled",
+      "causal_status": "not_identified",
+      "common_size_rule": "not applicable",
+      "construction_type": "derived_pressure_ratio",
+      "direction_code": 1,
+      "display_name_ko": "비용 대비 설비투자 압박률",
+      "economic_base": "none",
+      "effective_feature_weight": 0.1111111111111111,
+      "entity_scope": "firm_market_quarter",
+      "formula_code": "none",
+      "input_unit": "multiple",
+      "interpretation_class": "non_monetizable",
+      "low_support_anchor": "no",
+      "monetization_class": "non_monetizable",
+      "notes": "network_cost_ratio에서 파생될 수 있어 금액 중복합산 금지; 음수·극단 legacy 값은 품질경고",
+      "operational_definition": "실행코드상 network_cloud_cost/CAPEX; 실제 국외유출액으로 직접 식별되지 않을 수 있음",
+      "output_unit": "none",
+      "overlap_family": "network_infrastructure",
+      "period_factor_required": "no",
+      "plain_language_ko": "실제 국외유출액이 아닌 비용·CAPEX 프록시이며 네트워크 비용과 중복 가능",
+      "preferred_input_level": "company_level_ratio",
+      "rank_key_lower": -123.5385890408,
+      "rank_key_upper": 974.1666666666999,
+      "reference_n": 97,
+      "report_alignment": "report_label_overstates_observation",
+      "requires_benchmark": "no",
+      "soft_max": "50",
+      "soft_min": "0",
+      "status": "active",
+      "subindex": "I_market",
+      "transform": "signed_log1p",
+      "variable_name": "outflow_to_capex_ratio"
+    }
+  ],
+  "golden_equal_gap_summary": [
+    {
+      "common_exposure_base": "1000000000000.0",
+      "common_size_amount_base_krw": "99752138500.00003",
+      "delta_cpii_points": "1.3888888888888928",
+      "example_pair": "network_cost_channel",
+      "interpretation_class": "conditional_accounting_equivalent",
+      "observation_id_a": "GOLD-N-A",
+      "observation_id_b": "GOLD-N-B",
+      "single_changed_driver": "network_cost_ratio",
+      "synthetic_disclaimer": "methodology_only_not_real_company_estimate"
+    },
+    {
+      "common_exposure_base": "100000000000.0",
+      "common_size_amount_base_krw": "199922200.00000003",
+      "delta_cpii_points": "1.3888888888888928",
+      "example_pair": "funding_cost_channel",
+      "interpretation_class": "conditional_accounting_equivalent",
+      "observation_id_a": "GOLD-F-A",
+      "observation_id_b": "GOLD-F-B",
+      "single_changed_driver": "funding_cost_spread",
+      "synthetic_disclaimer": "methodology_only_not_real_company_estimate"
+    }
+  ],
+  "metadata": {
+    "anchor_version": "POOL_SCQ_P01_P99_EMP_RANK_V1",
+    "build_date": "2026-09-03",
+    "company_capacity": 100,
+    "joint_complete_reference_count": 2,
+    "joint_reference_row_count": 159,
+    "joint_support_eligibility": "insufficient_joint_reference_support",
+    "low_support_effective_weight": 0.2222222222222222,
+    "method_version": "CPII_FIRM_INPUT_EQW_V1",
+    "pair_matrix_capacity": 30,
+    "release_status": "research_beta_due_to_low_support_active_features",
+    "workbook_version": "CPII_COMPARATOR_XLSX_V1.0.1"
+  },
+  "provenance": [
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-A",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-A-effective_tax_rate_gap",
+      "synthetic_flag": "yes",
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-A",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-A-network_cost_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-A",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-A-infra_dependency_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-A",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-A-funding_cost_spread",
+      "synthetic_flag": "yes",
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-A",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-A-ip_assetization_gap",
+      "synthetic_flag": "yes",
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-A",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-A-investment_recovery_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-A",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-A-cashflow_recovery_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-A",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-A-cross_market_transfer_index",
+      "synthetic_flag": "yes",
+      "variable_name": "cross_market_transfer_index"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-A",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-A-foreign_dependency_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-A",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-A-outflow_to_capex_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-B",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-B-effective_tax_rate_gap",
+      "synthetic_flag": "yes",
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-B",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-B-network_cost_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-B",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-B-infra_dependency_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-B",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-B-funding_cost_spread",
+      "synthetic_flag": "yes",
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-B",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-B-ip_assetization_gap",
+      "synthetic_flag": "yes",
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-B",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-B-investment_recovery_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-B",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-B-cashflow_recovery_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-B",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-B-cross_market_transfer_index",
+      "synthetic_flag": "yes",
+      "variable_name": "cross_market_transfer_index"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-B",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-B-foreign_dependency_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-B",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-B-outflow_to_capex_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-C",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-C-effective_tax_rate_gap",
+      "synthetic_flag": "yes",
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-C",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-C-network_cost_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-C",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-C-infra_dependency_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-C",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-C-funding_cost_spread",
+      "synthetic_flag": "yes",
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-C",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-C-ip_assetization_gap",
+      "synthetic_flag": "yes",
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-C",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-C-investment_recovery_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-C",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-C-cashflow_recovery_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-C",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-C-cross_market_transfer_index",
+      "synthetic_flag": "yes",
+      "variable_name": "cross_market_transfer_index"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-C",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-C-foreign_dependency_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-C",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-C-outflow_to_capex_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "outflow_to_capex_ratio"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-D",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-D-effective_tax_rate_gap",
+      "synthetic_flag": "yes",
+      "variable_name": "effective_tax_rate_gap"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-D",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-D-network_cost_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "network_cost_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-D",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-D-infra_dependency_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "infra_dependency_ratio"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-D",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-D-funding_cost_spread",
+      "synthetic_flag": "yes",
+      "variable_name": "funding_cost_spread"
+    },
+    {
+      "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-D",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-D-ip_assetization_gap",
+      "synthetic_flag": "yes",
+      "variable_name": "ip_assetization_gap"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-D",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-D-investment_recovery_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "investment_recovery_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-D",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-D-cashflow_recovery_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "cashflow_recovery_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-D",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-D-cross_market_transfer_index",
+      "synthetic_flag": "yes",
+      "variable_name": "cross_market_transfer_index"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "direct",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-D",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-D-foreign_dependency_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "foreign_dependency_ratio"
+    },
+    {
+      "benchmark_id": "",
+      "carry_lag_q": "0",
+      "construction_mode": "derived",
+      "formula_note": "방법론 설명용 통제 입력; 실제 공시·추정값이 아님",
+      "input_quality": "SYNTHETIC",
+      "observation_id": "SYN-D",
+      "source_date": "2025-12-31",
+      "source_id": "SYNTHETIC-SYN-D-outflow_to_capex_ratio",
+      "synthetic_flag": "yes",
+      "variable_name": "outflow_to_capex_ratio"
+    }
+  ],
+  "sensitivity_summary": [
+    {
+      "baseline_gap_method_context": "above_historical_mean_method_sensitivity",
+      "dependency_warnings_a": "",
+      "dependency_warnings_b": "",
+      "empirical_pair_gap_percentile": "",
+      "empirical_pair_gap_percentile_status": "not_available_insufficient_joint_reference_support",
+      "historical_method_sensitivity_mean_abs_points": "2.0659532773",
+      "historical_method_sensitivity_median_abs_points": "1.0985372963",
+      "input_range_assessed": "yes",
+      "input_range_feature_count_a": "10",
+      "input_range_feature_count_b": "10",
+      "input_range_feature_count_total": "20",
+      "interpretation_status": "difference_unclear",
+      "low_support_effective_weight": "0.2222222222222222",
+      "observation_id_a": "SYN-A",
+      "observation_id_b": "SYN-B",
+      "pair_id": "SYN-A__vs__SYN-B",
+      "positive_specification_share_descriptive": "0.8333333333333334",
+      "probability_interpretation_allowed": "no",
+      "range_type": "deterministic_sensitivity_range_not_confidence_interval",
+      "sensitivity_max_points": "14.321586229437493",
+      "sensitivity_min_points": "-1.9995178921211938",
+      "sign_stable": "no"
+    },
+    {
+      "baseline_gap_method_context": "above_historical_mean_method_sensitivity",
+      "dependency_warnings_a": "",
+      "dependency_warnings_b": "",
+      "empirical_pair_gap_percentile": "",
+      "empirical_pair_gap_percentile_status": "not_available_insufficient_joint_reference_support",
+      "historical_method_sensitivity_mean_abs_points": "2.0659532773",
+      "historical_method_sensitivity_median_abs_points": "1.0985372963",
+      "input_range_assessed": "yes",
+      "input_range_feature_count_a": "10",
+      "input_range_feature_count_b": "10",
+      "input_range_feature_count_total": "20",
+      "interpretation_status": "difference_unclear",
+      "low_support_effective_weight": "0.2222222222222222",
+      "observation_id_a": "SYN-A",
+      "observation_id_b": "SYN-C",
+      "pair_id": "SYN-A__vs__SYN-C",
+      "positive_specification_share_descriptive": "0.16666666666666666",
+      "probability_interpretation_allowed": "no",
+      "range_type": "deterministic_sensitivity_range_not_confidence_interval",
+      "sensitivity_max_points": "4.394152295173413",
+      "sensitivity_min_points": "-11.468408384219199",
+      "sign_stable": "no"
+    },
+    {
+      "baseline_gap_method_context": "above_historical_mean_method_sensitivity",
+      "dependency_warnings_a": "",
+      "dependency_warnings_b": "",
+      "empirical_pair_gap_percentile": "",
+      "empirical_pair_gap_percentile_status": "not_available_insufficient_joint_reference_support",
+      "historical_method_sensitivity_mean_abs_points": "2.0659532773",
+      "historical_method_sensitivity_median_abs_points": "1.0985372963",
+      "input_range_assessed": "yes",
+      "input_range_feature_count_a": "10",
+      "input_range_feature_count_b": "10",
+      "input_range_feature_count_total": "20",
+      "interpretation_status": "difference_unclear",
+      "low_support_effective_weight": "0.2222222222222222",
+      "observation_id_a": "SYN-A",
+      "observation_id_b": "SYN-D",
+      "pair_id": "SYN-A__vs__SYN-D",
+      "positive_specification_share_descriptive": "0.8333333333333334",
+      "probability_interpretation_allowed": "no",
+      "range_type": "deterministic_sensitivity_range_not_confidence_interval",
+      "sensitivity_max_points": "11.136236423204561",
+      "sensitivity_min_points": "-7.206321745998043",
+      "sign_stable": "no"
+    },
+    {
+      "baseline_gap_method_context": "above_historical_mean_method_sensitivity",
+      "dependency_warnings_a": "",
+      "dependency_warnings_b": "",
+      "empirical_pair_gap_percentile": "",
+      "empirical_pair_gap_percentile_status": "not_available_insufficient_joint_reference_support",
+      "historical_method_sensitivity_mean_abs_points": "2.0659532773",
+      "historical_method_sensitivity_median_abs_points": "1.0985372963",
+      "input_range_assessed": "yes",
+      "input_range_feature_count_a": "10",
+      "input_range_feature_count_b": "10",
+      "input_range_feature_count_total": "20",
+      "interpretation_status": "direction_stable_across_tested_specifications",
+      "low_support_effective_weight": "0.2222222222222222",
+      "observation_id_a": "SYN-B",
+      "observation_id_b": "SYN-C",
+      "pair_id": "SYN-B__vs__SYN-C",
+      "positive_specification_share_descriptive": "0.0",
+      "probability_interpretation_allowed": "no",
+      "range_type": "deterministic_sensitivity_range_not_confidence_interval",
+      "sensitivity_max_points": "-3.5211256102625867",
+      "sensitivity_min_points": "-15.875198816099498",
+      "sign_stable": "yes"
+    },
+    {
+      "baseline_gap_method_context": "above_historical_mean_method_sensitivity",
+      "dependency_warnings_a": "",
+      "dependency_warnings_b": "",
+      "empirical_pair_gap_percentile": "",
+      "empirical_pair_gap_percentile_status": "not_available_insufficient_joint_reference_support",
+      "historical_method_sensitivity_mean_abs_points": "2.0659532773",
+      "historical_method_sensitivity_median_abs_points": "1.0985372963",
+      "input_range_assessed": "yes",
+      "input_range_feature_count_a": "10",
+      "input_range_feature_count_b": "10",
+      "input_range_feature_count_total": "20",
+      "interpretation_status": "difference_unclear",
+      "low_support_effective_weight": "0.2222222222222222",
+      "observation_id_a": "SYN-B",
+      "observation_id_b": "SYN-D",
+      "pair_id": "SYN-B__vs__SYN-D",
+      "positive_specification_share_descriptive": "0.16666666666666666",
+      "probability_interpretation_allowed": "no",
+      "range_type": "deterministic_sensitivity_range_not_confidence_interval",
+      "sensitivity_max_points": "3.220958517768562",
+      "sensitivity_min_points": "-11.613112177878342",
+      "sign_stable": "no"
+    },
+    {
+      "baseline_gap_method_context": "above_historical_mean_method_sensitivity",
+      "dependency_warnings_a": "",
+      "dependency_warnings_b": "",
+      "empirical_pair_gap_percentile": "",
+      "empirical_pair_gap_percentile_status": "not_available_insufficient_joint_reference_support",
+      "historical_method_sensitivity_mean_abs_points": "2.0659532773",
+      "historical_method_sensitivity_median_abs_points": "1.0985372963",
+      "input_range_assessed": "yes",
+      "input_range_feature_count_a": "10",
+      "input_range_feature_count_b": "10",
+      "input_range_feature_count_total": "20",
+      "interpretation_status": "difference_unclear",
+      "low_support_effective_weight": "0.2222222222222222",
+      "observation_id_a": "SYN-C",
+      "observation_id_b": "SYN-D",
+      "pair_id": "SYN-C__vs__SYN-D",
+      "positive_specification_share_descriptive": "0.8333333333333334",
+      "probability_interpretation_allowed": "no",
+      "range_type": "deterministic_sensitivity_range_not_confidence_interval",
+      "sensitivity_max_points": "12.689849009866567",
+      "sensitivity_min_points": "-1.6856782436142623",
+      "sign_stable": "no"
+    }
+  ],
+  "source_hashes": {
+    "data/processed/cpii_simulator/examples/fictional_companies.csv": "36c851ef130ca99f7e985116b01b1f50bffa3603801dabcddfe9bae60199a424",
+    "data/processed/cpii_simulator/examples/fictional_exposures.csv": "0e03db8462cd850f348331309cce01dc1b405f8198e51a1e9f6b661e193dd096",
+    "data/processed/cpii_simulator/examples/fictional_feature_provenance.csv": "ef60966f56c879f91aece71d61d9af8384da7ea1469a51beb2e240909b67465a",
+    "data/registry/cpii_economic_bridge_registry.csv": "76777a4bde2c082b824bded8f5d5f2a6f3812c0ef079b94fead77f1e4965f2cb",
+    "data/registry/cpii_simulator_variable_dictionary.csv": "7d487d20b193fc2e0858929f4805523af04992edc6306fb4bd5c16143c7cffca"
+  },
+  "supported_currencies": [
+    "AED",
+    "AUD",
+    "BRL",
+    "CAD",
+    "CHF",
+    "CNY",
+    "DKK",
+    "EUR",
+    "GBP",
+    "HKD",
+    "IDR",
+    "INR",
+    "JPY",
+    "KRW",
+    "MXN",
+    "MYR",
+    "NOK",
+    "NZD",
+    "PHP",
+    "PLN",
+    "RUB",
+    "SAR",
+    "SEK",
+    "SGD",
+    "THB",
+    "TRY",
+    "TWD",
+    "USD",
+    "VND",
+    "ZAR"
+  ]
+}

@@ -1,0 +1,89 @@
+firm_std,service_std,country_std,sector_std,tier,coverage_expectation,target_data_types,notes
+kakao_ent,melon,kr,music,Tier 1,high,filing|market_share|chart|usage,국내 단독 서비스이므로 한국 기준선 셀
+dreamus,flo,kr,music,Tier 1,high,filing|market_share|chart|usage,국내 스트리밍 비교군의 직접 수집 셀
+hybe,weverse,kr,music,Tier 1,medium,filing|app_usage|artist_fandom|traffic,글로벌 팬덤 플랫폼으로 1차 수집국 우선
+hybe,weverse,us,music,Tier 1,medium,filing|app_usage|artist_fandom|traffic,글로벌 팬덤 플랫폼으로 1차 수집국 우선
+hybe,weverse,jp,music,Tier 1,medium,filing|app_usage|artist_fandom|traffic,글로벌 팬덤 플랫폼으로 1차 수집국 우선
+hybe,weverse,uk,music,Tier 1,medium,filing|app_usage|artist_fandom|traffic,글로벌 팬덤 플랫폼으로 1차 수집국 우선
+hybe,weverse,ca,music,Tier 1,medium,filing|app_usage|artist_fandom|traffic,글로벌 팬덤 플랫폼으로 1차 수집국 우선
+spotify,spotify,kr,music,Tier 1,high,market_share|chart|app_usage|filing,스트리밍 직접 비교의 핵심 셀
+spotify,spotify,uk,music,Tier 1,high,market_share|chart|app_usage|filing,스트리밍 직접 비교의 핵심 셀
+spotify,spotify,us,music,Tier 1,high,market_share|chart|app_usage|filing,스트리밍 직접 비교의 핵심 셀
+spotify,spotify,jp,music,Tier 1,high,market_share|chart|app_usage|filing,스트리밍 직접 비교의 핵심 셀
+spotify,spotify,tw,music,Tier 1,high,market_share|chart|app_usage|filing,스트리밍 직접 비교의 핵심 셀
+spotify,spotify,ca,music,Tier 1,high,market_share|chart|app_usage|filing,스트리밍 직접 비교의 핵심 셀
+spotify,spotify,au,music,Tier 2,medium,market_share|chart|app_usage|filing,확장 비교국용 스트리밍 셀
+spotify,spotify,de,music,Tier 2,medium,market_share|chart|app_usage|filing,확장 비교국용 스트리밍 셀
+spotify,spotify,sg,music,Tier 2,medium,market_share|chart|app_usage|filing,확장 비교국용 스트리밍 셀
+alphabet,youtube_music,kr,music,Tier 2,medium,pricing|bundle|music_service_price,유튜브 뮤직 한국 가격 및 번들 비교를 위한 보조 음악 셀
+warner_music,wmg_music_ip,kr,music,Tier 1,medium,filing|chart|revenue_mix|catalog_scale,한국 차트 점유를 직접 관측할 수 있는 글로벌 레이블 비교 셀
+warner_music,wmg_music_ip,us,music,Tier 1,medium,filing|revenue_mix|catalog_scale,글로벌 레이블 재무와 시장규모를 연결하는 셀
+warner_music,wmg_music_ip,uk,music,Tier 1,medium,filing|revenue_mix|catalog_scale,글로벌 레이블 재무와 시장규모를 연결하는 셀
+warner_music,wmg_music_ip,jp,music,Tier 1,medium,filing|revenue_mix|catalog_scale,글로벌 레이블 재무와 시장규모를 연결하는 셀
+warner_music,wmg_music_ip,ca,music,Tier 1,medium,filing|revenue_mix|catalog_scale,글로벌 레이블 재무와 시장규모를 연결하는 셀
+jyp_ent,jyp_music_ip,kr,music,Tier 2,medium,filing|export|release|revenue_mix,국내 레이블의 해외 연계 비교 셀
+jyp_ent,jyp_music_ip,jp,music,Tier 2,medium,filing|export|release|revenue_mix,국내 레이블의 해외 연계 비교 셀
+jyp_ent,jyp_music_ip,us,music,Tier 2,medium,filing|export|release|revenue_mix,국내 레이블의 해외 연계 비교 셀
+yg_ent,yg_music_ip,kr,music,Tier 2,medium,filing|export|release|revenue_mix,국내 레이블의 해외 연계 비교 셀
+yg_ent,yg_music_ip,jp,music,Tier 2,medium,filing|export|release|revenue_mix,국내 레이블의 해외 연계 비교 셀
+yg_ent,yg_music_ip,us,music,Tier 2,medium,filing|export|release|revenue_mix,국내 레이블의 해외 연계 비교 셀
+tencent_music,qq_music,tw,music,Tier 2,low,filing|benchmark_only|asia_proxy,중화권 인접시장 벤치마크 셀
+tencent_music,qq_music,sg,music,Tier 3,low,filing|benchmark_only|asia_proxy,동남아 벤치마크용 보조 셀
+kakao_ent,kakao_page,kr,webtoon_story,Tier 1,high,filing|app_rank|usage|title_catalog,국내 카카오페이지 기준 셀
+kakao_piccoma,piccoma,jp,webtoon_story,Tier 1,high,company_profile|app_rank|usage|title_catalog,일본 피코마 기준 셀
+naver,naver_webtoon,kr,webtoon_story,Tier 1,medium,filing|app_rank|usage|overseas_segment,모회사 공시와 웹툰 해외 확장 정보를 결합하는 셀
+naver,naver_webtoon,us,webtoon_story,Tier 1,medium,filing|app_rank|usage|overseas_segment,모회사 공시와 웹툰 해외 확장 정보를 결합하는 셀
+naver,naver_webtoon,jp,webtoon_story,Tier 1,medium,filing|app_rank|usage|overseas_segment,모회사 공시와 웹툰 해외 확장 정보를 결합하는 셀
+webtoon_ent,webtoon,kr,webtoon_story,Tier 1,high,filing|app_rank|usage|title_catalog,상장 웹툰 플랫폼의 핵심 비교 셀
+webtoon_ent,webtoon,uk,webtoon_story,Tier 1,high,filing|app_rank|usage|title_catalog,상장 웹툰 플랫폼의 핵심 비교 셀
+webtoon_ent,webtoon,us,webtoon_story,Tier 1,high,filing|app_rank|usage|title_catalog,상장 웹툰 플랫폼의 핵심 비교 셀
+webtoon_ent,webtoon,jp,webtoon_story,Tier 1,high,filing|app_rank|usage|title_catalog,상장 웹툰 플랫폼의 핵심 비교 셀
+webtoon_ent,webtoon,tw,webtoon_story,Tier 1,high,filing|app_rank|usage|title_catalog,상장 웹툰 플랫폼의 핵심 비교 셀
+webtoon_ent,webtoon,ca,webtoon_story,Tier 1,high,filing|app_rank|usage|title_catalog,상장 웹툰 플랫폼의 핵심 비교 셀
+kidari_studio,lezhin_comics,kr,webtoon_story,Tier 1,medium,filing|app_rank|title_catalog|usage,레진 계열 서비스 비교 셀
+kidari_studio,lezhin_comics,us,webtoon_story,Tier 1,medium,filing|app_rank|title_catalog|usage,레진 계열 서비스 비교 셀
+kidari_studio,lezhin_comics,jp,webtoon_story,Tier 1,medium,filing|app_rank|title_catalog|usage,레진 계열 서비스 비교 셀
+ridi,ridi,kr,webtoon_story,Tier 2,high,company_profile|app_rank|usage|title_catalog,비상장 국내 서비스의 보조 비교 셀
+kadokawa,bookwalker,jp,webtoon_story,Tier 2,medium,filing|app_rank|ebook_catalog|usage,전자서적 및 스토리 플랫폼 보조 비교 셀
+kadokawa,bookwalker,us,webtoon_story,Tier 2,medium,filing|app_rank|ebook_catalog|usage,전자서적 및 스토리 플랫폼 보조 비교 셀
+kadokawa,bookwalker,uk,webtoon_story,Tier 2,medium,filing|app_rank|ebook_catalog|usage,전자서적 및 스토리 플랫폼 보조 비교 셀
+kadokawa,bookwalker,ca,webtoon_story,Tier 2,medium,filing|app_rank|ebook_catalog|usage,전자서적 및 스토리 플랫폼 보조 비교 셀
+sk_telecom,skt_network,kr,digital_infra,Tier 1,high,filing|subscriber|traffic|broadband,국내 통신망 기준선 셀
+kt,kt_network,kr,digital_infra,Tier 1,high,filing|subscriber|traffic|broadband,국내 유무선 통신 기준 셀
+lg_uplus,lguplus_network,kr,digital_infra,Tier 1,high,filing|subscriber|traffic|broadband,국내 브로드밴드 비교 셀
+netflix,netflix,kr,digital_infra,Tier 1,high,traffic|app_usage|ott_usage|filing,글로벌 OTT 영향의 핵심 셀
+netflix,netflix,uk,digital_infra,Tier 1,high,traffic|app_usage|ott_usage|filing,글로벌 OTT 영향의 핵심 셀
+netflix,netflix,us,digital_infra,Tier 1,high,traffic|app_usage|ott_usage|filing,글로벌 OTT 영향의 핵심 셀
+netflix,netflix,jp,digital_infra,Tier 1,high,traffic|app_usage|ott_usage|filing,글로벌 OTT 영향의 핵심 셀
+netflix,netflix,tw,digital_infra,Tier 1,high,traffic|app_usage|ott_usage|filing,글로벌 OTT 영향의 핵심 셀
+netflix,netflix,ca,digital_infra,Tier 1,high,traffic|app_usage|ott_usage|filing,글로벌 OTT 영향의 핵심 셀
+netflix,netflix,au,digital_infra,Tier 2,medium,traffic|app_usage|ott_usage|filing,확장 비교국용 OTT 셀
+netflix,netflix,de,digital_infra,Tier 2,medium,traffic|app_usage|ott_usage|filing,확장 비교국용 OTT 셀
+netflix,netflix,sg,digital_infra,Tier 2,medium,traffic|app_usage|ott_usage|filing,확장 비교국용 OTT 셀
+alphabet,youtube,kr,digital_infra,Tier 1,high,traffic|video_usage|advertising|filing,유튜브 트래픽과 광고 전이의 핵심 셀
+alphabet,youtube,uk,digital_infra,Tier 1,high,traffic|video_usage|advertising|filing,유튜브 트래픽과 광고 전이의 핵심 셀
+alphabet,youtube,us,digital_infra,Tier 1,high,traffic|video_usage|advertising|filing,유튜브 트래픽과 광고 전이의 핵심 셀
+alphabet,youtube,jp,digital_infra,Tier 1,high,traffic|video_usage|advertising|filing,유튜브 트래픽과 광고 전이의 핵심 셀
+alphabet,youtube,tw,digital_infra,Tier 1,high,traffic|video_usage|advertising|filing,유튜브 트래픽과 광고 전이의 핵심 셀
+alphabet,youtube,ca,digital_infra,Tier 1,high,traffic|video_usage|advertising|filing,유튜브 트래픽과 광고 전이의 핵심 셀
+alphabet,youtube,au,digital_infra,Tier 2,medium,traffic|video_usage|advertising|filing,확장 비교국용 유튜브 셀
+alphabet,youtube,de,digital_infra,Tier 2,medium,traffic|video_usage|advertising|filing,확장 비교국용 유튜브 셀
+alphabet,youtube,sg,digital_infra,Tier 2,medium,traffic|video_usage|advertising|filing,확장 비교국용 유튜브 셀
+amazon,aws,kr,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+amazon,aws,uk,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+amazon,aws,us,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+amazon,aws,jp,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+amazon,aws,tw,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+amazon,aws,ca,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+cloudflare,cloudflare_cdn,kr,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+cloudflare,cloudflare_cdn,uk,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+cloudflare,cloudflare_cdn,us,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+cloudflare,cloudflare_cdn,jp,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+cloudflare,cloudflare_cdn,tw,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+cloudflare,cloudflare_cdn,ca,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+akamai,akamai_cdn,kr,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+akamai,akamai_cdn,uk,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+akamai,akamai_cdn,us,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+akamai,akamai_cdn,jp,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+akamai,akamai_cdn,tw,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀
+akamai,akamai_cdn,ca,digital_infra,Tier 2,medium,filing|network_infra|enterprise_presence|traffic_proxy,글로벌 인프라 공급자 보조 비교 셀

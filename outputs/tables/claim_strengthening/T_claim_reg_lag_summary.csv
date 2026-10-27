@@ -1,0 +1,11 @@
+peer_group_id,comparison_basis,obligation_rows,domestic_date_available_count,global_date_available_count,numeric_lag_count,domestic_earlier_count,domestic_later_count,same_month_count,non_comparable_count,avg_lag_months_domestic_minus_global,headline_result
+infra_traffic_ott,enforcement,14,0,0,0,0,0,0,14,,no_numeric_lag_available
+infra_traffic_ott,law,14,5,0,0,0,0,0,14,,no_numeric_lag_available
+mus_label_ip_export,enforcement,14,0,0,0,0,0,0,14,,no_numeric_lag_available
+mus_label_ip_export,law,14,0,0,0,0,0,0,14,,no_numeric_lag_available
+mus_streaming_paid_core,enforcement,14,0,0,0,0,0,0,14,,no_numeric_lag_available
+mus_streaming_paid_core,law,14,4,0,0,0,0,0,14,,no_numeric_lag_available
+webtoon_internal_geo_split,enforcement,14,0,0,0,0,0,0,14,,no_numeric_lag_available
+webtoon_internal_geo_split,law,14,0,0,0,0,0,0,14,,no_numeric_lag_available
+webtoon_serial_platform,enforcement,14,0,0,0,0,0,0,14,,no_numeric_lag_available
+webtoon_serial_platform,law,14,0,0,0,0,0,0,14,,no_numeric_lag_available

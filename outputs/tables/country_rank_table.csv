@@ -1,0 +1,10 @@
+country_std,comparison_status,overall_rank_desc_mean_CPII_all_obs,overall_rank_desc_mean_CPII_common_sample,rank_group,mean_CPII_all_obs,mean_CPII_common_sample,mean_I_reg_common_sample,mean_I_risk_common_sample,mean_I_market_common_sample,gap_vs_global_mean_common_sample,computed_firm_count_used,domestic_home_firm_count,foreign_home_firm_count,sector_count_used,common_pair_count_used,common_period_ready_flag,composition_limit_note,rank_direction_note
+au,computed,7,6,middle,42.1567861093,42.1567861093,37.5582667428,46.7553054759,,-2.5146461459,2,0,2,2,6,yes,partial_sector_coverage|thin_firm_base|foreign_only_composition,higher_cpii_means_worse
+ca,computed,4,4,middle,52.5383844636,43.5955885536,45.2720322655,44.4536139175,41.0611194779,-1.0758437016,9,0,9,3,6,yes,foreign_only_composition,higher_cpii_means_worse
+de,computed,7,6,middle,42.1567861093,42.1567861093,37.5582667428,46.7553054759,,-2.5146461459,2,0,2,2,6,yes,partial_sector_coverage|thin_firm_base|foreign_only_composition,higher_cpii_means_worse
+jp,computed,5,5,middle,46.3467251322,43.2641811086,36.5912502114,43.242081267,49.9592118474,-1.4072511466,13,0,13,3,6,yes,foreign_only_composition,higher_cpii_means_worse
+kr,computed,3,3,top3_high_cpii_common_sample,53.6719271473,47.2816864094,39.5616083509,47.6253713936,65.1104417671,2.6102541542,17,9,8,3,6,yes,mixed_domestic_foreign,higher_cpii_means_worse
+sg,computed,6,7,bottom3_low_cpii_common_sample,43.5873071996,42.1044874727,37.2562309741,46.9527439712,,-2.5669447825,3,0,3,2,6,yes,partial_sector_coverage|thin_firm_base|foreign_only_composition,higher_cpii_means_worse
+tw,computed,2,2,top3_high_cpii_common_sample,57.6808519143,49.8573396342,41.5851649513,43.3397237639,64.6471301874,5.185907379,8,0,8,3,6,yes,foreign_only_composition,higher_cpii_means_worse
+uk,computed,1,1,top3_high_cpii_common_sample,65.0404369255,56.0655743168,51.3566883501,44.4536139175,72.3864206827,11.3941420616,9,0,9,3,6,yes,foreign_only_composition,higher_cpii_means_worse
+us,computed,8,8,bottom3_low_cpii_common_sample,38.7889690071,35.5604605827,33.0584018869,43.242081267,30.3808985944,-9.1109716725,13,7,6,3,6,yes,mixed_domestic_foreign,higher_cpii_means_worse

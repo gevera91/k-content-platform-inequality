@@ -1,0 +1,55 @@
+{
+  "active_component_counts": {
+    "I_market": 3,
+    "I_reg": 3,
+    "I_risk": 4
+  },
+  "anchor_version": "POOL_SCQ_P01_P99_EMP_RANK_V1",
+  "build_date": "2026-09-02",
+  "inactive_features": [
+    "bundle_leverage_index",
+    "creator_share_ratio"
+  ],
+  "input_sha256": {
+    "data/processed/variable_panel_sector_quarter.csv": "84a46426e13b93bedbe2c46dcdb0ef8bb989121cf160594dc9255965a1051c30",
+    "data/registry/cpii_simulator_variable_dictionary.csv": "0b8290b432df59cfb935a1148b61a25faa2dcca07763f7579c6285cb9c1ac193",
+    "scripts/build_cpii_panels.py": "a136ac8832dade6d17c6a151c9852ef8849025b62a0a9d088f30d6daadfdc0ba",
+    "scripts/build_subindex_panels.py": "a6c6ff3254189ace7c39283f01f915c86fabe7a45d3563e488ba0d6bb0d58e84"
+  },
+  "joint_complete_reference_count": 2,
+  "joint_complete_reference_share": 0.012578616352201259,
+  "joint_support_eligibility": "insufficient_joint_reference_support",
+  "low_support_active_features": [
+    "cross_market_transfer_index",
+    "foreign_dependency_ratio"
+  ],
+  "low_support_effective_weight": 0.2222222222222222,
+  "output_content_sha256": {
+    "POOL_SCQ_P01_P99_EMP_RANK_V1.json": "274a907a5b383a4c00a57927ccb46c1488e8bfdee9990a1ed87741ca4a769e6a",
+    "POOL_SCQ_P01_P99_EMP_RANK_V1_reference_values.csv": "337823457a636dae2cfbb2c8790c65d6334f478a7fef9b722db94bc343bb76eb"
+  },
+  "product_spec_version": "CPII_FIRM_INPUT_EQW_V1",
+  "source_row_count": 159,
+  "source_scope": {
+    "countries": [
+      "au",
+      "ca",
+      "de",
+      "jp",
+      "kr",
+      "sg",
+      "tw",
+      "uk",
+      "us"
+    ],
+    "independent_entity_count": null,
+    "independent_entity_note": "not_available_in_aggregate_sector_country_quarter_anchor",
+    "period_end": "2026Q1",
+    "period_start": "2020Q4",
+    "sectors": [
+      "digital_infra",
+      "music",
+      "webtoon_story"
+    ]
+  }
+}

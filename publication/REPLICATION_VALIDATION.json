@@ -1,0 +1,838 @@
+{
+  "created_utc": "2026-10-27T00:17:17.997633+00:00",
+  "profile": "full",
+  "python": "3.12.3",
+  "network_required": false,
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/build_subindex_panels.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/01.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/build_cpii_panels.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/02.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/build_policy_scenarios.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/03.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/review_strengthening_20260915.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/04.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/build_spec_robustness.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/05.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/build_alt_spec_cpii_panels.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/06.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/build_country_comparison_tables.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/07.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/build_firm_comparison_tables.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/08.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/build_timeseries_analysis.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/09.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/run_sector_regressions.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/10.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/ofcom_proxy_sensitivity.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/11.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/claim_strengthening/build_claim_pretrend_check.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/12.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/claim_strengthening/build_claim_placebo_event_results.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/13.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/claim_strengthening/build_claim_placebo_outcome_results.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/14.log"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "scripts.cpii_simulator.build_fictional_examples"
+      ],
+      "exit_code": 0,
+      "log": "logs/15.log"
+    }
+  ],
+  "numeric_tolerance": {
+    "absolute": 1e-08,
+    "relative": 1e-10
+  },
+  "comparisons": [
+    {
+      "path": "data/processed/cpii_alt_spec_storage_summary.csv",
+      "rows": 6,
+      "numeric_cells": 48,
+      "mismatches": [],
+      "reference_sha256": "155e38af59728f65d66bfbd2155b95677e2cd616a6116e42e8bc6289d64da8bf",
+      "generated_sha256": "155e38af59728f65d66bfbd2155b95677e2cd616a6116e42e8bc6289d64da8bf",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_firm_country_quarter.csv",
+      "rows": 580,
+      "numeric_cells": 16215,
+      "mismatches": [],
+      "reference_sha256": "c4d9a6cbc1ab5429fe1c7c1614aec4e2b9a790c221fb62f6fd38b31f6ae4a376",
+      "generated_sha256": "c4d9a6cbc1ab5429fe1c7c1614aec4e2b9a790c221fb62f6fd38b31f6ae4a376",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_firm_country_quarter_alt_a.csv",
+      "rows": 580,
+      "numeric_cells": 17645,
+      "mismatches": [],
+      "reference_sha256": "1a507e02a95a6acbcb5358e892e9e34a349ca358db6cdae26af6e8a367050c47",
+      "generated_sha256": "1a507e02a95a6acbcb5358e892e9e34a349ca358db6cdae26af6e8a367050c47",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_firm_country_quarter_alt_b.csv",
+      "rows": 580,
+      "numeric_cells": 17345,
+      "mismatches": [],
+      "reference_sha256": "999e07aee0359b4f735402af1e90d7d41154292a34c58a22321e9128c53684c5",
+      "generated_sha256": "999e07aee0359b4f735402af1e90d7d41154292a34c58a22321e9128c53684c5",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_sector_country_quarter.csv",
+      "rows": 159,
+      "numeric_cells": 3798,
+      "mismatches": [],
+      "reference_sha256": "aac6d93d69afcf823df5e4010ee664baf9b60d57c85041a9c5a73eb1323a25e8",
+      "generated_sha256": "aac6d93d69afcf823df5e4010ee664baf9b60d57c85041a9c5a73eb1323a25e8",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_sector_country_quarter_alt_a.csv",
+      "rows": 159,
+      "numeric_cells": 4236,
+      "mismatches": [],
+      "reference_sha256": "c1eb62cb67914f67efdd4ab223d174f1746f21de5a62a8d6c8c922d44e22a3aa",
+      "generated_sha256": "c1eb62cb67914f67efdd4ab223d174f1746f21de5a62a8d6c8c922d44e22a3aa",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_sector_country_quarter_alt_b.csv",
+      "rows": 159,
+      "numeric_cells": 4155,
+      "mismatches": [],
+      "reference_sha256": "abc7a7bfa5ef8ebf55f0b9a9a01bb63307148eb8e601ed1065579b22db3289ed",
+      "generated_sha256": "abc7a7bfa5ef8ebf55f0b9a9a01bb63307148eb8e601ed1065579b22db3289ed",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_sector_quarter.csv",
+      "rows": 19,
+      "numeric_cells": 293,
+      "mismatches": [],
+      "reference_sha256": "5da39f4e8f817a8e3c9ad3eec3066c6b897e7d9e735ed615b093417dcb32c504",
+      "generated_sha256": "5da39f4e8f817a8e3c9ad3eec3066c6b897e7d9e735ed615b093417dcb32c504",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_sector_quarter_alt_a.csv",
+      "rows": 19,
+      "numeric_cells": 354,
+      "mismatches": [],
+      "reference_sha256": "1a6eec914ca377e8730f75e24cfb8c855d62314219cfd2d45d8db630e7308f78",
+      "generated_sha256": "1a6eec914ca377e8730f75e24cfb8c855d62314219cfd2d45d8db630e7308f78",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_sector_quarter_alt_b.csv",
+      "rows": 19,
+      "numeric_cells": 354,
+      "mismatches": [],
+      "reference_sha256": "a5f16776c9a88eb01b07dbc1c552437d9d827c6bca7549f4e1764eda4335fe12",
+      "generated_sha256": "a5f16776c9a88eb01b07dbc1c552437d9d827c6bca7549f4e1764eda4335fe12",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/fictional_companies.csv",
+      "rows": 4,
+      "numeric_cells": 52,
+      "mismatches": [],
+      "reference_sha256": "36c851ef130ca99f7e985116b01b1f50bffa3603801dabcddfe9bae60199a424",
+      "generated_sha256": "36c851ef130ca99f7e985116b01b1f50bffa3603801dabcddfe9bae60199a424",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/fictional_exposures.csv",
+      "rows": 4,
+      "numeric_cells": 84,
+      "mismatches": [],
+      "reference_sha256": "0e03db8462cd850f348331309cce01dc1b405f8198e51a1e9f6b661e193dd096",
+      "generated_sha256": "0e03db8462cd850f348331309cce01dc1b405f8198e51a1e9f6b661e193dd096",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/fictional_feature_provenance.csv",
+      "rows": 40,
+      "numeric_cells": 40,
+      "mismatches": [],
+      "reference_sha256": "ef60966f56c879f91aece71d61d9af8384da7ea1469a51beb2e240909b67465a",
+      "generated_sha256": "ef60966f56c879f91aece71d61d9af8384da7ea1469a51beb2e240909b67465a",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/fictional_feature_ranges.csv",
+      "rows": 40,
+      "numeric_cells": 120,
+      "mismatches": [],
+      "reference_sha256": "eb98e2b5e6a85c4f1f42aa78903c253a61a9728b19e9363b4794b459ca30a7f3",
+      "generated_sha256": "eb98e2b5e6a85c4f1f42aa78903c253a61a9728b19e9363b4794b459ca30a7f3",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/golden_equal_gap_companies.csv",
+      "rows": 4,
+      "numeric_cells": 52,
+      "mismatches": [],
+      "reference_sha256": "1fe25a814f1e8e91e416f7a55b453e43f35b549f2be924955f1f2ee6c8104e3a",
+      "generated_sha256": "1fe25a814f1e8e91e416f7a55b453e43f35b549f2be924955f1f2ee6c8104e3a",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/golden_equal_gap_exposures.csv",
+      "rows": 4,
+      "numeric_cells": 84,
+      "mismatches": [],
+      "reference_sha256": "cd773bf6d8ce528f532be55251ecc5caae0a23d2ad83b84ab2a56e9cf8db901d",
+      "generated_sha256": "cd773bf6d8ce528f532be55251ecc5caae0a23d2ad83b84ab2a56e9cf8db901d",
+      "passed": true
+    },
+    {
+      "path": "data/processed/subindex_panel_sector_country_quarter.csv",
+      "rows": 159,
+      "numeric_cells": 2571,
+      "mismatches": [],
+      "reference_sha256": "f6b3313e8b0552efcc0a33f8f2f708b0b61729793d56e4ba21580a62da390bf3",
+      "generated_sha256": "f6b3313e8b0552efcc0a33f8f2f708b0b61729793d56e4ba21580a62da390bf3",
+      "passed": true
+    },
+    {
+      "path": "data/processed/subindex_panel_sector_quarter.csv",
+      "rows": 19,
+      "numeric_cells": 137,
+      "mismatches": [],
+      "reference_sha256": "5ac17b142f65b7ba5e49471011c6ce7fdaad923f44ac2c306d5d4eacf1621195",
+      "generated_sha256": "5ac17b142f65b7ba5e49471011c6ce7fdaad923f44ac2c306d5d4eacf1621195",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/claim_strengthening/T_claim_placebo_event_results.csv",
+      "rows": 3,
+      "numeric_cells": 48,
+      "mismatches": [],
+      "reference_sha256": "bf70a92e7ae828163e46c1e95ac71e43ac4bff084b2f3461099d3e68109ace2b",
+      "generated_sha256": "bf70a92e7ae828163e46c1e95ac71e43ac4bff084b2f3461099d3e68109ace2b",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/claim_strengthening/T_claim_placebo_outcome_results.csv",
+      "rows": 6,
+      "numeric_cells": 54,
+      "mismatches": [],
+      "reference_sha256": "b488e1f3e93899f1d76c4f7931bdf15a12214d86876a34033472df3a09f2ca3b",
+      "generated_sha256": "b488e1f3e93899f1d76c4f7931bdf15a12214d86876a34033472df3a09f2ca3b",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/claim_strengthening/T_claim_pretrend_check.csv",
+      "rows": 9,
+      "numeric_cells": 31,
+      "mismatches": [],
+      "reference_sha256": "95744eb35e10e9638dce8019fc119b7d38af65a29d6dc38d97dfe030cace1fd8",
+      "generated_sha256": "95744eb35e10e9638dce8019fc119b7d38af65a29d6dc38d97dfe030cace1fd8",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/country_comparison_summary.csv",
+      "rows": 9,
+      "numeric_cells": 210,
+      "mismatches": [],
+      "reference_sha256": "cdcb39d4e3157df9c7d4b4a70f7c2b401029a767b04d2a7a909656a0f235c1ec",
+      "generated_sha256": "cdcb39d4e3157df9c7d4b4a70f7c2b401029a767b04d2a7a909656a0f235c1ec",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/country_rank_table.csv",
+      "rows": 9,
+      "numeric_cells": 114,
+      "mismatches": [],
+      "reference_sha256": "f36fe799c376be845429490d534122ba152e084bbd0a05e1a66cb8f47c5858de",
+      "generated_sha256": "f36fe799c376be845429490d534122ba152e084bbd0a05e1a66cb8f47c5858de",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/company_ranking.csv",
+      "rows": 4,
+      "numeric_cells": 132,
+      "mismatches": [],
+      "reference_sha256": "fcce7b7945d1d710429a0b7995f6d479f1f14ae7261b9b28e4af0dbf46d9f309",
+      "generated_sha256": "fcce7b7945d1d710429a0b7995f6d479f1f14ae7261b9b28e4af0dbf46d9f309",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/company_scores.csv",
+      "rows": 4,
+      "numeric_cells": 124,
+      "mismatches": [],
+      "reference_sha256": "238fc1c6a3a61710b76d2f56ba63fc8d68d551d93903d028b7c5b9e9b99fa5a4",
+      "generated_sha256": "238fc1c6a3a61710b76d2f56ba63fc8d68d551d93903d028b7c5b9e9b99fa5a4",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/economic_interpretations.csv",
+      "rows": 60,
+      "numeric_cells": 1164,
+      "mismatches": [],
+      "reference_sha256": "af728bcf517b486544e41c63ade504407f94099fe739de3f3603b76461b1116c",
+      "generated_sha256": "af728bcf517b486544e41c63ade504407f94099fe739de3f3603b76461b1116c",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/golden_equal_gap_summary.csv",
+      "rows": 2,
+      "numeric_cells": 6,
+      "mismatches": [],
+      "reference_sha256": "c989ac21688473bf9184d2d78d8d149b553f96d0c604d7dcf6c9cb216b00eefd",
+      "generated_sha256": "c989ac21688473bf9184d2d78d8d149b553f96d0c604d7dcf6c9cb216b00eefd",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/pair_contributions.csv",
+      "rows": 60,
+      "numeric_cells": 720,
+      "mismatches": [],
+      "reference_sha256": "755afa4162a3b0240adddf973c7136b320d38a2a32d97ad573d1f0f3d23f6e42",
+      "generated_sha256": "755afa4162a3b0240adddf973c7136b320d38a2a32d97ad573d1f0f3d23f6e42",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/pair_gap_matrix.csv",
+      "rows": 4,
+      "numeric_cells": 16,
+      "mismatches": [],
+      "reference_sha256": "7b632e471aa0d90f4587ae4e3ec946767a6b013fc87313bc4d0adeb3993addd4",
+      "generated_sha256": "7b632e471aa0d90f4587ae4e3ec946767a6b013fc87313bc4d0adeb3993addd4",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/pair_gaps.csv",
+      "rows": 6,
+      "numeric_cells": 28,
+      "mismatches": [],
+      "reference_sha256": "264e5d5feb75e4933460827f33706e46a92e40ae605ff65ced8558f36873126c",
+      "generated_sha256": "264e5d5feb75e4933460827f33706e46a92e40ae605ff65ced8558f36873126c",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/pair_narratives.csv",
+      "rows": 6,
+      "numeric_cells": 0,
+      "mismatches": [],
+      "reference_sha256": "02872d9605667e5fd9d8980304235949ea57bf3ff88a38cb798955597efa8968",
+      "generated_sha256": "02872d9605667e5fd9d8980304235949ea57bf3ff88a38cb798955597efa8968",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/sensitivity_summary.csv",
+      "rows": 6,
+      "numeric_cells": 54,
+      "mismatches": [],
+      "reference_sha256": "49091be5635fd9c12acb029464a2b8da882ea62fcea4f56b740907d6c993f819",
+      "generated_sha256": "49091be5635fd9c12acb029464a2b8da882ea62fcea4f56b740907d6c993f819",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/sensitivity_variants.csv",
+      "rows": 36,
+      "numeric_cells": 108,
+      "mismatches": [],
+      "reference_sha256": "6d43a9a9d8a689897bd8594e9581dbc17c22a695b81b99f23d455630c96bc524",
+      "generated_sha256": "6d43a9a9d8a689897bd8594e9581dbc17c22a695b81b99f23d455630c96bc524",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/firm_comparison_summary.csv",
+      "rows": 22,
+      "numeric_cells": 350,
+      "mismatches": [],
+      "reference_sha256": "6fb19e31a465745509ccc8e0af37daa1c8152149520d7078a2f645d8b6422440",
+      "generated_sha256": "6fb19e31a465745509ccc8e0af37daa1c8152149520d7078a2f645d8b6422440",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/firm_rank_table.csv",
+      "rows": 22,
+      "numeric_cells": 266,
+      "mismatches": [],
+      "reference_sha256": "02734ebcd1cbe6867bbe383a940134da0418573fee28bbe0a0afa275a2a2803f",
+      "generated_sha256": "02734ebcd1cbe6867bbe383a940134da0418573fee28bbe0a0afa275a2a2803f",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/policy_scenario_summary.csv",
+      "rows": 44,
+      "numeric_cells": 924,
+      "mismatches": [],
+      "reference_sha256": "b218fdfe95f68d1ee8c43dbe11a4a8a445751a468a7a32f89eda26707c7e342c",
+      "generated_sha256": "b218fdfe95f68d1ee8c43dbe11a4a8a445751a468a7a32f89eda26707c7e342c",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/policy_sensitivity_summary.csv",
+      "rows": 132,
+      "numeric_cells": 1188,
+      "mismatches": [],
+      "reference_sha256": "14c05b71217cabba40a2a83788134a2fe4ca12ffd030b7ef2826e209413d6599",
+      "generated_sha256": "14c05b71217cabba40a2a83788134a2fe4ca12ffd030b7ef2826e209413d6599",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/regression_results_cross_country.csv",
+      "rows": 2,
+      "numeric_cells": 12,
+      "mismatches": [],
+      "reference_sha256": "49107b62ec8d9c8b7b50f16ff5249c40ad017f8a6aafb63f92162330c9793127",
+      "generated_sha256": "49107b62ec8d9c8b7b50f16ff5249c40ad017f8a6aafb63f92162330c9793127",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/regression_results_infra.csv",
+      "rows": 2,
+      "numeric_cells": 12,
+      "mismatches": [],
+      "reference_sha256": "5ef09a14cedea92637136120606640c386ef8145f3358e2057aa1423383a7300",
+      "generated_sha256": "f8bfaf1a4403a951e0b8bacbae29680d1d8cdd38b7ce64c0fe0e4d2f59952e54",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/regression_results_music.csv",
+      "rows": 8,
+      "numeric_cells": 69,
+      "mismatches": [],
+      "reference_sha256": "0384f8edf7369c00e1befbf9a59bf2d578af806bb45a78e6967e5750f2f0178a",
+      "generated_sha256": "05e985dbce0e4b617762f37cefe3df838b758707093facf1a72350cdaab0d919",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/regression_results_webtoon.csv",
+      "rows": 4,
+      "numeric_cells": 33,
+      "mismatches": [],
+      "reference_sha256": "930e50e1da9a637b334ea7a8bcbf9cf7fe02371c542216d33d603b4440e0a3b6",
+      "generated_sha256": "930e50e1da9a637b334ea7a8bcbf9cf7fe02371c542216d33d603b4440e0a3b6",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/policy_adverse_sensitivity_contrasts.csv",
+      "rows": 30,
+      "numeric_cells": 30,
+      "mismatches": [],
+      "reference_sha256": "1d1c321e2664ea33a92b1e81201c10abb74609752835dfb29106c57e94819107",
+      "generated_sha256": "1d1c321e2664ea33a92b1e81201c10abb74609752835dfb29106c57e94819107",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/policy_baseline_decomposition.csv",
+      "rows": 44,
+      "numeric_cells": 264,
+      "mismatches": [],
+      "reference_sha256": "6bc405621e572cf0a93566c5b8239c2d31ef1fe117896fb217bac6b19f69171b",
+      "generated_sha256": "6bc405621e572cf0a93566c5b8239c2d31ef1fe117896fb217bac6b19f69171b",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/policy_baseline_decomposition_summary.csv",
+      "rows": 9,
+      "numeric_cells": 45,
+      "mismatches": [],
+      "reference_sha256": "2994677b11b9d6cc18ead5eb47327691c12364fcb3dad11cc4da58e762c8ae7d",
+      "generated_sha256": "2994677b11b9d6cc18ead5eb47327691c12364fcb3dad11cc4da58e762c8ae7d",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/policy_matched_contrasts.csv",
+      "rows": 30,
+      "numeric_cells": 30,
+      "mismatches": [],
+      "reference_sha256": "fb4c965ebb471a71d413c3fd282d5cbd1be88d7ea28cef25419d3de1a3048952",
+      "generated_sha256": "fb4c965ebb471a71d413c3fd282d5cbd1be88d7ea28cef25419d3de1a3048952",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/signed_axis_robustness.csv",
+      "rows": 11,
+      "numeric_cells": 97,
+      "mismatches": [],
+      "reference_sha256": "a1b675e1124bf7e0fcaf621d75dee2b64c652f0eef5322b4107d80ddb7f130a6",
+      "generated_sha256": "a1b675e1124bf7e0fcaf621d75dee2b64c652f0eef5322b4107d80ddb7f130a6",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/subindex_channel_contrasts.csv",
+      "rows": 14,
+      "numeric_cells": 56,
+      "mismatches": [],
+      "reference_sha256": "9c1850ee5a127b9e1427812a6f82f95721e63b1bce8237979efd3d88045f5671",
+      "generated_sha256": "9c1850ee5a127b9e1427812a6f82f95721e63b1bce8237979efd3d88045f5671",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/spec_robustness_summary.csv",
+      "rows": 26,
+      "numeric_cells": 52,
+      "mismatches": [],
+      "reference_sha256": "273cf26c792514e741748b98284dd503344e07d2fdb6f52646295256dbba51b7",
+      "generated_sha256": "273cf26c792514e741748b98284dd503344e07d2fdb6f52646295256dbba51b7",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/timeseries_change_summary.csv",
+      "rows": 133,
+      "numeric_cells": 1485,
+      "mismatches": [],
+      "reference_sha256": "93c9a89afe993fb6fc321b2d85ef74523a0d97a84f5a6c2c691eca31e88baa00",
+      "generated_sha256": "93c9a89afe993fb6fc321b2d85ef74523a0d97a84f5a6c2c691eca31e88baa00",
+      "passed": true
+    }
+  ],
+  "new_generated_tables": [],
+  "expected_reference_tables_not_regenerated": [],
+  "report_claims": [
+    {
+      "claim": "CPII full-period mean: music",
+      "actual": 54.13404415113333,
+      "expected": 54.13,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "claim": "CPII full-period mean: webtoon_story",
+      "actual": 54.229543797325,
+      "expected": 54.23,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "claim": "CPII full-period mean: digital_infra",
+      "actual": 42.9980568458,
+      "expected": 43.0,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "claim": "CPII 2025Q2-Q4 mean: music",
+      "actual": 55.845275187300004,
+      "expected": 55.845,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "CPII 2025Q2-Q4 mean: webtoon_story",
+      "actual": 50.426176359,
+      "expected": 50.426,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "CPII 2025Q2-Q4 mean: digital_infra",
+      "actual": 43.400761712266664,
+      "expected": 43.401,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "NET same-input reduction: digital_infra",
+      "actual": 7.877342704125001,
+      "expected": 7.877,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "NET same-input reduction: music",
+      "actual": 10.851043061116666,
+      "expected": 10.851,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "NET same-input reduction: webtoon_story",
+      "actual": 13.204902945099999,
+      "expected": 13.205,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "Melon-Spotify core direction",
+      "actual": 0.5,
+      "expected": 0.5,
+      "tolerance": 5e-05,
+      "passed": true
+    },
+    {
+      "claim": "Melon-Spotify extended direction",
+      "actual": 0.5375,
+      "expected": 0.5375,
+      "tolerance": 5e-05,
+      "passed": true
+    },
+    {
+      "claim": "Extended direction mean: music",
+      "actual": 0.4508333333333333,
+      "expected": 0.451,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "Extended direction mean: webtoon_story",
+      "actual": 0.1666665,
+      "expected": 0.167,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "Extended direction mean: digital_infra",
+      "actual": 0.4824946666666667,
+      "expected": 0.482,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "Extended cases positive after axis deletion",
+      "actual": 11,
+      "expected": 11,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "claim": "Extended cases positive across weight box",
+      "actual": 11,
+      "expected": 11,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "claim": "Positive adverse NET pairwise contrasts",
+      "actual": 30,
+      "expected": 30,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "claim": "Narrow event cases failing pretrend conditions",
+      "actual": 9,
+      "expected": 9,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "claim": "Ofcom proxy exclusion maximum sector-mean change",
+      "actual": 0.8675546086,
+      "expected": 0.868,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "Ofcom proxy exclusion maximum firm-row change",
+      "actual": 17.2399688545,
+      "expected": 17.24,
+      "tolerance": 0.0005,
+      "passed": true
+    }
+  ],
+  "tests_exit_code": 0,
+  "status": "PASS",
+  "regenerated_reference_tables": 49,
+  "verified_numeric_cells": 75305,
+  "test_count": 83,
+  "environment": "Fresh Python 3.12 virtual environment; only pinned requirements.txt installed from PyPI",
+  "simulator_export": "Original build_fictional_examples exporter; archived schema preserved, no comparison normalization",
+  "code_sha256": {
+    "scripts/build_alt_spec_cpii_panels.py": "1a743a68efdc6f0ddcd1ce27284d49aea6be02c684617f04a686b22ed64925b7",
+    "scripts/build_country_comparison_tables.py": "5febec0f1fc4bdada5de1b57acf603e112a7d442be9c8ec38ba471c77464f8fc",
+    "scripts/build_cpii_panels.py": "a136ac8832dade6d17c6a151c9852ef8849025b62a0a9d088f30d6daadfdc0ba",
+    "scripts/build_deduplicated_panel.py": "011d50861481bf1fef2afdfab76ee54d839783b7aaa5117fcb0e5295e9350a1e",
+    "scripts/build_event_registry.py": "b4c90fc2b522797dbc721e4a8391516dc0ef6aa364c3c44004bd164ab69f7784",
+    "scripts/build_filing_metadata_panel.py": "a5653ad09cf436b0b5fda77d872ec05b791401be9ac55d97da3fc78e435caf82",
+    "scripts/build_financial_extraction_panel.py": "4030b0246f019ab804be988510a3560f7db43d1e66f06a7abde5e680285989be",
+    "scripts/build_firm_comparison_tables.py": "9cd9d1112d31434a9d4003f0e28d16ae451c261f134b54715d2998779b64814e",
+    "scripts/build_firm_service_coverage_audit.py": "0709f8a180992749ce222969e18f67cb564fd84cc0fcf9f99f24fe0e1a74e806",
+    "scripts/build_panel_skeletons.py": "0ebdbf525e2cd6e2f2847b0a3a5fffbfa24814b579ce15d5015d9222a30cb9bd",
+    "scripts/build_policy_calibration.py": "dfa0ac8a447b702f6345f5315bd5eb776ba1bb8ebc1a05a152c1b6edc45e20b8",
+    "scripts/build_policy_scenarios.py": "648eed32e0905c52f39e1322a2103beffe9a61ed3e68ad17c9ea99856c017431",
+    "scripts/build_report_asset_index.py": "b099447a744e232f7dfbb71c79242784b7004ccf2a29c75994aba1e99227439f",
+    "scripts/build_report_portable.py": "a04ddd1f5acf2bd69000d70fe92cfe27108dd93db18f97dce7226a56a02bc7e4",
+    "scripts/build_report_ready_assets.py": "015d1be4e3590cf4a6c56cc8fb4cd50c24562e48ecab3c0329296024caba34eb",
+    "scripts/build_row_level_lineage_table.py": "9c914eef624430e269184264663d00056d316f49fa38741c54e5613a9319575c",
+    "scripts/build_spec_robustness.py": "03fea2984face7e0ddb092358634002ff1809db6eef144b26ab290b54bad6452",
+    "scripts/build_standardized_numeric_panel.py": "596f70e9b5c072bf8a4d2b674a95115cf4a323921463fed43b671260fe239f94",
+    "scripts/build_subindex_panels.py": "60812fbfb83d9821f8e993429dcd8855db14daf191e59a1020ff8d4437d64d42",
+    "scripts/build_timeseries_analysis.py": "04c6756c348c9352a08278b0e9f3c322b92c7f9051d04c0a40236d74b6f3c3fe",
+    "scripts/build_variable_panels.py": "4d49e68dc5ce3bd75e1c90c693a477542ffe18646e9a3223a9c17d08735df954",
+    "scripts/build_variable_qc_report.py": "77367254d0bdec0738e3b47d7013f815d8379c528e1f346c542d95a6c2d1a2ed",
+    "scripts/claim_strengthening/build_ca_tw_regulatory_obligations_core.py": "28951949ad021c66a67b112d98a6391d02bef169b835c1c36e55287a34e854b8",
+    "scripts/claim_strengthening/build_cashflow_recovery_pressure_panel.py": "e27ba501a7fc187295dd4379e32c7104104f3080e0e792940e0adc0e46cd3533",
+    "scripts/claim_strengthening/build_claim_alt_hypothesis_reduction.py": "d3ffbec368adf43608a27fdca0733c69a71172d91a74aae7c9829970db05a078",
+    "scripts/claim_strengthening/build_claim_channel_decomposition_outputs.py": "dbb76eff15edd2339cfbddaea56a063745614600c2b919454f1840f3cdc0c3d5",
+    "scripts/claim_strengthening/build_claim_korea_vs_global_gap_outputs.py": "16bff8f5c4af3621679a17273c7ff886a80de5114bd699225097461ff38c97ce",
+    "scripts/claim_strengthening/build_claim_leave_one_country_out.py": "d6597e4402a99f1f3cafb55bd10150a45a1dbbe98fe5c1b8787ff3f974cc30a0",
+    "scripts/claim_strengthening/build_claim_leave_one_peer_out.py": "db5327d9849d1b5741043c13ea1a18bb45c122f70e022a506c2ef443e7a5b948",
+    "scripts/claim_strengthening/build_claim_peer_rank_table.py": "33676209563cc1b6270f2907758e6900535dba0ccfa1b7193e05350a1f892574",
+    "scripts/claim_strengthening/build_claim_placebo_event_results.py": "678dcd31cdd7635d3ca7c45cc0e31fced5ff0f1e0813010e09c01a86f7572e88",
+    "scripts/claim_strengthening/build_claim_placebo_outcome_results.py": "d2eac38ff07025ffbe6d4f3a11e4cb1478fa0c464905ad8f1c9fa929d114f21d",
+    "scripts/claim_strengthening/build_claim_pretrend_check.py": "ee0e205d019f89f77808eec508ce47ae7f67ee487c39fd457ca6e2a5a2c732bf",
+    "scripts/claim_strengthening/build_common_period_audit_matched.py": "c1553470e8098bbb0ec7bc3af621d51da0c0255bbc85df99cbe75d7c347f7d29",
+    "scripts/claim_strengthening/build_concentration_decomposition_outputs.py": "bec16cef1401b500ad2fdf6433a080c5758bddfc2ddb39f86682781558b84958",
+    "scripts/claim_strengthening/build_core_sample_exclusion_log.py": "d32475d7c7a3d204631ddddb3cfb65298e2b7d1f3451e18954d018e72f83e0bb",
+    "scripts/claim_strengthening/build_cost_sensitivity_outputs.py": "64f8a3a4b7e2b8e460e937e253fbbbdd2ca859807bb2c2460ba35a966cb9ebf1",
+    "scripts/claim_strengthening/build_cross_market_transfer_matched_panel.py": "349df8071ed41faf6c4b03daa929e2053ef201634e4d81c0dd84a9b45d3ec0e7",
+    "scripts/claim_strengthening/build_direct_cost_burden_panel.py": "289772d50d614345f4005377cbf82b6d14b09d5def5a3bd7e93de03227c92f79",
+    "scripts/claim_strengthening/build_direct_regulatory_burden_panel.py": "3553554fc1004f5f42b0ec22139a25ba9ad93b56a26b649e627c9d64329414d0",
+    "scripts/claim_strengthening/build_event_registry_narrow.py": "ee3e0f9c5cedd5db4c2d709e01b97fbe0d2f7fd880fcdd0e7d01c12074a7a88c",
+    "scripts/claim_strengthening/build_final_claim_evidence_grading.py": "14fc70bdef62563fa365ab90fb7aa2790f51f1f9159b47f8d1e147eb84cd9c6d",
+    "scripts/claim_strengthening/build_funding_cost_matched_panel.py": "9d9f2a3be1a4d34ac3650576a6b5583985ab4cb6c3feb8e4012c0155448fac73",
+    "scripts/claim_strengthening/build_i_market_narrow_panel.py": "240ca451822efed310db4c630f0e2d1fb54901a971709eb138d66e919dba73f4",
+    "scripts/claim_strengthening/build_i_reg_narrow_panel.py": "28cf855fa7063bc470fa73c496cf4bf13587dd0c1187334711a93d0a290ddd26",
+    "scripts/claim_strengthening/build_i_risk_narrow_panel.py": "af1a29713eb039bcf9d70cba717e74a2afc5e72183c0887cefc9ff249d9864f9",
+    "scripts/claim_strengthening/build_investment_recovery_horizon_panel.py": "7934c6898b608612897b2f1559fc8406ebf87e5b4c19a20f3012397b47e3852b",
+    "scripts/claim_strengthening/build_ip_assetization_comparison_table.py": "b518b32339c6a42025bfb0f34894d0b20aab3828104bffaa2ac0ee2748b8d983",
+    "scripts/claim_strengthening/build_jp_uk_regulatory_obligations_core.py": "6d2dc751d27b2ffd597cde24038174a90be7a535b63d8d1678aced861608028e",
+    "scripts/claim_strengthening/build_kr_music_reverse_discrimination_reanalysis.py": "0e46635c0d8f868dda589bf2f1dc6635d407fd1fa288cc5b46f7c247e0ef6da8",
+    "scripts/claim_strengthening/build_kr_regulatory_obligations_core.py": "64ece5fe4bdfaf3b617effb05d18bffdafd63238fbc0404015529c7ecad37aa7",
+    "scripts/claim_strengthening/build_local_share_erosion_episode_table.py": "804e1e78b9fb1864f1fcd0654c230ff702ccf3508f0f0c64fec8ae69292a5f38",
+    "scripts/claim_strengthening/build_matched_effective_tax_rate_panel.py": "a69bbb127cba184b75942e29f3d58ba168e88ae1a2a78f55717ead3b7cc123f7",
+    "scripts/claim_strengthening/build_network_cost_incidence_table.py": "9ec44d51e8a19a709d45f180d93b6559cdafb745d0ca2abcdb93142a8aa2050b",
+    "scripts/claim_strengthening/build_parafiscal_burden_table.py": "2315f82692010b2011f768bbb8ee3ef7d85b0dbaac1a311324eaf3aded3a5f97",
+    "scripts/claim_strengthening/build_placebo_event_registry.py": "757796fb20a623a1b379832ddfa3ba5ba87978936fee63107b3238c4c47a3f65",
+    "scripts/claim_strengthening/build_regulatory_enforcement_evidence_panel.py": "95acffbcecd1baa146eeb914780481bcd43684d8ac9e6072eb284c037d072da7",
+    "scripts/claim_strengthening/build_regulatory_lag_comparison_table.py": "729af0272b7722e95a16ee5a5ee31e945c64858801fe2eebfb52e95aea81e049",
+    "scripts/claim_strengthening/build_report_ready_claim_figures_index.py": "1190c1f6c984bd218c92b98f618e84ff5787e72079a22e6e68b52589ff08af0a",
+    "scripts/claim_strengthening/build_report_ready_claim_tables_index.py": "1618e67428618986e287880efc28cda3189ebac4db53fce1d587d3f6bdea8628",
+    "scripts/claim_strengthening/build_reverse_discrimination_balanced_panel.py": "7769f913d259a86be8741dd89eb44b752fc69f128b20cc88cbaa849c734fcae9",
+    "scripts/claim_strengthening/build_reverse_discrimination_composite_narrow.py": "3c3dcffeb286ab5e3ef897ce35c2d643b423b1fe49204664fa2498da66683dab",
+    "scripts/claim_strengthening/build_reverse_discrimination_core_sample_v1.py": "10f7ff840249b6ff666add93faab21a8104dbbaa652af0463254ca5364dbd7a2",
+    "scripts/claim_strengthening/build_switching_cost_narrow_panel.py": "1e47ddd4121e84a94f8fe463922eedd648c0ce45b620e955e99d4c7e928b8ea3",
+    "scripts/claim_strengthening/build_traffic_cost_pressure_matched_panel.py": "2f53b4442383506f1c27eeaa39c5bfeb42abf71510815dc4a6c4022af99502a9",
+    "scripts/claim_strengthening/build_us_regulatory_obligations_core.py": "48d0852cf49c04779e923c393169582a6b95bd1b329305adbd14376368c58ea8",
+    "scripts/claim_strengthening/music_econ_extension/build_music_econ_extension_figures.py": "da06b2172a0fb824975e89048de84d4673c26a10e8f17341543c0b9c5fa1890c",
+    "scripts/claim_strengthening/music_econ_extension/run_premium_lite_did.py": "829ade97e1e6c70db8b126e3781f9225329321232b9462b3bafe9a477a10aa07",
+    "scripts/claim_strengthening/music_factcheck/build_kr_music_reverse_discrimination_reanalysis_v2.py": "96fd60d7ae5421828b204ff801777b86a2de0a4e8a9c031d43a676ba4c560c5b",
+    "scripts/claim_strengthening/music_factcheck/build_music_peer_tax_rebuild.py": "6265c92054dee52cf0815006baaedd3098a0adc2fb0a9bf3fb23ea3aebd6dbeb",
+    "scripts/collect_global_filings.py": "716bdb66e327f63486c1b889590de29eb6d8abb4f1b838aadbfb6298fa93a67c",
+    "scripts/collect_infra_service_data.py": "dd4d9db7161fac3732b3428f54a7f393eca8a94bbef48b7a04f70617e2a3bec0",
+    "scripts/collect_kr_filings.py": "aae6104bfcd13251ef5af39ffee6bafe4fa14edff5ab81a1e81dca5acfe44ab3",
+    "scripts/collect_music_market_data.py": "88473cf9cc6ef3c62fb421078a547a5f52a4f2c87f5bddbfbb43464786e76f64",
+    "scripts/collect_webtoon_market_data.py": "9a3a972174af7674ee1ad3955460306a1800946a95f4b6deda4f32d554883b72",
+    "scripts/cpii_simulator/__init__.py": "3ba724699404c9dee7255f640889a6fa0c1b75a7b35321f74db931c90c78eec2",
+    "scripts/cpii_simulator/audit_v2_regressions.mjs": "98a02e71d6a0d06335c4137a56dfbe691256bb70ce0a6ed27746dea199e452ae",
+    "scripts/cpii_simulator/build_anchor.py": "50c85c65d366e6b891e632ddcbea0c9c9771e458b6ab4e4fc071c8af31f9c715",
+    "scripts/cpii_simulator/build_appendix.py": "e8e9deeb73a702c61c36970621ae1cfe96daaa8f5aca82c4cc0d3de10f44417b",
+    "scripts/cpii_simulator/build_fictional_examples.py": "42246a50a203b87529840af0c820749097deacfee7beb13ad8309157a24350db",
+    "scripts/cpii_simulator/build_workbook.mjs": "ed874a36f4f595e152ec58949db2382d7f30882e94d76a3cdb920b6e0cba9072",
+    "scripts/cpii_simulator/build_workbook_payload.py": "d311751353358473961f4181fb2b10bf2c32673f79b3bb55e733042c47e172f6",
+    "scripts/cpii_simulator/check_recalculated_v2.py": "c2bdacfea9e5818cf6df7e6b5e20fcc07152bc79c8a6ce75a4d6a08066ab2289",
+    "scripts/cpii_simulator/cli.py": "efe593b719eb9cf6d4d2fe285aadef5978e8482d05ae83102c7256a30f0f5b42",
+    "scripts/cpii_simulator/compare.py": "8b046bbbe03d808c191041c35252fa4cbce0702ab0f883764c81a4cd5a9b488e",
+    "scripts/cpii_simulator/decompose.py": "ec8f34197d28377c66acc86cd95aaefbc8304cb265866b5a73a38f134d8eee64",
+    "scripts/cpii_simulator/economic_bridge.py": "57f661409597e5507996097b75889d45eccb0ec018915ac498e8da24f4e8b4d0",
+    "scripts/cpii_simulator/engine.py": "e8192e5071914e7da34ff10c964603f332810574c57beb410e23e3dd6a7e5c85",
+    "scripts/cpii_simulator/narrative.py": "29022f4908af60b653c8638b6cc88abe786f947bc3fa641ab3b2062c92c709f0",
+    "scripts/cpii_simulator/package_release.py": "99161a9f9bbc2c3604aa5a1b77b9b907512d89440f27cce209f990ea805ced98",
+    "scripts/cpii_simulator/package_v2.py": "2a4b934bc656de3415ad9b02f993cdf38cd33d894375c967e557d2ae4a306912",
+    "scripts/cpii_simulator/run_simulation_audit.py": "b6d9305995dc82ad6f1bdcef42975d29b6b5fb26630c18a5a9914e9f4104c161",
+    "scripts/cpii_simulator/sensitivity.py": "1f2f56724fd125898d75bde2464a4cd63164e5cb30afef8f05757ea1063d1e03",
+    "scripts/cpii_simulator/simulate_workbook.mjs": "e44ce9639396f723c2ad1e877096da6dce6119eefe712836b435942d5d1a02eb",
+    "scripts/cpii_simulator/validate_appendix_numbers.py": "3d9f30e48772ced8d60dfcb905c581a83ec5228e8b0d03fb36b7f9b99d3cb2c8",
+    "scripts/cpii_simulator/validate_delivery_docs.py": "4725611fed9de7c695546d0ea99a3b0aff112fb7f49962cb9207694dcb60f6dc",
+    "scripts/cpii_simulator/validate_input.py": "366580b845a1fe459f19d7faefd475f8fb5565fb884698aef49bc4fdce5f47e4",
+    "scripts/cpii_simulator/validate_variable_dictionary.py": "33b25b007146466cd4b20e5281f2b9d083c4c94af1617eb27238c662c59ab4f8",
+    "scripts/cpii_simulator/verify_workbook.mjs": "8b697adbb93b152fcbc734c059969c82088bd54eaecf1c1f5f45185d05f44561",
+    "scripts/cpii_simulator/verify_workbook_scenarios.mjs": "2a6346ab60cc4b579e04736b0afe664d3e17d737fc3b3eeb15286ae67ff55980",
+    "scripts/ofcom_proxy_sensitivity.py": "a19935fd2456e17142fd023ac4c761d2c9faa7e2d605a5b41c2b217620424d77",
+    "scripts/replicate.py": "eb6066faf19308298f1f74809238bb8551dd766d36590de32a2101ed78bdf3d7",
+    "scripts/review_strengthening_20260915.py": "4e73250087cdbab0837dcb48491fa401f207758a6f4b2586f6d1a875a4fc910e",
+    "scripts/run_sector_regressions.py": "6e6ad94b1efe63bb72760b43243fdb14f047d835df0c5eb44be83d255fe1bba9",
+    "scripts/thicken_kr_telecom_fy2024_filings.py": "864fb78db21e6607b0f51bc3c074d7ea4a7232b86761030abf61c0c3c0a01c84",
+    "scripts/thicken_uk_tw_infra_country_proxies.py": "76d50fe5841851e40f232428753c2181070a4133a9768beae45d7eee1fcd3ef9",
+    "scripts/thicken_us_infra_fy2024_filings.py": "71ccb36d83ff1fa1e94ae501ff2911f3511f2434dec747d28317a3f2992f8732",
+    "scripts/thicken_us_infra_q2_filings.py": "5449a9d6bcceb3663bffdb9b0c179d9d682dbab84e5511f3a028d67dc9e205da",
+    "scripts/verify_publication.py": "dee85299518d89044092e79a21f178310ed3e378f540005c248dc7d645fd11e0"
+  }
+}

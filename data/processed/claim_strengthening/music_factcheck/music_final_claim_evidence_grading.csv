@@ -1,0 +1,12 @@
+sentence_level,claim_sentence_ko,evidence_grade,allowed_use,main_supporting_basis,main_residual_risk
+strong_main_text,"한국 경쟁당국은 유튜브 번들 설계를 한국 온라인 음악시장 경쟁과 소비자 선택권 문제로 보고 구조적 시정을 요구했다.",A,yes,"T_kr_music_reverse_discrimination_summary_v2.csv;youtube_bundle_official_timeline.csv",동의의결은 최종 위법 판결이 아니므로 법적 성격을 과장하면 안 된다.
+strong_main_text,"국내 월정액 스트리밍 서비스는 공개 징수규정상 gross-sales 기준 부담에 직접 노출된다.",A,yes,"domestic_tariff_rule_extract.csv;gross_vs_net_factcheck_table.csv",이 문장은 국내 규정 사실까지가 상한이며 외국 플랫폼과의 일괄 공식 대비로 확장하면 안 된다.
+strong_main_text,"한국 음악산업의 일부 핵심 접점에서는 구조적 비대칭이 반복 관측된다.",B,yes,"T_kr_music_reverse_discrimination_summary_v2.csv;kr_music_reverse_discrimination_reanalysis_v2_log.md",일부 핵심 접점이라는 범위 제한을 빼면 industry-wide average headline으로 과대 일반화될 수 있다.
+conditional_only,"한국 음악산업은 국내 핵심 경쟁 접점 기준 평균적으로 더 높은 구조적 불리함에 노출된다.",C,conditional,"T_kr_music_reverse_discrimination_summary_v2.csv;kr_music_reverse_discrimination_reanalysis_v2_log.md",v2 overall judgment가 mixed_support로 내려가 현재는 조건부 문장으로만 유지 가능하다.
+conditional_only,"유튜브 번들, 공개 라이선스 규정, 일부 직접 세금 burden gap을 함께 보면 한국 음악산업은 평균적으로 역차별을 받고 있다고 해석할 수 있다.",C,conditional,"kr_music_reverse_discrimination_reanalysis_v2.csv;tax_claim_sentence_matrix.csv",직접 세금 gap이 좁은 matched pair에 의존하고 tax visibility 및 Billboard 축이 약화돼 문장 강도를 높이면 과장 위험이 크다.
+conditional_only,"Billboard 등 외국 소유 지표 설계 변화는 수출지향 K-pop의 일부 채널에 구조적 불리함을 줄 수 있다.",C,conditional,"billboard_rule_change_factcheck.csv;foreign_metric_dependence_alt_test.csv",현재는 export-facing partial risk까지만 지지되며 산업 전체 평균의 구조적 역차별로 바로 연결되지는 않는다.
+conditional_only,"현재 세금 비대칭의 strongest defensible form은 일부 직접 tax burden gap과 Korea-facing visibility gap이 함께 존재한다는 주장이다.",C,conditional,"tax_claim_sentence_matrix.csv;music_peer_tax_rebuild.csv;bigtech_korea_tax_visibility_map.csv",visibility gap은 nonpayment가 아니고 direct tax gap은 단일 matched pair에 크게 의존한다.
+delete,"한국 음악산업 전체 평균의 구조적 역차별이 강하게 입증됐다.",D,no,"T_kr_music_reverse_discrimination_summary_v2.csv",v2 overall score가 63.487892이고 headline judgment가 mixed_support라 강한 단정 결론은 현재 근거 범위를 넘는다.
+delete,"글로벌 빅테크는 한국 시장에서 세금을 거의 내지 않는다.",D,no,"tax_claim_sentence_matrix.csv;korea_digital_service_tax_rulebook.csv",공식 자료는 Korea-specific nonpayment를 직접 보여 주지 않으며 법적 tax reach도 존재한다.
+delete,"Billboard는 K-pop을 직접 겨냥해 규칙을 바꿨다.",D,no,"billboard_rule_change_factcheck.csv",현재 자료는 반-K-pop 의도보다 monetization·anti-manipulation·weighting change를 더 직접적으로 지지한다.
+delete,"모든 국내 플랫폼은 gross 기준이고 모든 해외 플랫폼은 net 기준이다.",D,no,"gross_vs_net_factcheck_table.csv",국내 공개 tariff와 외국 플랫폼 비교불투명성은 확인되지만 blanket one-line formula contrast는 검증되지 않았다.

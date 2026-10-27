@@ -1,0 +1,10 @@
+country_std,country_name_ko,priority_tier,selection_order,score_total,filing_access,market_data_access,infra_data_access,regulatory_data_access,selection_reason,source_url_1,source_url_2
+kr,대한민국,primary,1,3.00,high,high,high,high,국내 기준시장과 정책 기준선 산출에 필수,https://englishdart.fss.or.kr/,https://stat.kisdi.re.kr/kor/contents/ContentsList.html
+uk,영국,primary,2,3.00,high,high,high,high,영문 공개자료와 디지털 규제 비교에 가장 효율적,https://find-and-update.company-information.service.gov.uk/,https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/online-nation
+us,미국,primary,3,2.75,high,medium,high,high,글로벌 플랫폼 본국이라 비교기업과 규제 충격 사건이 풍부함,https://www.sec.gov/edgar/search-and-access,https://www.ntia.gov/topics/data-central
+jp,일본,primary,4,2.75,high,medium,high,high,음악과 스토리 산업 인접 시장으로서 산업 관련성이 큼,https://disclosure2.edinet-fsa.go.jp/week0010.aspx,https://www.stat.go.jp/english/data/nenkan/1431-12e.html
+tw,대만,primary,5,2.75,high,medium,high,high,동아시아 플랫폼 및 콘텐츠 유통 비교군으로 적합함,https://mops.twse.com.tw/mops/web/index,https://www.ncc.gov.tw/english/files/25120/392_6217_251201_1.pdf
+ca,캐나다,primary,6,2.75,high,medium,high,high,온라인 스트리밍과 통신 규제 자료가 안정적이라 실행 우선순위가 높음,https://www.sedarplus.ca/onlinehelp/general-help/search-sedar/search-profiles/,https://crtc.gc.ca/eng/publications/reports/PolicyMonitoring/
+au,호주,secondary,7,2.70,medium,high,high,high,디지털 플랫폼 조사자료는 강하지만 기업 공시 상세 추출은 보조군이 적절함,https://www.asx.com.au/asx/v2/statistics/todayAnns.do,https://www.acma.gov.au/communications-and-media-australia
+de,독일,secondary,8,2.45,medium,medium,high,high,통신 및 경쟁정책 비교군으로 중요하지만 자료 분산도가 높아 2순위로 둠,https://www.unternehmensregister.de/en,https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/Onlinekommunikationsdienste/Marktbeobachtung/start.html
+sg,싱가포르,secondary,9,2.45,medium,medium,high,high,동남아 규제 및 인프라 비교에는 유용하나 상장사 공시 범위가 상대적으로 제한적임,https://sgx.com/securities/company-announcements,https://www.imda.gov.sg/about-imda/research-and-statistics/telecommunications/statistics-on-telecom-services

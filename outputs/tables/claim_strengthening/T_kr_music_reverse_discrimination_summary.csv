@@ -1,0 +1,7 @@
+summary_level,layer_id,layer_name,metric_count,supportive_metric_count,tempering_metric_count,average_support_score_0_100,supportive_share,headline_judgment,interpretation_note
+layer,L1,regulatory_licensing_asymmetry,3,2,1,70.000000,0.666667,support_with_nuance,This layer supports the reverse-discrimination reading for Korean music's core domestic exposure.
+layer,L2,google_bundle_platform_power,2,2,0,90.234899,1.000000,strong_support,This layer supports the reverse-discrimination reading for Korean music's core domestic exposure.
+layer,L3,domestic_governance_opacity,2,2,0,80.000000,1.000000,support_with_nuance,This layer supports the reverse-discrimination reading for Korean music's core domestic exposure.
+layer,L4,foreign_metric_dependence,1,1,0,80.000000,1.000000,support_with_nuance,This layer supports the reverse-discrimination reading for Korean music's core domestic exposure.
+layer,L5,tax_asymmetry,3,3,0,73.272750,1.000000,support_with_nuance,This layer supports the reverse-discrimination reading for Korean music's core domestic exposure.
+overall,OVERALL,kr_music_domestic_structural_average,11,10,1,78.701530,0.909091,support_with_nuance,"Under the re-scoped domestic structural-exposure average, Korean music is more consistent with a reverse-discrimination reading than under the earlier mixed music-IP comparison."

@@ -1,0 +1,27 @@
+comparison_id,base_spec,alt_spec,metric_category,metric_name,analysis_level,metric_value,sample_n,notes
+baseline_vs_alt_a,baseline,alt_a,score_difference,mean_abs_score_diff,sector_country_quarter,2.0659532773,91,Average absolute CPII gap on the common-support sector-country-quarter sample.
+baseline_vs_alt_a,baseline,alt_a,score_difference,median_abs_score_diff,sector_country_quarter,1.0985372963,91,Median absolute CPII gap on the common-support sector-country-quarter sample.
+baseline_vs_alt_a,baseline,alt_a,score_difference,max_abs_score_diff,sector_country_quarter,9.4417870438,91,Largest absolute CPII gap on the common-support sector-country-quarter sample.
+baseline_vs_alt_a,baseline,alt_a,score_difference,mean_signed_score_diff,sector_country_quarter,0.3461722847,91,Average signed CPII change from baseline to the alternative specification.
+baseline_vs_alt_a,baseline,alt_a,rank_correlation,spearman_rank_corr,sector_country_quarter,0.9801172572,91,Spearman rank correlation using CPII values on the common-support sample.
+baseline_vs_alt_a,baseline,alt_a,policy_priority_stability,top5_overlap_count,sector_country_latest,4,5,"Baseline top5=['webtoon_story|uk', 'webtoon_story|tw', 'webtoon_story|ca', 'music|uk', 'webtoon_story|kr']; alt top5=['webtoon_story|uk', 'webtoon_story|tw', 'webtoon_story|ca', 'webtoon_story|kr', 'webtoon_story|jp']"
+baseline_vs_alt_a,baseline,alt_a,policy_priority_stability,top5_jaccard,sector_country_latest,0.6666666667,5,"Baseline top5=['webtoon_story|uk', 'webtoon_story|tw', 'webtoon_story|ca', 'music|uk', 'webtoon_story|kr']; alt top5=['webtoon_story|uk', 'webtoon_story|tw', 'webtoon_story|ca', 'webtoon_story|kr', 'webtoon_story|jp']"
+baseline_vs_alt_a,baseline,alt_a,policy_priority_stability,top1_same_flag,sector_country_latest,1,1,Baseline top1=['webtoon_story|uk']; alt top1=['webtoon_story|uk']
+baseline_vs_alt_a,baseline,alt_a,sample_change,available_row_count_alt,sector_country_quarter,91,91,Baseline available rows=91
+baseline_vs_alt_a,baseline,alt_a,sample_change,common_row_count,sector_country_quarter,91,91,Rows with nonmissing scores under both baseline and the alternative specification.
+baseline_vs_alt_a,baseline,alt_a,sample_change,alt_to_baseline_retention_ratio,sector_country_quarter,1.0000000000,91,Alternative available rows divided by baseline available rows (91).
+baseline_vs_alt_b,baseline,alt_b,score_difference,mean_abs_score_diff,sector_country_quarter,0.0000000000,64,Average absolute CPII gap on the common-support sector-country-quarter sample.
+baseline_vs_alt_b,baseline,alt_b,score_difference,median_abs_score_diff,sector_country_quarter,0.0000000000,64,Median absolute CPII gap on the common-support sector-country-quarter sample.
+baseline_vs_alt_b,baseline,alt_b,score_difference,max_abs_score_diff,sector_country_quarter,0.0000000000,64,Largest absolute CPII gap on the common-support sector-country-quarter sample.
+baseline_vs_alt_b,baseline,alt_b,score_difference,mean_signed_score_diff,sector_country_quarter,0.0000000000,64,Average signed CPII change from baseline to the alternative specification.
+baseline_vs_alt_b,baseline,alt_b,rank_correlation,spearman_rank_corr,sector_country_quarter,1.0000000000,64,Spearman rank correlation using CPII values on the common-support sample.
+baseline_vs_alt_b,baseline,alt_b,policy_priority_stability,top5_overlap_count,sector_country_latest,5,5,"Baseline top5=['webtoon_story|uk', 'webtoon_story|tw', 'webtoon_story|ca', 'music|uk', 'webtoon_story|kr']; alt top5=['webtoon_story|uk', 'webtoon_story|tw', 'webtoon_story|ca', 'music|uk', 'webtoon_story|kr']"
+baseline_vs_alt_b,baseline,alt_b,policy_priority_stability,top5_jaccard,sector_country_latest,1.0000000000,5,"Baseline top5=['webtoon_story|uk', 'webtoon_story|tw', 'webtoon_story|ca', 'music|uk', 'webtoon_story|kr']; alt top5=['webtoon_story|uk', 'webtoon_story|tw', 'webtoon_story|ca', 'music|uk', 'webtoon_story|kr']"
+baseline_vs_alt_b,baseline,alt_b,policy_priority_stability,top1_same_flag,sector_country_latest,1,1,Baseline top1=['webtoon_story|uk']; alt top1=['webtoon_story|uk']
+baseline_vs_alt_b,baseline,alt_b,sample_change,available_row_count_alt,sector_country_quarter,64,64,Baseline available rows=91
+baseline_vs_alt_b,baseline,alt_b,sample_change,common_row_count,sector_country_quarter,64,64,Rows with nonmissing scores under both baseline and the alternative specification.
+baseline_vs_alt_b,baseline,alt_b,sample_change,alt_to_baseline_retention_ratio,sector_country_quarter,0.7032967033,64,Alternative available rows divided by baseline available rows (91).
+baseline_vs_alt_a,baseline,alt_a,sign_stability,I_reg_sign_stable,sector_country_quarter_common_regression,1,64,"baseline_coef=0.4877040199 (positive), alt_coef=0.4926224119 (positive)"
+baseline_vs_alt_a,baseline,alt_a,sign_stability,I_risk_sign_stable,sector_country_quarter_common_regression,0,64,"baseline_coef=-0.3252889352 (negative), alt_coef=0.0048266389 (positive)"
+baseline_vs_alt_b,baseline,alt_b,sign_stability,I_reg_sign_stable,sector_country_quarter_common_regression,1,64,"baseline_coef=0.4877040199 (positive), alt_coef=0.4877040199 (positive)"
+baseline_vs_alt_b,baseline,alt_b,sign_stability,I_risk_sign_stable,sector_country_quarter_common_regression,1,64,"baseline_coef=-0.3252889352 (negative), alt_coef=-0.3252889352 (negative)"

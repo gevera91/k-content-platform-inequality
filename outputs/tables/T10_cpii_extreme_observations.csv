@@ -1,0 +1,11 @@
+rank_group,rank_order,sector_std,sector_label,year_quarter,CPII,I_reg,I_risk,I_market,dominant_subindex,large_change_flag,structural_break_candidate,cause_candidate_memo
+bottom,1,webtoon_story,Webtoon/Story,2025Q2,28.389424,0.917659,66.736809,17.513805,,no,no,
+bottom,2,digital_infra,Digital Infra,2024Q4,41.789942,30.975182,47.898661,46.495984,,no,no,
+bottom,3,digital_infra,Digital Infra,2025Q2,43.103171,40.337196,48.205501,40.766817,I_reg,no,no,I_reg_up_dominant
+bottom,4,digital_infra,Digital Infra,2025Q3,43.183238,40.061226,45.59667,43.891817,I_market,no,no,I_market_up_dominant
+bottom,5,digital_infra,Digital Infra,2025Q4,43.915876,42.087727,49.758628,39.901272,I_risk,no,no,I_risk_up_dominant
+top,1,webtoon_story,Webtoon/Story,2025Q4,66.490664,81.072255,70.078326,48.321411,I_reg,yes,no,I_reg_up_dominant
+top,2,webtoon_story,Webtoon/Story,2026Q1,65.639646,81.072255,69.369106,46.477577,I_market,no,no,I_market_down_dominant
+top,3,music,Music,2025Q2,60.065366,79.643559,67.858638,32.693901,I_reg,yes,yes,I_reg_up_dominant
+top,4,webtoon_story,Webtoon/Story,2025Q3,56.398441,57.832341,61.63783,49.725151,I_reg,yes,yes,I_reg_up_dominant
+top,5,music,Music,2025Q3,55.386142,71.061342,38.653183,56.443901,I_risk,no,no,I_risk_down_dominant

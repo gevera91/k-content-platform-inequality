@@ -1,0 +1,11 @@
+country_std,country_name_ko,filing_access,market_data_access,infra_data_access,regulatory_data_access,priority_tier,score_total,selection_reason,source_url_1,source_url_2
+kr,대한민국,high,high,high,high,primary,3.00,국내 기준시장으로서 공시와 미디어 패널과 규제자료 접근성이 모두 가장 우수함,https://englishdart.fss.or.kr/,https://stat.kisdi.re.kr/kor/contents/ContentsList.html
+uk,영국,high,high,high,high,primary,3.00,Ofcom과 CMA 공개자료가 풍부하고 기업 등록정보 검색이 쉬워 실행성이 높음,https://find-and-update.company-information.service.gov.uk/,https://www.ofcom.org.uk/media-use-and-attitudes/online-habits/online-nation
+us,미국,high,medium,high,high,primary,2.75,글로벌 플랫폼 본국이며 EDGAR와 연방 통신 및 인터넷 사용 자료가 강함,https://www.sec.gov/edgar/search-and-access,https://www.ntia.gov/topics/data-central
+jp,일본,high,medium,high,high,primary,2.75,콘텐츠 산업 인접 시장이고 EDINET과 MIC 기반 정보통신 통계 접근이 우수함,https://disclosure2.edinet-fsa.go.jp/week0010.aspx,https://www.stat.go.jp/english/data/nenkan/1431-12e.html
+tw,대만,high,medium,high,high,primary,2.75,MOPS와 NCC 공개자료 덕분에 동아시아 비교군으로 실행 가능성이 높음,https://mops.twse.com.tw/mops/web/index,https://www.ncc.gov.tw/english/files/25120/392_6217_251201_1.pdf
+ca,캐나다,high,medium,high,high,primary,2.75,SEDAR+와 CRTC 공개자료가 안정적이며 온라인 스트리밍 규제 비교에도 유용함,https://www.sedarplus.ca/onlinehelp/general-help/search-sedar/search-profiles/,https://crtc.gc.ca/eng/publications/reports/PolicyMonitoring/
+au,호주,medium,high,high,high,secondary,2.70,ACMA와 ACCC 자료가 강하지만 기업 상세 공시 접근은 상위권보다 다소 번거로움,https://www.asx.com.au/asx/v2/statistics/todayAnns.do,https://www.acma.gov.au/communications-and-media-australia
+de,독일,medium,medium,high,high,secondary,2.45,통신 및 디지털 경쟁 규제자료는 강하나 기업 공시와 플랫폼 사용 자료는 분산되어 있음,https://www.unternehmensregister.de/en,https://www.bundesnetzagentur.de/EN/Areas/Digitalisation/Onlinekommunikationsdienste/Marktbeobachtung/start.html
+sg,싱가포르,medium,medium,high,high,secondary,2.45,IMDA와 CCCS 자료는 우수하나 상장사 공시 접근은 SGX 중심이라 범위가 상대적으로 좁음,https://sgx.com/securities/company-announcements,https://www.imda.gov.sg/about-imda/research-and-statistics/telecommunications/statistics-on-telecom-services
+in,인도,low,medium,high,high,reserve,2.15,시장 규모는 크지만 공식 공시 접근과 플랫폼 시장자료 연결이 아직 더 번거로움,https://www.mca.gov.in/MCA21/dca/WebHelp/Help_MCA21_English.pdf,https://www.trai.gov.in/release-publication/reports/telecom-subscriptions-reports

@@ -1,0 +1,187 @@
+artifact_type,path,owner_step,source_type,source_url,access_date,status,notes
+directory,data/interim,Exec Prompt 01,local_init,,2026-03-28,created,Intermediate standardized datasets before final merge
+file,data/interim/country_infra_raw_registry.csv,Exec Prompt 08,official_public_multi,,2026-03-28,created,"Country-level registry of retained infrastructure raw sources, covered variables, and pending gaps"
+file,data/interim/country_market_usage_registry.csv,Exec Prompt 10,official_public_multi,https://welcon.kocca.kr/ ; https://www.ofcom.org.uk/ ; https://www.ntia.gov/ ; https://www.soumu.go.jp/ ; https://moda.gov.tw/ ; https://crtc.gc.ca/,2026-03-28,created,Country-level market usage source registry with direct versus proxy coverage tags and pending-variable notes
+dataset,data/interim/deduplicated_panel.csv,Exec Prompt 21,derived_deduplicated_panel,,2026-03-29,created,Deduplicated numeric panel with duplicate-resolution flags and missingness reason fields.
+file,data/interim/filing_metadata_panel.csv,Exec Prompt 14,derived_registry,,2026-03-29,created,Unified filing metadata panel with standardized period mapping and source-file selection.
+dataset,data/interim/financial_extraction_panel.csv,Exec Prompt 19,derived_financial_panel,,2026-03-29,created,"Tidy filing-metric extraction panel with raw values, currencies, source notes, and extraction methods."
+file,data/interim/global_filing_manifest.csv,Exec Prompt 13,official_public_multi,https://www.sec.gov/ ; https://group.kadokawa.co.jp/,2026-03-29,created,Global filing manifest with annual/interim/current report metadata and note-location fields.
+dataset,data/interim/infra_service_raw_panel.csv,Exec Prompt 17,derived_public_panel,,2026-03-29,created,Long-form service-country-quarter panel for infrastructure proxies and filing-derived ratios.
+file,data/interim/infra_source_index.csv,Exec Prompt 08,official_public_multi,,2026-03-28,created,Infrastructure source index for primary countries with raw file metadata and candidate variable coverage
+dataset,data/interim/infra_source_registry.csv,Exec Prompt 17,public_web_collection,,2026-03-29,created,"Infrastructure-sector source registry with blocked, proxy, and reused-filing statuses."
+file,data/interim/kr_filing_manifest.csv,Exec Prompt 12,official_public_multi,https://englishdart.fss.or.kr/,2026-03-28,created,Korean filing manifest with filing metadata and note-location fields.
+dataset,data/interim/missingness_audit.csv,Exec Prompt 21,derived_missingness_audit,,2026-03-29,created,Row-level audit of retained missing analytic values after deduplication.
+dataset,data/interim/music_market_raw_panel.csv,Exec Prompt 15,public_web_collection,,2026-03-29,created,"Music market long-form raw panel including chart shares, HHI, and price snapshots"
+dataset,data/interim/music_source_registry.csv,Exec Prompt 15,public_web_collection,,2026-03-29,created,Music sector source registry with collected and pending items
+dataset,data/interim/panel_key_audit.csv,Exec Prompt 22,derived_key_audit,,2026-03-29,created,Key uniqueness tests plus merge failure cell records for expected analysis units.
+dataset,data/interim/panel_skeleton_platform_month.csv,Exec Prompt 22,derived_panel_skeleton,,2026-03-29,created,Expected service-country-month analysis skeleton for music sector with source coverage flags.
+dataset,data/interim/panel_skeleton_platform_quarter.csv,Exec Prompt 22,derived_panel_skeleton,,2026-03-29,created,"Expected service-country-quarter analysis skeleton with direct, title, and filing bridge coverage flags."
+dataset,data/interim/panel_skeleton_sector_quarter.csv,Exec Prompt 22,derived_panel_skeleton,,2026-03-29,created,Expected sector-country-quarter skeleton with observed source coverage counts.
+dataset,data/interim/panel_skeleton_title_quarter.csv,Exec Prompt 22,derived_panel_skeleton,,2026-03-29,created,Observed title-service-country-quarter skeleton built from retained webtoon title rows.
+file,data/interim/regulatory_source_index.csv,Exec Prompt 07,official_public_multi,,2026-03-28,created,Primary-country regulatory source index with obligation items timing fields and raw-path links
+dataset,data/interim/standardized_numeric_panel.csv,Exec Prompt 20,derived_standardized_panel,,2026-03-29,created,"Long standardized numeric panel with preserved raw values, KRW conversions, and real-value columns."
+dataset,data/interim/webtoon_platform_raw_panel.csv,Exec Prompt 16,derived_public_panel,,2026-03-29,created,Service-quarter platform panel with entry count and proxy-based exposure metrics
+dataset,data/interim/webtoon_source_registry.csv,Exec Prompt 16,public_web_collection,,2026-03-29,created,"Webtoon/story source registry with collected, partial, and reference-only statuses"
+dataset,data/interim/webtoon_title_raw_panel.csv,Exec Prompt 16,public_web_collection,,2026-03-29,created,"Title-quarter raw panel with service, country, title IDs, positions, and origin proxies"
+directory,data/processed,Exec Prompt 01,local_init,,2026-03-28,created,Analysis-ready datasets and CPII inputs
+file,data/processed/country_data_coverage_audit.csv,Exec Prompt 11,derived_audit,,2026-03-28,created,"Country-level audit table with 4-axis coverage scores, file checks, and tier recommendations"
+dataset,data/processed/cpii_alt_spec_storage_summary.csv,Post Step 06,derived_analysis_table,,2026-03-29,created,"Summary of total rows, computed rows, and baseline retention for Alt A and Alt B CPII storage outputs."
+dataset,data/processed/cpii_panel_firm_country_quarter.csv,Exec Prompt 26,derived_cpii_panel,,2026-03-29,created,Expanded CPII panel at firm-country-quarter level using the sector anchor specification.
+dataset,data/processed/cpii_panel_firm_country_quarter_alt_a.csv,Post Step 06,derived_analysis_table,,2026-03-29,created,Direct row-level alt_a CPII panel at firm_country_quarter grain.
+dataset,data/processed/cpii_panel_firm_country_quarter_alt_b.csv,Post Step 06,derived_analysis_table,,2026-03-29,created,Direct row-level alt_b CPII panel at firm_country_quarter grain.
+dataset,data/processed/cpii_panel_sector_country_quarter.csv,Exec Prompt 26,derived_cpii_panel,,2026-03-29,created,Expanded CPII panel at sector-country-quarter level for country comparisons.
+dataset,data/processed/cpii_panel_sector_country_quarter_alt_a.csv,Post Step 06,derived_analysis_table,,2026-03-29,created,Direct row-level alt_a CPII panel at sector_country_quarter grain.
+dataset,data/processed/cpii_panel_sector_country_quarter_alt_b.csv,Post Step 06,derived_analysis_table,,2026-03-29,created,Direct row-level alt_b CPII panel at sector_country_quarter grain.
+dataset,data/processed/cpii_panel_sector_quarter.csv,Exec Prompt 26,derived_cpii_panel,,2026-03-29,created,Base report CPII panel at sector-quarter level.
+dataset,data/processed/cpii_panel_sector_quarter_alt_a.csv,Post Step 06,derived_analysis_table,,2026-03-29,created,Direct row-level alt_a CPII panel at sector_quarter grain.
+dataset,data/processed/cpii_panel_sector_quarter_alt_b.csv,Post Step 06,derived_analysis_table,,2026-03-29,created,Direct row-level alt_b CPII panel at sector_quarter grain.
+panel,data/processed/event_study_panel.csv,Exec Prompt 30,derived_event_panel,,2026-03-29,created,"Stacked event-study sample with treated and untreated rows, relative event time, panel type, and inherited variable columns from the source panels."
+file,data/processed/final_reproducibility_checklist.csv,Post Step 04,derived_audit_table,,2026-03-29,updated,Updated Q1 checklist verdict to YES and linked row-level lineage evidence files.
+file,data/processed/firm_service_coverage_audit.csv,Post Step 05,derived_audit_table,,2026-03-29,updated,Rebuilt coverage audit after service-code normalization; service_code_not_in_dictionary is now zero.
+file,data/processed/macro_exchange_cpi_panel.csv,Exec Prompt 09,official_public_multi,https://api.worldbank.org/ ; https://www.cbc.gov.tw/ ; https://eng.stat.gov.tw/,2026-03-28,created,Monthly macro panel for 9 analysis countries with fx_to_krw and 2021=100 CPI and deflator series
+table,data/processed/policy_simulator_baseline_inputs.csv,Exec Prompt 33,derived_policy_input_table,,2026-03-29,created,"Sector-quarter baseline input table for the policy simulator covering CPII/subindices, sector revenue bases, structural ratios, derived NPV potential, and creator-bargaining revenue bases with scenario coverage flags."
+table,data/processed/policy_simulator_calibrated_parameters.csv,Exec Prompt 33,derived_policy_parameter_table,,2026-03-29,created,"Sector-quarter policy parameter table covering rho_bundle, eta_transfer, eta_share, phi_recover, psi_capex, kappa_replace, alpha_ip, lambda_advance, eta_funding, eta_recovery, theta_bargain, and eta_cash with explicit scenario mapping, bounds, and calibration formulas."
+file,data/processed/row_level_lineage_summary.csv,Post Step 04,derived_analysis_table,,2026-03-29,created,"Artifact-level lineage coverage summary for T09, T10, T11, T12, and key report text claims."
+file,data/processed/row_level_lineage_table.csv,Post Step 04,derived_analysis_table,,2026-03-29,created,7993-row lineage table connecting final reported statistics to report-ready rows and executable sample rows.
+dataset,data/processed/subindex_panel_sector_country_quarter.csv,Exec Prompt 25,derived_subindex_panel,,2026-03-29,created,Expanded sector-country-quarter subindex panel with component coverage and missing-reweight metadata.
+dataset,data/processed/subindex_panel_sector_quarter.csv,Exec Prompt 25,derived_subindex_panel,,2026-03-29,created,Report-base sector-quarter subindex panel aggregated from primary-country sector-country-quarter scores.
+dataset,data/processed/variable_panel_platform_month.csv,Exec Prompt 23,derived_variable_panel,,2026-03-29,created,"Platform-month variable master table with financial bridges, dependency proxies, and music bundle metrics."
+dataset,data/processed/variable_panel_platform_quarter.csv,Exec Prompt 23,derived_variable_panel,,2026-03-29,created,"Platform-quarter variable master table with direct service metrics, financial bridges, and title aggregate proxies."
+dataset,data/processed/variable_panel_sector_quarter.csv,Exec Prompt 23,derived_variable_panel,,2026-03-29,created,Sector-quarter variable master table aggregated from platform-quarter rows.
+dataset,data/processed/variable_panel_title_quarter.csv,Exec Prompt 23,derived_variable_panel,,2026-03-29,created,Title-quarter variable master table built from webtoon title rank and script proxies plus country dependency bridges.
+dataset,data/processed/variable_qc_report.csv,Exec Prompt 24,derived_qc_report,,2026-03-29,created,Row-level and summary QC report for variable panels.
+directory,data/raw,Exec Prompt 01,local_init,,2026-03-28,created,Raw source downloads and first-pass captures
+dataset,data/raw/tw/market_usage/tw_market_usage_moda_digital_access_survey_2024_extracted_20260329.csv,Post Step 16,browser_extracted_public_data,https://www-api.moda.gov.tw/File/Get/moda/zh-tw/EJ97STRSQKlDPXJ,2026-03-29,created,Local extract of the retained 91.1% Taiwan online-video-entertainment observation from the official MODA PDF.
+dataset,data/raw/uk/market_usage/uk_market_usage_ofcom_online_nation_2024_extracted_20260329.csv,Post Step 16,browser_extracted_public_data,https://www.ofcom.org.uk/siteassets/resources/documents/research-and-data/online-research/online-nation/2024/online-nation-2024-report.pdf?v=386238,2026-03-29,created,Local extract of the retained 94% UK YouTube reach observation from the official Ofcom report.
+directory,data/registry,Exec Prompt 01,local_init,,2026-03-28,created,Registry tables and study universe definitions
+file,data/registry/country_candidate_list.csv,Exec Prompt 02,official_public_multi,,2026-03-28,created,Initial country candidate scoring table with source URLs
+file,data/registry/country_universe.csv,Exec Prompt 02,official_public_multi,,2026-03-28,created,Selected primary and secondary country universe for later prompts
+file,data/registry/entity_dictionary_country.csv,Exec Prompt 05,derived_registry,,2026-03-28,created,Canonical country and currency dictionary including home-country-only codes
+file,data/registry/entity_dictionary_firm.csv,Exec Prompt 05,derived_registry,,2026-03-28,created,Canonical firm ID dictionary with filing-name mapping
+file,data/registry/entity_dictionary_service.csv,Post Step 05,registry_table,,2026-03-29,updated,Added youtube_music to the standard service dictionary to resolve service-code inconsistency.
+registry,data/registry/event_registry.csv,Exec Prompt 30,derived_event_registry,,2026-03-29,created,"Official-source event registry with fixed event dates, treatment targets, window rules, and pre/post availability diagnostics."
+file,data/registry/firm_candidate_list.csv,Exec Prompt 03,official_public_multi,,2026-03-28,created,First-pass firm candidates by sector with filing and service split
+file,data/registry/firm_country_service_matrix.csv,Post Step 05,registry_table,,2026-03-29,updated,Added the alphabet-youtube_music-kr music cell to align observed pricing data with the operating matrix.
+file,data/registry/firm_universe.csv,Exec Prompt 03,official_public_multi,,2026-03-28,created,Selected primary and secondary firm universe for matrix construction
+file,data/registry/period_dictionary.md,Exec Prompt 05,derived_registry,,2026-03-28,created,Locked period formatting rules for year month quarter and access dates
+file,data/registry/project_manifest.csv,Exec Prompt 01,local_init,,2026-03-28,created,Master registry for all artifacts
+file,data/registry/source_manifest.csv,Exec Prompt 06,derived_registry,,2026-03-28,created,Header-only manifest for tracking downloaded source files
+file,data/registry/source_master_list.csv,Exec Prompt 06,derived_registry,,2026-03-28,created,Master list of source families mapped to owner prompts and target variables
+directory,docs,Exec Prompt 01,local_init,,2026-03-28,created,Execution guidance and supporting notes
+file,docs/execution_readme.md,Exec Prompt 01,local_init,,2026-03-28,created,Workspace guide and operating rules
+file,docs/result_section_draft.md,Exec Prompt 36,derived_report_draft,,2026-03-29,created,"Markdown document containing LaTeX-ready Korean draft prose for the six mandatory result sections, using only actually generated outputs and preserving TODO markers where report-ready assets are still missing."
+file,docs/result_tables_to_insert.md,Post Step 02,derived_report_draft,,2026-03-29,updated,Updated the result-asset insertion guide to reflect that all required result assets have been generated and inserted into kakao_enter.tex.
+file,kakao_enter.pdf,Post Step 04,compiled_pdf,,2026-03-29,updated,Recompiled the report PDF after integrating lineage-completion status and revised residual-risk text.
+file,kakao_enter.tex,Post Step 04,local_tex,,2026-03-29,updated,"Updated report text to reflect completed lineage build, revised reproducibility counts, and the remaining residual tasks."
+directory,logs,Exec Prompt 01,local_init,,2026-03-28,created,Execution and decision logs
+log,logs/alt_spec_cpii_storage_log.md,Post Step 06,local_log,,2026-03-29,created,Log documenting direct row-level storage of alternative CPII specifications A and B.
+log,logs/amazon_foreign_sample_thickening_log.md,Post Step 12,derived_log,,2026-03-29,created,Summary of Amazon SEC extractor extension foreign peer thickening downstream reruns and before-after coverage gains.
+log,logs/country_comparison_log.md,Exec Prompt 28,local_log,,2026-03-29,created,"Coverage, common-sample definition, and interpretation limits for country CPII comparison tables."
+file,logs/country_data_audit.md,Exec Prompt 11,derived_audit,,2026-03-28,created,Narrative audit log for country-level data coverage and keep-secondary-exclude decisions
+file,logs/country_selection_log.md,Exec Prompt 02,official_public_multi,,2026-03-28,created,Methodology and rationale for first-pass country selection
+log,logs/cpii_calculation_log.md,Exec Prompt 26,local_log,,2026-03-29,created,"Final CPII aggregation rules, validation results, and minimum observation checks by country and firm."
+log,logs/dedup_missing_log.md,Exec Prompt 21,local_log,,2026-03-29,created,"Summary log for duplicate-resolution rules, retained missingness, and row counts."
+log,logs/event_registry_log.md,Exec Prompt 30,local_log,,2026-03-29,created,"Event-source log documenting included and rejected candidates, window rules, sample strength, and regression-ready event flags."
+file,logs/filing_metadata_log.md,Exec Prompt 14,derived_registry,,2026-03-29,created,"Metadata panel construction log, period rules, and excluded rows summary."
+log,logs/final_analysis_audit.md,Post Step 03,local_log,,2026-03-29,updated,Synchronized final analysis audit with current report-ready asset completion status.
+log,logs/final_data_audit.md,Post Step 04,local_log,,2026-03-29,updated,Upgraded Q1 data traceability to YES after lineage build and refreshed evidence counts.
+log,logs/financial_extraction_log.md,Exec Prompt 19,local_log,,2026-03-29,created,Coverage and skip log for filing-level financial extraction.
+log,logs/firm_comparison_log.md,Exec Prompt 27,local_log,,2026-03-29,created,"Coverage, ranking, and common-period comparison notes for firm-level CPII tables."
+file,logs/firm_country_matrix_log.md,Exec Prompt 04,derived_registry,,2026-03-28,created,Matrix rules and minimum cell counts for collection planning
+file,logs/firm_selection_log.md,Exec Prompt 03,official_public_multi,,2026-03-28,created,Methodology and rationale for first-pass firm selection
+log,logs/firm_service_audit.md,Post Step 05,local_log,,2026-03-29,updated,Regenerated firm-service coverage audit log after youtube_music normalization.
+file,logs/global_filings_log.md,Exec Prompt 13,official_public_multi,https://www.sec.gov/ ; https://group.kadokawa.co.jp/,2026-03-29,created,Global filing collection log and comparable accounting-item candidate summary.
+file,logs/infra_collection_log.md,Exec Prompt 08,official_public_multi,,2026-03-28,created,Infrastructure raw collection log with fallbacks and remaining source access issues
+file,logs/infra_service_collection_log.md,Exec Prompt 17,execution_log,,2026-03-29,created,"Execution log summarizing raw collection outcomes, promoted metrics, and unresolved access limits."
+file,logs/kr_filings_log.md,Exec Prompt 12,official_public_multi,https://englishdart.fss.or.kr/,2026-03-28,created,Collection log for Korean listed-firm filings and direct-filing gaps for nonlisted firms.
+file,logs/kr_telecom_fy2024_sample_thickening_log.md,Post Step 15,official_public_multi,https://englishdart.fss.or.kr/,2026-03-29,created,KR telecom FY2024 annual filing thickening log.
+file,logs/macro_series_log.md,Exec Prompt 09,official_public_multi,https://api.worldbank.org/ ; https://www.cbc.gov.tw/ ; https://eng.stat.gov.tw/,2026-03-28,created,Macro series collection log with Taiwan derivation method and coverage checks
+file,logs/market_usage_collection_log.md,Exec Prompt 10,official_public_multi,https://welcon.kocca.kr/ ; https://www.ofcom.org.uk/ ; https://www.ntia.gov/ ; https://www.soumu.go.jp/ ; https://moda.gov.tw/ ; https://crtc.gc.ca/,2026-03-28,created,"Collection log for market usage sources, UK access issue, and variable coverage summary"
+log,logs/music_collection_log.md,Exec Prompt 15,local_log,,2026-03-29,created,Music source collection notes and unresolved blockers
+log,logs/panel_key_log.md,Exec Prompt 22,local_log,,2026-03-29,created,"Summary log for key uniqueness tests, merge types, skeleton counts, and failure cells."
+log,logs/policy_calibration_log.md,Exec Prompt 33,local_log,,2026-03-29,created,"Policy-calibration log documenting baseline construction rules, regression evidence, parameter ranges, carry-forward rules, and sector-specific scenario applicability."
+log,logs/policy_scenario_log.md,Exec Prompt 34,local_log,,2026-03-29,created,"Policy scenario log documenting the calculation rules, Delta_CPII summary by scenario, latest-baseline policy priorities, and scope limitations."
+log,logs/regression_run_log.md,Exec Prompt 31,local_log,,2026-03-29,created,"Regression execution log documenting model families, sample sizes, fixed effects, pretrend status, and implementation constraints."
+file,logs/regulatory_collection_log.md,Exec Prompt 07,official_public_multi,,2026-03-28,created,Country-level regulatory collection summary and draft obligation checklist
+log,logs/report_asset_selection_log.md,Exec Prompt 35,local_log,,2026-03-29,created,"Report asset selection log summarizing direct matches, missing-but-derivable assets, naming rules, table/figure insertion order, and the main remaining gaps before TeX insertion."
+log,logs/report_integration_log.md,Post Step 02,local_log,,2026-03-29,created,"Integration log documenting the insertion of report-ready assets into kakao_enter.tex, successful LaTeX compilation, and final verification status."
+log,logs/report_ready_asset_build_log.md,Post Step 01,local_log,,2026-03-29,created,Build log for the completion of previously missing report-ready tables and figures.
+log,logs/report_todo_reduction_log.md,Post Step 03,local_log,,2026-03-29,created,Log documenting replacement of remaining report TODO placeholders with actual results and updated residual reproducibility risks.
+log,logs/result_draft_log.md,Exec Prompt 36,local_log,,2026-03-29,created,"Draft log documenting the exact generated files and numerical results used in the result-section draft, plus the remaining TODO assets that still require report-ready tables or figures."
+log,logs/robustness_log.md,Exec Prompt 32,local_log,,2026-03-29,created,"Robustness log documenting alternative spec definitions, top-priority shifts, common-support regression sign stability, and sample-retention differences."
+log,logs/row_level_lineage_log.md,Post Step 04,local_log,,2026-03-29,created,"Log summarizing lineage row counts, coverage scope, and regression sample reconstruction rules."
+file,logs/source_master_log.md,Exec Prompt 06,derived_registry,,2026-03-28,created,Design rules and owner prompt mapping for source master creation
+log,logs/standardization_log.md,Exec Prompt 20,local_log,,2026-03-29,created,"Summary log for date alignment, KRW conversion coverage, unit classification, and carry-forward usage."
+log,logs/subindex_calculation_log.md,Exec Prompt 25,local_log,,2026-03-29,created,"Spec split, anchor rules, variable activity, and validation summary for subindex calculation."
+log,logs/telecom_sample_thickening_log.md,Post Step 11,derived_log,,2026-03-29,created,Summary of Korean telecom sample thickening extractor fixes downstream reruns and before-after coverage gains.
+log,logs/timeseries_analysis_log.md,Exec Prompt 29,local_log,,2026-03-29,created,"Coverage and diagnostics log for sector, country, and firm CPII timeseries analysis."
+file,logs/uk_tw_infra_country_proxy_thickening_log.md,Post Step 16,execution_log,,2026-03-29,created,Log of the UK/TW digital infrastructure proxy thickening step.
+file,logs/us_infra_fy2024_sample_thickening_log.md,Post Step 14,official_public_multi,https://www.sec.gov/,2026-03-29,created,FY2024 U.S. digital infrastructure filing thickening log.
+file,logs/us_infra_q2_sample_thickening_log.md,Post Step 13,official_public_multi,https://www.sec.gov/,2026-03-29,created,Q2 2025 U.S. digital infrastructure filing thickening log.
+log,logs/variable_construction_log.md,Exec Prompt 23,local_log,,2026-03-29,created,Formula log and coverage summary for actual variable construction.
+log,logs/variable_qc_log.md,Exec Prompt 24,local_log,,2026-03-29,created,"Summary log for variable QC findings, duplicate checks, conversion checks, and sample loss."
+log,logs/webtoon_collection_log.md,Exec Prompt 16,local_log,,2026-03-29,created,Webtoon/story collection notes and unresolved extraction gaps
+log,logs/workflow_log.md,Post Step 04,local_log,,2026-03-29,updated,Recorded row-level lineage build and synchronized audit/report updates.
+directory,outputs/figures,Exec Prompt 01,local_init,,2026-03-28,created,Report-ready figures
+figure,outputs/figures/F03_cpii_subindex_decomposition.png,Post Step 01,derived_report_asset,,2026-03-29,created,Stacked sector decomposition chart using mean subindex contributions to CPII.
+figure,outputs/figures/F04_cpii_sector_mean_compare.png,Post Step 01,derived_report_asset,,2026-03-29,created,Bar chart comparing mean CPII by sector with one-standard-deviation bands.
+figure,outputs/figures/F05_music_event_study_plot.png,Post Step 01,derived_report_asset,,2026-03-29,created,Music event-study coefficient plot built from the estimated regression result table.
+figure,outputs/figures/F06_webtoon_story_event_study_plot.png,Post Step 01,derived_report_asset,,2026-03-29,created,Webtoon/story event-study coefficient plot built from the estimated regression result table.
+figure,outputs/figures/F07_digital_infra_pressure_scatter.png,Post Step 01,derived_report_asset,,2026-03-29,created,Scatter plot relating digital-infrastructure network cost ratio and CPII.
+figure,outputs/figures/F08_core_variable_correlation_heatmap.png,Post Step 01,derived_report_asset,,2026-03-29,created,"Heatmap of pairwise correlations across raw variables, subindexes, and CPII."
+figure,outputs/figures/cpii_timeseries_by_country.png,Exec Prompt 29,derived_figure,,2026-03-29,created,Country-level CPII timeseries small-multiple chart using quarter means across available sectors.
+figure,outputs/figures/cpii_timeseries_by_firm.png,Exec Prompt 29,derived_figure,,2026-03-29,created,Firm-level CPII timeseries small-multiple chart using quarter means across available market countries.
+figure,outputs/figures/cpii_timeseries_by_sector.png,Exec Prompt 29,derived_figure,,2026-03-29,created,Sector-level CPII timeseries chart with trailing 2-quarter moving averages.
+figure,outputs/figures/policy_tornado_chart.png,Exec Prompt 34,derived_figure,,2026-03-29,created,"Tornado-style PNG summarizing low/base/high Delta_CPII ranges for the latest sector baselines across BND, NET, IPF, and CBA."
+table,outputs/figures/report_ready_figure_index.csv,Exec Prompt 35,derived_report_asset_index,,2026-03-29,created,"Report-ready figure asset index mapping F02-F10 to direct figures, support files, derivable source files, standardized filenames, and proposed insertion order."
+figure,outputs/figures/spec_comparison_chart.png,Exec Prompt 32,derived_figure,,2026-03-29,created,"PNG comparison chart summarizing mean score difference, rank correlation, policy overlap, sample retention, and sign stability for the alternative CPII specifications."
+directory,outputs/tables,Exec Prompt 01,local_init,,2026-03-28,created,Report-ready tables
+table,outputs/tables/T08_basic_stats_summary.csv,Post Step 01,derived_report_asset,,2026-03-29,created,Basic statistics summary across core analytical variables and panel scopes.
+table,outputs/tables/T09_cpii_sector_mean_comparison.csv,Post Step 01,derived_report_asset,,2026-03-29,created,Sector mean comparison table for CPII and its three subindexes.
+table,outputs/tables/T10_cpii_extreme_observations.csv,Post Step 01,derived_report_asset,,2026-03-29,created,Top and bottom sector-quarter CPII observations with change diagnostics.
+table,outputs/tables/country_comparison_summary.csv,Exec Prompt 28,derived_comparison_table,,2026-03-29,created,"Country-level summary table with all-observation means, common-sample means, composition fields, and comparison gaps."
+table,outputs/tables/country_rank_table.csv,Exec Prompt 28,derived_comparison_table,,2026-03-29,created,Country ranking table with all-observation and common-sample CPII ranks plus composition flags.
+table,outputs/tables/firm_comparison_summary.csv,Exec Prompt 27,derived_comparison_table,,2026-03-29,created,"Firm-level summary table with average CPII, subindex means, volatility, and common-period peer comparison fields."
+table,outputs/tables/firm_rank_table.csv,Exec Prompt 27,derived_comparison_table,,2026-03-29,created,Firm ranking table with overall and sector ranks based on mean CPII.
+table,outputs/tables/policy_scenario_summary.csv,Exec Prompt 34,derived_policy_scenario_table,,2026-03-29,created,"Base-case policy scenario summary covering Delta_CPII, RecoveredRevenue, DomesticCapexGain, NPVGain, CreatorIncomeGain, recomputed subindices, and policy-priority rankings by sector-quarter."
+table,outputs/tables/policy_sensitivity_summary.csv,Exec Prompt 34,derived_policy_sensitivity_table,,2026-03-29,created,Low/base/high sensitivity table for all applicable scenario-baseline combinations using bounded parameter scaling and recomputed CPII outputs.
+table,outputs/tables/regression_results_cross_country.csv,Exec Prompt 31,derived_regression_table,,2026-03-29,created,Cross-country sector-country panel regression results relating I_reg and I_risk to I_market with sector and quarter fixed effects.
+table,outputs/tables/regression_results_infra.csv,Exec Prompt 31,derived_regression_table,,2026-03-29,created,Digital infrastructure regression results table using the executable service-quarter FE specification because a monthly service panel is not available in the current build.
+table,outputs/tables/regression_results_music.csv,Exec Prompt 31,derived_regression_table,,2026-03-29,created,Music regression results table including service-month FE panel estimates and stacked Spotify Lossless event-study coefficients with pretrend status.
+table,outputs/tables/regression_results_webtoon.csv,Exec Prompt 31,derived_regression_table,,2026-03-29,created,Webtoon/story regression results table including service-quarter FE panel estimates and stacked launch-event study coefficients with pretrend status.
+table,outputs/tables/report_ready_table_index.csv,Exec Prompt 35,derived_report_asset_index,,2026-03-29,created,"Report-ready table asset index mapping T08-T12 to direct matches, support files, derivable source files, standardized filenames, and proposed insertion order."
+table,outputs/tables/spec_robustness_summary.csv,Exec Prompt 32,derived_robustness_table,,2026-03-29,created,"Tidy robustness summary covering score differences, rank correlation, sign stability, policy-priority stability, and sample change for alternative specifications A and B."
+table,outputs/tables/timeseries_change_summary.csv,Exec Prompt 29,derived_timeseries_table,,2026-03-29,created,"Unified change-summary table with level, rate, moving averages, structural break flags, and cause memos."
+directory,scripts,Exec Prompt 01,local_init,,2026-03-28,created,Collection cleaning and analysis scripts
+script,scripts/build_alt_spec_cpii_panels.py,Post Step 06,local_code,,2026-03-29,created,"Builds row-level CPII panels for alternative specifications A and B across sector-country, sector, and firm-country grains."
+script,scripts/build_country_comparison_tables.py,Exec Prompt 28,local_code,,2026-03-29,created,Builds country comparison summary and ranking tables from the sector-country-quarter CPII panel.
+script,scripts/build_cpii_panels.py,Exec Prompt 26,local_code,,2026-03-29,created,"Builds final CPII panels for sector-quarter, sector-country-quarter, and firm-country-quarter using equal-weight top-level aggregation."
+script,scripts/build_deduplicated_panel.py,Exec Prompt 21,local_code,,2026-03-29,created,Builds a deduplicated long panel and a missingness audit from standardized numeric data.
+script,scripts/build_event_registry.py,Exec Prompt 30,local_code,,2026-03-29,created,Builds the official-source event registry and expands it into a treated-versus-control event-study panel using platform-month and platform-quarter variable panels.
+file,scripts/build_filing_metadata_panel.py,Exec Prompt 14,local_script,,2026-03-29,created,Builds unified filing metadata panel from Korean and global filing manifests.
+script,scripts/build_financial_extraction_panel.py,Exec Prompt 19,local_code,,2026-03-29,created,"Extracts comparable financial metrics from Korean XBRL, SEC inline XBRL, and Spotify HTML tables."
+script,scripts/build_firm_comparison_tables.py,Exec Prompt 27,local_code,,2026-03-29,created,Builds firm comparison summary and ranking tables from the firm-country-quarter CPII panel.
+script,scripts/build_firm_service_coverage_audit.py,Post Step 05,local_code,,2026-03-29,updated,Updated follow-up text after youtube_music normalization and reran the coverage audit.
+script,scripts/build_panel_skeletons.py,Exec Prompt 22,local_code,,2026-03-29,created,Builds panel key audit tables and four analysis skeleton panels from deduplicated numeric data.
+script,scripts/build_policy_calibration.py,Exec Prompt 33,local_code,,2026-03-29,created,Builds sector-quarter baseline inputs for the Excel policy simulator and calibrates bounded scenario parameters from observed baseline levels plus regression evidence.
+script,scripts/build_policy_scenarios.py,Exec Prompt 34,local_code,,2026-03-29,created,"Runs the four executable policy scenarios from the calibrated baseline inputs, recomputes CPII under the original anchor rules, exports base-case and sensitivity tables, and draws a tornado chart."
+script,scripts/build_report_asset_index.py,Exec Prompt 35,local_code,,2026-03-29,created,"Matches report design assets T08-T12 and F02-F10 to the actual output inventory, flags missing-but-derivable items, standardizes proposed report-ready filenames, and exports insertion-order asset indices plus a selection log."
+script,scripts/build_report_ready_assets.py,Post Step 01,local_code,,2026-03-29,created,Builds remaining report-ready tables and figures T08-T10 and F03-F08 from already processed CPII and regression outputs.
+script,scripts/build_row_level_lineage_table.py,Post Step 04,local_code,,2026-03-29,created,Script builds row-level lineage links for T09-T12 and core report text claims from executable analysis samples.
+script,scripts/build_spec_robustness.py,Exec Prompt 32,local_code,,2026-03-29,created,"Builds specification-robustness comparisons across the baseline CPII, a regulation/risk-emphasis alternative, and a strict complete-case alternative, then exports summary tables and a PNG comparison chart."
+script,scripts/build_standardized_numeric_panel.py,Exec Prompt 20,local_code,,2026-03-29,created,"Standardizes dates, currencies, and units across financial, music, webtoon, and infrastructure numeric panels."
+script,scripts/build_subindex_panels.py,Exec Prompt 25,local_code,,2026-03-29,created,Builds sector-country-quarter and sector-quarter subindex panels using pooled anchors and reduced empirical component sets.
+script,scripts/build_timeseries_analysis.py,Exec Prompt 29,local_code,,2026-03-29,created,"Builds quarter-level CPII change summaries and PNG timeseries figures for sector, country, and firm views."
+script,scripts/build_variable_panels.py,Exec Prompt 23,local_code,,2026-03-29,created,"Constructs first-stage variable master tables for month, quarter, title-quarter, and sector-quarter units."
+script,scripts/build_variable_qc_report.py,Exec Prompt 24,local_code,,2026-03-29,created,"Runs range, sign, currency, duplicate, and sample-loss checks on variable master tables."
+file,scripts/collect_global_filings.py,Exec Prompt 13,local_script,,2026-03-29,created,Reusable SEC and overseas-official filing collection script.
+script,scripts/collect_infra_service_data.py,Exec Prompt 17,local_code,,2026-03-29,created,"Reproducible collector for infrastructure service raw sources, panel assembly, and manifest updates."
+file,scripts/collect_kr_filings.py,Exec Prompt 12,local_script,,2026-03-28,created,Reusable OpenDART English filing collection script for Korean listed firms.
+script,scripts/collect_music_market_data.py,Exec Prompt 15,local_code,,2026-03-29,created,Reproducible collection and panel build for music market data
+script,scripts/collect_webtoon_market_data.py,Exec Prompt 16,local_code,,2026-03-29,created,Reproducible public-web collection and panel build for webtoon/story title and platform data
+script,scripts/run_sector_regressions.py,Exec Prompt 31,local_code,,2026-03-29,created,"Runs executable FE and event-study regressions for music, webtoon/story, digital infrastructure, and cross-country sector-country comparisons using numpy OLS with HC1 robust standard errors."
+file,scripts/thicken_kr_telecom_fy2024_filings.py,Post Step 15,local_script,,2026-03-29,created,Post-step KR telecom FY2024 annual filing thickening script.
+script,scripts/thicken_uk_tw_infra_country_proxies.py,Post Step 16,local_code,,2026-03-29,created,Writes browser-extracted UK and Taiwan infrastructure proxy raw files and updates the country market usage registry.
+file,scripts/thicken_us_infra_fy2024_filings.py,Post Step 14,local_script,,2026-03-29,created,Post-step SEC collector for FY2024 digital infrastructure 10-K sample thickening.
+file,scripts/thicken_us_infra_q2_filings.py,Post Step 13,local_script,,2026-03-29,created,Post-step SEC collector for 2025Q2 digital infrastructure 10-Q sample thickening.
+file,logs/coverage_blocker_reclassification_log.md,Post Step 18,local_log,,2026-03-29,created,Documents the audit-rule fix that reclassifies proxy-covered thin direct panels from blocking issues to non-blocking linkage diagnostics.

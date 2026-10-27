@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "보고서와 재현 패키지를 사용한 연구는 저자, 보고서 제목, 버전과 사용한 데이터 시점을 인용해 주세요."
+type: dataset
+title: "K-콘텐츠 플랫폼 생태계의 구조적 불평등 계량화 및 정책 대안 연구: 공개 재현 패키지"
+authors:
+  - family-names: "전"
+    given-names: "성민"
+    affiliation: "가천대학교"
+  - family-names: "강"
+    given-names: "형구"
+    affiliation: "한양대학교"
+version: "1.0.0"
+date-released: 2026-10-27
+repository-code: "https://github.com/gevera91/k-content-platform-inequality"
+url: "https://github.com/gevera91/k-content-platform-inequality"
+abstract: "Korean research report and frozen-data replication package for the content-platform inequality index (CPII), Korean-market comparison cases, policy scenarios, and the CPII spreadsheet comparator."
+keywords:
+  - "CPII"
+  - "Korea"
+  - "content platforms"
+  - "replication"
+  - "Melon"
+  - "Spotify"
+

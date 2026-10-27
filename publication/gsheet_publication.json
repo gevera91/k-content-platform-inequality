@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "verification_date": "2026-10-27",
+  "verification_timezone": "Asia/Seoul",
+  "title": "CPII 기업 비교 시뮬레이터 — 공개 재현용 v2 (2026-10-27)",
+  "spreadsheet_id": "1qrbtViewFJKwZeBRDOmfXA8kzCt3vyrlDmGcW93DgTY",
+  "url": "https://docs.google.com/spreadsheets/d/1qrbtViewFJKwZeBRDOmfXA8kzCt3vyrlDmGcW93DgTY/edit",
+  "mime_type": "application/vnd.google-apps.spreadsheet",
+  "source_workbook": "spreadsheet/CPII_Company_Comparator.xlsx",
+  "source_workbook_sha256": "3bcb391484a9486d085f2173c96b937845386b923c1a333dea23fa1bb385c5cb",
+  "publication_method": "Separate native Google Sheets import of the delivered XLSX; original workbook retained unchanged.",
+  "github_crosslinks": {
+    "repository_url": "https://github.com/gevera91/k-content-platform-inequality",
+    "report_url": "https://github.com/gevera91/k-content-platform-inequality/blob/main/reports/kakao_enter.pdf",
+    "release_tag": "v1.0.0",
+    "release_url": "https://github.com/gevera91/k-content-platform-inequality/releases/tag/v1.0.0",
+    "sheet_range": "00_README!A41:H45",
+    "hyperlink_cells": ["00_README!A42", "00_README!A43", "00_README!A44"],
+    "sheet_hyperlink_readback_verified": true,
+    "replication_instruction": "Use the frozen v1.0.0 release and record the repository commit and changes to simulator inputs; distinguish the current main branch from the release snapshot."
+  },
+  "access": {
+    "type": "anyone",
+    "role": "reader",
+    "allow_file_discovery": false,
+    "verified_by": "Google Drive permission metadata and Google Sheets sharing UI",
+    "viewer_download_copy_print_allowed": true,
+    "copy_permission_verified_by": "Google Sheets sharing settings UI",
+    "editing_instructions": "파일 → 사본 만들기에서 개인 사본을 만든 뒤 입력값을 변경한다."
+  },
+  "tabs": [
+    {"name": "00_README", "sheet_id": 920278250},
+    {"name": "01_INPUT_COMPANIES", "sheet_id": 885243594},
+    {"name": "02_INPUT_ECON_BASES", "sheet_id": 623126794},
+    {"name": "03_COMPARE_2", "sheet_id": 1538343606},
+    {"name": "04_COMPARE_N", "sheet_id": 1317160504},
+    {"name": "05_ECON_INTERPRET", "sheet_id": 1823817303},
+    {"name": "06_SENSITIVITY", "sheet_id": 214699698},
+    {"name": "07_INPUT_PROVENANCE", "sheet_id": 880857317},
+    {"name": "90_CALC_FEATURES", "sheet_id": 583509680},
+    {"name": "91_CALC_SCORES", "sheet_id": 1568388120},
+    {"name": "92_REF_VARIABLES", "sheet_id": 1438642149},
+    {"name": "93_REF_ANCHORS", "sheet_id": 300384478},
+    {"name": "94_EXPECTED_OUTPUTS", "sheet_id": 1014327211},
+    {"name": "99_QA_AUDIT", "sheet_id": 1225742199}
+  ],
+  "native_conversion": {
+    "tab_count": 14,
+    "native_table_count": 4,
+    "native_chart_count": 2,
+    "finite_choice_table_columns_converted_to_dropdowns": 12,
+    "formula_cells_B8_C8_D8_verified": true,
+    "visual_check": "All 14 populated tabs inspected at 100% zoom; both comparison charts inspected. Wide tables use horizontal scrolling.",
+    "presentation_adjustment": "Contribution chart moved below frozen heading to K4 and resized to 1048x300 pixels to prevent overlap with the second chart; source ranges and calculations unchanged."
+  },
+  "default_example": {
+    "synthetic_only": true,
+    "benchmark_id": "BM-DIGITAL-CONTENT-2025Q4",
+    "company_a": {"observation_id": "SYN-A", "name": "가온 콘텐츠", "CPII": 39.89561107334345},
+    "company_b": {"observation_id": "SYN-B", "name": "누리 미디어", "CPII": 32.21744929663617},
+    "difference_A_minus_B": 7.6781617767072845,
+    "result_range": "03_COMPARE_2!B8:D8",
+    "qa_range": "99_QA_AUDIT!D7:D18",
+    "qa_pass_count": 12,
+    "python_parity_max_abs_error": 1.4210854715202004e-14,
+    "pair_contribution_residual": 5.329070518200751e-15,
+    "parity_tolerance": 1e-10,
+    "methodological_sensitivity_min": 6.3989319651432695,
+    "methodological_sensitivity_max": 8.78815731441367,
+    "methodological_sensitivity_sign": "양(+) 안정"
+  },
+  "replication_scope": [
+    "The four default companies and registered benchmark are synthetic examples for reproducing the simulator, not empirical Melon or Spotify estimates.",
+    "Actual-company analysis requires matched benchmark registration, input data, feature-level provenance and workbook regeneration described in the user guide.",
+    "The 06_SENSITIVITY tab compares four methodological specifications. Input-range uncertainty is evaluated separately with the Python --feature-ranges workflow.",
+    "The public Sheet is a live convenience copy. The GitHub XLSX, code, data and publication metadata provide the versioned replication record."
+  ]
+}

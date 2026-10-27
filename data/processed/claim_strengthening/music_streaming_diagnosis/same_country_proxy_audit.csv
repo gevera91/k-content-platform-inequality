@@ -1,0 +1,10 @@
+country_std,same_country_direct_compare_yes_no,common_period_count,proxy_used_yes_no,proxy_name,headline_safe_yes_no,why
+kr,yes,3,yes,kr_streaming_chart_proxy_market,no,The only same-country streaming cell is Korea but it survives on just three common monthly periods and the market side uses a KR chart distributor-share proxy because direct Spotify paid-streaming share is unavailable.
+uk,no,0,no,,no,No same-country direct compare is possible because the Korean paid-streaming service is not observed in the UK comparator cell.
+us,no,0,no,,no,No same-country direct compare is possible because the Korean paid-streaming service is not observed in the US comparator cell.
+jp,no,0,no,,no,No same-country direct compare is possible because the Korean paid-streaming service is not observed in the Japan comparator cell.
+tw,no,0,no,,no,No same-country direct compare is possible because the Korean paid-streaming service is not observed in the Taiwan comparator cell.
+ca,no,0,no,,no,No same-country direct compare is possible because the Korean paid-streaming service is not observed in the Canada comparator cell.
+au,no,0,no,,no,No same-country direct compare is possible because the Korean paid-streaming service is not observed in the Australia comparator cell.
+de,no,0,no,,no,No same-country direct compare is possible because the Korean paid-streaming service is not observed in the Germany comparator cell.
+sg,no,0,no,,no,No same-country direct compare is possible because the Korean paid-streaming service is not observed in the Singapore comparator cell.

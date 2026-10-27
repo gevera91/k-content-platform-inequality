@@ -1,0 +1,4 @@
+sector_std,row_count,mean_core_signed_score,mean_extended_signed_score,positive_core_row_count,positive_extended_row_count,mean_observed_core_axis_count,mean_observed_extended_axis_count,headline_eligible_row_count,summary_note
+digital_infra,3,0.348742,0.482495,3,3,2.00,3.00,0,"Infra rows stay positive in composite average because domestic-rule and reach-gap are strong, but direct risk is mixed and market-transfer is missing."
+music,6,0.444445,0.450833,6,6,2.17,4.17,0,"All music case-study rows are positive on the extended score, but no row is headline-safe because Melon remains thin on risk and the market-transfer lane is still rebuilt from bounded evidence."
+webtoon_story,2,0.125000,0.166666,2,2,1.00,3.00,0,"Webtoon or story rows are directionally positive but remain thin, proxy-heavy, and case-study only."

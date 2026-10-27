@@ -1,0 +1,25 @@
+{
+  "sector_quarter_rows": 19,
+  "computed_rows": 14,
+  "sector_means": {
+    "digital_infra": 42.998057,
+    "music": 54.134044,
+    "webtoon_story": 54.229544
+  },
+  "active_variable_counts": {
+    "I_reg": 3,
+    "I_risk": 4,
+    "I_market": 3
+  },
+  "signed_cases": 11,
+  "signed_means": {
+    "music": 0.450833,
+    "webtoon_story": 0.166666,
+    "digital_infra": 0.482495
+  },
+  "source_records": 241,
+  "lineage_rows": 10211,
+  "synthetic_benchmarks": [
+    "synthetic_only"
+  ]
+}

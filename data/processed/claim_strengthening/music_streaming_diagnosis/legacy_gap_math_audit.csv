@@ -1,0 +1,4 @@
+firm_std,i_reg_narrow,i_risk_narrow,i_market_narrow,observed_narrow_subindex_count,weights_used,composite_recomputed,table_value,match_yes_no,why_not_match
+dreamus,,75.000000,25.000000,2,"reg=0.000000|risk=0.500000|market=0.500000",50.000000,50.000000,yes,"Exact match after equal reweighting over the two observed axes."
+kakao_ent,,,33.333333,1,"reg=0.000000|risk=0.000000|market=1.000000",33.333333,33.333333,yes,"Exact match because the composite collapses to the single observed market axis."
+spotify,,25.000000,25.149377,2,"reg=0.000000|risk=0.500000|market=0.500000",25.074689,25.074689,yes,"Exact match after six-decimal rounding from raw value 25.0746885."

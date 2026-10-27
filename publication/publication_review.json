@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-27",
+  "files_scanned": 453,
+  "checks": [
+    "private_absolute_path",
+    "credential_literal",
+    "private_mailbox"
+  ],
+  "findings": [],
+  "excluded_from_publication": [
+    "contracts",
+    "client proposal documents",
+    "private correspondence",
+    "raw third-party document bodies",
+    "credentials",
+    "internal editing and agent records"
+  ],
+  "report_pdf_sha256": "7b7f6da44d628d36968caf0279665a8aabe75fecb700b3de7eab722d245f9f31",
+  "xlsx_embedded_private_path_or_secret_findings": [],
+  "final_reports_and_sheet_hashes_verified": true,
+  "final_frozen_tree_review": "PASS"
+}

@@ -1,0 +1,4 @@
+sector_std,sector_label,observation_count,mean_CPII,stddev_CPII,mean_I_reg,mean_I_risk,mean_I_market,rank_by_mean_CPII
+webtoon_story,Webtoon/Story,4,54.229544,17.822658,55.223628,66.955518,40.509486,1
+music,Music,6,54.134044,3.197027,54.488895,46.19745,61.715787,2
+digital_infra,Digital Infra,4,42.998057,0.884548,38.365333,47.864865,42.763973,3

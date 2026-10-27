@@ -1,0 +1,53 @@
+{
+  "report_revision_date": "2026-10-27",
+  "report_pages": 168,
+  "report_sha256": "7b7f6da44d628d36968caf0279665a8aabe75fecb700b3de7eab722d245f9f31",
+  "workbook_version": "CPII_COMPARATOR_XLSX_V2.0.0",
+  "workbook_sha256": "3bcb391484a9486d085f2173c96b937845386b923c1a333dea23fa1bb385c5cb",
+  "sources": [
+    {
+      "path": "kakao_enter.tex",
+      "sha256": "2237ff2e9d28ddffe9be553ba9b2c639ad741b84039c9562f17d1265fcb26761"
+    },
+    {
+      "path": "kakao_report_style.sty",
+      "sha256": "ff7174628a7d8998c2ace8205d6f23d879034e02e89ac64f76b769718eb925f1"
+    },
+    {
+      "path": "cpii_comparator_v2_section.tex",
+      "sha256": "95759685a9966bc224b369fcdebebe19a460a042b3eaf7dd156dfa5dfa6cecf1"
+    },
+    {
+      "path": "cpii_simulator_manual.tex",
+      "sha256": "44bc62db9e14ea7771dbc076e12be82850e05021ab0fdb2d2e26c175cf28ff7b"
+    },
+    {
+      "path": "evidence_scope_appendix.tex",
+      "sha256": "c463890d1cc834d32136468b08de4ad5854428cbeefb93d2b421f2e771385fda"
+    },
+    {
+      "path": "latexmkrc",
+      "sha256": "d7cafb356872e7654a36d6f440022139438cb9d84ed003ec50105eb3728597ed"
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/appendix/cpii_interpretation_appendix.tex",
+      "sha256": "062569f323da12600cbebc221e1d8b0a93c5e3032e5fdb90071d5a169fd3eeab"
+    },
+    {
+      "path": "docs/comprehensive_revision_20261026/figures/music_measurement_evidence_revised.pdf",
+      "sha256": "51c63f0089d6f7e8e9e6f0dbd0ad2fcbc0efd3d418497d68eb4a8385e5f686b9"
+    },
+    {
+      "path": "docs/comprehensive_revision_20261026/figures/music_bundle_posted_price_comparison_revised.pdf",
+      "sha256": "6a8a721694c3b1a893332ed06fd4a5d9aa105c8ae53092c7e883456a18f12f14"
+    },
+    {
+      "path": "docs/comprehensive_revision_20261026/figures/claim_channel_score_gaps_revised.pdf",
+      "sha256": "13e939f316e1c509210ea88bab130eba1b494e313bd6415d6220ddc5d0ae648a"
+    },
+    {
+      "path": "docs/comprehensive_revision_20261026/figures/music_channel_evidence_map_revised.pdf",
+      "sha256": "becdb4e9494049524a2be75f66683492828b1d084a832a931d862be09306cc22"
+    }
+  ]
+}

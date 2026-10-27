@@ -1,0 +1,8 @@
+test_family,scenario_count,min_overall_score_mean,max_overall_score_mean,worst_scenario_id,worst_scenario_label,best_scenario_id,best_scenario_label,tc01_any_pass,tc04_any_pass,tc04_pass_count,most_common_tc01_failure
+baseline,1,0.407802,0.407802,BASE01,baseline equal-weight direct-plus-bound,BASE01,baseline equal-weight direct-plus-bound,no,yes,1,direct evidence rows below gate: 5 < 6
+leave_one_sector_out,3,0.356164,0.461387,LOS01,drop music,LOS02,drop webtoon_story,no,no,0,required sector missing: music
+leave_one_country_out,3,0.383611,0.435248,LOC01,drop US foreign peers,LOC03,drop Japanese foreign peer,no,yes,1,required sector missing: digital_infra
+leave_one_axis_out,5,0.356854,0.480303,LOA01,drop reg axis,LOA02,drop risk axis,no,yes,5,direct evidence rows below gate: 5 < 6
+weighting_scheme,2,0.392880,0.407802,WEQ02,evidence-quality weight,WEQ01,equal weight,no,yes,2,direct evidence rows below gate: 5 < 6
+direct_only_vs_direct_plus_bound,2,0.407802,0.508054,DMB01,direct plus bound,DMB02,direct only,no,yes,1,direct evidence rows below gate: 5 < 6
+period_window,2,0.336806,0.492997,PER01,latest-period only,PER02,balanced-period only,no,no,0,required sector missing: digital_infra

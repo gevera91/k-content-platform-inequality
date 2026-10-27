@@ -1,0 +1,10 @@
+peer_group_id,overall_korea_minus_global_gap,overall_disadvantage_flag,channel_id,channel_label,korean_channel_mean,global_channel_mean,korea_minus_global_channel_gap,adverse_gap_component,adverse_share_of_observed_disadvantage,channel_data_flag,interpretation_note
+infra_traffic_ott,-2.625771,yes,reg,Regulation,,,,,,no_usable_channel_data,Channel not observed under current narrow evidence
+infra_traffic_ott,-2.625771,yes,risk,Cost/Risk,48.259099,53.510642,-5.251543,5.251543,1.000000,observed,Channel contributes to Korean disadvantage
+infra_traffic_ott,-2.625771,yes,market,Market Transfer,25.000000,25.000000,0.000000,0.000000,0.000000,observed,Channel does not worsen Korean disadvantage
+mus_label_ip_export,-30.244961,yes,reg,Regulation,,,,,,no_usable_channel_data,Channel not observed under current narrow evidence
+mus_label_ip_export,-30.244961,yes,risk,Cost/Risk,43.209550,59.076314,-15.866765,15.866765,0.262304,observed,Channel contributes to Korean disadvantage
+mus_label_ip_export,-30.244961,yes,market,Market Transfer,0.000000,44.623158,-44.623158,44.623158,0.737696,observed,Channel contributes to Korean disadvantage
+mus_streaming_paid_core,16.591978,no,reg,Regulation,,,,,,no_usable_channel_data,Channel not observed under current narrow evidence
+mus_streaming_paid_core,16.591978,no,risk,Cost/Risk,75.000000,25.000000,50.000000,0.000000,,observed,Channel does not worsen Korean disadvantage
+mus_streaming_paid_core,16.591978,no,market,Market Transfer,29.166667,25.149377,4.017290,0.000000,,observed,Channel does not worsen Korean disadvantage

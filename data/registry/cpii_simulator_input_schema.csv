@@ -1,0 +1,30 @@
+field_name,section,display_name_ko,data_type,required,allowed_values_or_format,validation_role,description
+observation_id,identity,관측치 ID,string,yes,unique non-empty,blocking,회사-기간 관찰의 영구 식별자
+company_name,identity,회사명,string,yes,non-empty,blocking,사용자가 표시할 회사명
+company_group,comparability,회사 구분,enum,yes,domestic|foreign|other,blocking,domestic-foreign 쌍에만 역차별 격차 용어를 사용
+sector,comparability,산업,string,yes,shared within one comparison set,blocking,동일 산업 비교 게이트
+service_scope,comparability,서비스 범위,string,yes,shared within one comparison set,blocking,동일 서비스 범위 비교 게이트
+focal_market,comparability,대상 시장,string,yes,shared within one comparison set,blocking,동일 시장 비교 게이트
+reporting_period,comparability,기준 기간,string,yes,YYYYQ1..YYYYQ4,blocking,동일 기간 비교 게이트
+benchmark_id,comparability,벤치마크 ID,string,yes,shared within one comparison set,blocking,3개 benchmark-gap 변수의 공통 기준집단 식별자
+currency,economic_metadata,통화,string,yes,ISO-4217 uppercase code,blocking,경제 노출액과 일치해야 함
+price_year,economic_metadata,가격 기준연도,integer,yes,2000..2100,blocking,명목가액 비교 기준
+input_quality,provenance,입력 품질,enum,yes,A|B|C|SYNTHETIC,warning,A=공시·검증 B=합리적 추정 C=대체·시나리오 SYNTHETIC=방법론 설명용
+synthetic_flag,provenance,합성자료 표시,enum,yes,yes|no,blocking,yes인 행은 실제 기업 추정으로 해석할 수 없음
+construction_mode,provenance,구축 방식,enum,yes,direct|derived|proxy|mixed,warning,변수별 출처와 산식을 추적하기 위한 행 수준 요약
+source_id,provenance,출처 ID,string,yes,non-empty,blocking,입력 근거 식별자
+source_date,provenance,출처 기준일,date,yes,YYYY-MM-DD,blocking,정보 시점
+carry_lag_q,provenance,이월 시차,integer,yes,0 or positive,warning,1분기 초과 이월은 강한 경고
+market_common_exposure_adjusted,comparability,시장공통값 노출 보정,enum,yes,yes|no,blocking,country/service 공통값을 회사 노출로 차별화했는지 표시
+company_exposure_factor,comparability,회사 노출계수,number,yes,0..1,blocking,시장공통 원천값을 회사별 노출로 조정한 계수
+source_note,provenance,출처 메모,string,no,free text,informational,추가 가정·제약 설명
+effective_tax_rate_gap,feature,유효세율 격차,number,yes,see variable dictionary,blocking,동일 benchmark_id 기준의 이미 산출된 소수 격차
+network_cost_ratio,feature,네트워크 비용률,number,yes,see variable dictionary,blocking,네트워크 비용 나누기 매출
+infra_dependency_ratio,feature,인프라 의존도,number,yes,see variable dictionary,blocking,회사 노출이 반영된 외부 인프라 의존 프록시
+funding_cost_spread,feature,조달금리 스프레드,number,yes,see variable dictionary,blocking,동일 benchmark_id 기준의 이미 산출된 소수 격차
+ip_assetization_gap,feature,IP 자산화 격차,number,yes,see variable dictionary,blocking,동일 benchmark_id 기준의 이미 산출된 소수 격차
+investment_recovery_ratio,feature,투자 회수율,number,yes,see variable dictionary,blocking,매출 나누기 콘텐츠투자 또는 명시된 대체 프록시
+cashflow_recovery_ratio,feature,세전이익 회수 프록시,number,yes,see variable dictionary,blocking,실제 운영정의와 달리 세전이익 나누기 콘텐츠투자
+cross_market_transfer_index,feature,시장간 전이 지수,number,yes,see variable dictionary,blocking,부담 방향으로 정의된 이질적 프록시
+foreign_dependency_ratio,feature,해외 의존도,number,yes,see variable dictionary,blocking,회사 노출이 반영된 해외 의존 비율
+outflow_to_capex_ratio,feature,유출·CAPEX 압력 비율,number,yes,see variable dictionary,blocking,네트워크 비용 나누기 CAPEX 프록시
