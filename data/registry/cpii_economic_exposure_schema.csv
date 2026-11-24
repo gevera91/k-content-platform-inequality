@@ -1,0 +1,27 @@
+field_name,display_name_ko,data_type,required_for_scoring,required_for_monetization,allowed_values_or_format,used_by,description
+observation_id,관측치 ID,string,no,yes,must match company input,all,회사 입력 행과의 키
+currency,통화,string,no,yes,ISO-4217 uppercase code,all,회사 입력과 일치
+price_year,가격 기준연도,integer,no,yes,2000..2100,all,회사 입력과 일치
+exposure_period,노출 기간,string,no,yes,YYYYQ1..YYYYQ4 or YYYY,all,입력 feature와 시간 범위가 일치해야 함
+period_year_fraction,기간 연환산 계수,number,no,yes,greater than 0 and no greater than 1,funding_cost_spread,분기 0.25 반기 0.5 연간 1.0
+revenue_low,매출 하단,number,no,conditional,nonnegative,network_cost_ratio|ip_assetization_gap,민감도 하단
+revenue_base,매출 기준,number,no,conditional,nonnegative,network_cost_ratio|ip_assetization_gap,회사 규모 기준 환산
+revenue_high,매출 상단,number,no,conditional,nonnegative,network_cost_ratio|ip_assetization_gap,민감도 상단
+positive_pretax_income_low,양(+) 세전이익 하단,number,no,conditional,nonnegative,effective_tax_rate_gap,세금 노출 하단
+positive_pretax_income_base,양(+) 세전이익 기준,number,no,conditional,nonnegative,effective_tax_rate_gap,세금 노출 기준
+positive_pretax_income_high,양(+) 세전이익 상단,number,no,conditional,nonnegative,effective_tax_rate_gap,세금 노출 상단
+average_interest_bearing_debt_low,평균 이자부부채 하단,number,no,conditional,nonnegative,funding_cost_spread,조달비용 노출 하단
+average_interest_bearing_debt_base,평균 이자부부채 기준,number,no,conditional,nonnegative,funding_cost_spread,조달비용 노출 기준
+average_interest_bearing_debt_high,평균 이자부부채 상단,number,no,conditional,nonnegative,funding_cost_spread,조달비용 노출 상단
+content_investment_low,콘텐츠투자액 하단,number,no,conditional,nonnegative,investment_recovery_ratio|cashflow_recovery_ratio,회수성 환산 하단
+content_investment_base,콘텐츠투자액 기준,number,no,conditional,nonnegative,investment_recovery_ratio|cashflow_recovery_ratio,회수성 환산 기준
+content_investment_high,콘텐츠투자액 상단,number,no,conditional,nonnegative,investment_recovery_ratio|cashflow_recovery_ratio,회수성 환산 상단
+eligible_market_revenue_low,전이 대상매출 하단,number,no,optional,nonnegative,cross_market_transfer_index,시장전이 시나리오 하단
+eligible_market_revenue_base,전이 대상매출 기준,number,no,optional,nonnegative,cross_market_transfer_index,시장전이 시나리오 기준
+eligible_market_revenue_high,전이 대상매출 상단,number,no,optional,nonnegative,cross_market_transfer_index,시장전이 시나리오 상단
+scenario_conversion_rate_low,시나리오 전환율 하단,number,no,optional,0..1,cross_market_transfer_index,인과효과가 아닌 시나리오 계수
+scenario_conversion_rate_base,시나리오 전환율 기준,number,no,optional,0..1,cross_market_transfer_index,인과효과가 아닌 시나리오 계수
+scenario_conversion_rate_high,시나리오 전환율 상단,number,no,optional,0..1,cross_market_transfer_index,인과효과가 아닌 시나리오 계수
+exposure_source_id,노출액 출처 ID,string,no,yes,non-empty when any exposure is supplied,all,금액 근거 식별자
+exposure_quality,노출액 품질,enum,no,yes,A|B|C|SYNTHETIC,all,금액 범위의 품질 등급
+exposure_note,노출액 메모,string,no,no,free text,all,환율·물가·배분 가정

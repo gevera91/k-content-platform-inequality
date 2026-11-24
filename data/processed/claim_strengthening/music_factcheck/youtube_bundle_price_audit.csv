@@ -1,0 +1,12 @@
+price_item,raw_value_krw,clean_value_krw,included_in_metric,exclusion_reason,recomputed_metric_id,recomputed_metric_value
+youtube_premium_lite_web_android,8500,8500,yes,,bundle_discount_vs_lite_plus_melon,0.133217
+youtube_premium_full_web_android,14900,14900,yes,,bundle_price_leverage_index,0.804698
+youtube_music_premium_web_android,11990,11990,yes,,bundle_price_leverage_index,0.804698
+melon_streaming_club_regular,8690,8690,yes,,bundle_discount_vs_lite_plus_melon,0.133217
+melon_hifi_streaming_club_regular,13200,13200,no,higher-fidelity tier not used because the comparison anchor is ordinary audio-first streaming rather than premium lossless tier,,
+melon_mobile_streaming_club_regular,7590,7590,no,mobile-only product excluded because YouTube Lite and Premium prices are cross-device web-Android reference prices,,
+melon_streaming_plus_regular,11990,11990,no,download bundle excluded because the core comparison is streaming-only versus streaming-in-video-bundle,,
+melon_streaming_ticket_30day,9790,9790,no,one-time ticket excluded because current metric uses regular monthly subscription comparators,,
+metric_bundle_price_leverage_index,11990,14900,derived,computed as YouTube Music Premium divided by full YouTube Premium,bundle_price_leverage_index,0.804698
+metric_bundle_discount_vs_lite_plus_melon,17190,14900,derived,computed as (Lite + Melon - full bundle) divided by (Lite + Melon),bundle_discount_vs_lite_plus_melon,0.133217
+metric_implied_music_discount_vs_melon,6400,8690,derived,computed as (Melon streaming - implied music component inside full bundle) divided by Melon streaming,implied_music_discount_vs_melon,0.263521

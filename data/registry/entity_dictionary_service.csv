@@ -1,0 +1,25 @@
+service_std,service_name_std,service_name_ko,service_name_original,parent_firm_std,sector_std,service_type,observation_level,name_mapping_rule,notes
+akamai_cdn,Akamai CDN,아카마이 CDN,Akamai CDN,akamai,digital_infra,cdn_infra,service_country,Akamai CDN -> akamai_cdn,글로벌 CDN 비교군
+aws,AWS,아마존 웹 서비스,Amazon Web Services,amazon,digital_infra,cloud_infra,service_country,AWS -> aws,클라우드 인프라 보조 비교군
+bookwalker,BOOK WALKER,북워커,BOOK WALKER,kadokawa,webtoon_story,ebook_story_platform,service_country,BOOK WALKER -> bookwalker,전자서적 및 스토리 유통 서비스
+cloudflare_cdn,Cloudflare CDN,클라우드플레어 CDN,Cloudflare CDN,cloudflare,digital_infra,cdn_infra,service_country,Cloudflare CDN -> cloudflare_cdn,글로벌 CDN 비교군
+flo,FLO,플로,FLO,dreamus,music,music_streaming,service_country,FLO -> flo,국내 스트리밍 비교군
+jyp_music_ip,JYP Music IP,제이와이피 음악 IP,JYP music catalog,jyp_ent,music,music_ip_portfolio,firm_country,JYP music catalog -> jyp_music_ip,개별 앱 서비스가 아니라 IP 포트폴리오 단위
+kakao_page,KakaoPage,카카오페이지,KakaoPage,kakao_ent,webtoon_story,story_platform,service_country,KakaoPage -> kakao_page,국내 스토리 플랫폼 핵심 서비스
+kt_network,KT Network,KT 네트워크,KT network,kt,digital_infra,telecom_network,firm_country,KT network -> kt_network,통신망 사업 단위
+lezhin_comics,Lezhin Comics,레진코믹스,Lezhin Comics,kidari_studio,webtoon_story,webtoon_platform,service_country,Lezhin Comics -> lezhin_comics,국내 웹툰 비교군
+lguplus_network,LG Uplus Network,LG유플러스 네트워크,LG Uplus network,lg_uplus,digital_infra,telecom_network,firm_country,LG Uplus network -> lguplus_network,통신망 사업 단위
+melon,Melon,멜론,Melon,kakao_ent,music,music_streaming,service_country,Melon -> melon,국내 기준 서비스
+naver_webtoon,NAVER WEBTOON,네이버웹툰,NAVER WEBTOON,naver,webtoon_story,webtoon_platform,service_country,NAVER WEBTOON -> naver_webtoon,모회사 공시와 서비스 지표 결합 필요
+netflix,Netflix,넷플릭스,Netflix,netflix,digital_infra,ott_video,service_country,Netflix -> netflix,OTT 핵심 비교군
+piccoma,Piccoma,픽코마,Piccoma,kakao_piccoma,webtoon_story,webtoon_platform,service_country,Piccoma -> piccoma,일본 핵심 비교 서비스
+qq_music,QQ Music,QQ뮤직,QQ Music,tencent_music,music,music_streaming,service_country,QQ Music -> qq_music,중화권 벤치마크 서비스
+ridi,RIDI,리디,RIDI,ridi,webtoon_story,story_platform,service_country,RIDI -> ridi,국내 비상장 스토리 플랫폼
+skt_network,SKT Network,SK텔레콤 네트워크,SK Telecom network,sk_telecom,digital_infra,telecom_network,firm_country,SK Telecom network -> skt_network,국내 통신망 기준선
+spotify,Spotify,스포티파이,Spotify,spotify,music,music_streaming,service_country,Spotify -> spotify,글로벌 스트리밍 기준 서비스
+webtoon,WEBTOON,웹툰,WEBTOON,webtoon_ent,webtoon_story,webtoon_platform,service_country,WEBTOON -> webtoon,상장 글로벌 웹툰 플랫폼
+weverse,Weverse,위버스,Weverse,hybe,music,fandom_platform,service_country,Weverse -> weverse,팬덤 기반 음악 플랫폼
+wmg_music_ip,Warner Music IP,워너뮤직 IP,Warner Music catalog,warner_music,music,music_ip_portfolio,firm_country,Warner Music catalog -> wmg_music_ip,레이블 IP 포트폴리오 단위
+yg_music_ip,YG Music IP,YG 음악 IP,YG music catalog,yg_ent,music,music_ip_portfolio,firm_country,YG music catalog -> yg_music_ip,레이블 IP 포트폴리오 단위
+youtube,YouTube,유튜브,YouTube,alphabet,digital_infra,video_platform,service_country,YouTube -> youtube,광고와 트래픽 전이 핵심 서비스
+youtube_music,YouTube Music,유튜브 뮤직,YouTube Music,alphabet,music,music_streaming,service_country,YouTube Music -> youtube_music,한국 공개 가격 snapshot이 확보된 음악 구독 서비스

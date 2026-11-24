@@ -1,0 +1,8 @@
+field_name,display_name_ko,data_type,required,allowed_values_or_format,description
+observation_id,관측치 ID,string,yes,must match company input,회사 입력 행과의 키
+variable_name,변수명,string,yes,must be active variable,민감도 범위를 제공할 feature
+low,입력 하단,number,yes,low <= base <= high,입력·측정 가정의 하단
+base,입력 기준,number,yes,must equal or document difference from company input,기준 입력
+high,입력 상단,number,yes,low <= base <= high,입력·측정 가정의 상단
+range_type,범위 유형,enum,yes,measurement|assumption|source_interval,확률적 신뢰구간이 아님
+source_id,범위 근거 ID,string,yes,non-empty,하단·상단의 근거

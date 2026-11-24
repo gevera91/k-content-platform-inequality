@@ -1,0 +1,61 @@
+{
+  "report_revision_date": "2026-11-24",
+  "report_pages": 169,
+  "report_sha256": "a7ce457169540b98e8242c577e2bde278bf9952c7f8baf1d2f54021caa0603dc",
+  "workbook_version": "CPII_COMPARATOR_XLSX_V2.0.1",
+  "workbook_sha256": "b673b4ef15595aee24be726e0496091ceea8de0b79f5956a6af8abb3a5ee6154",
+  "sources": [
+    {
+      "path": "kakao_enter.tex",
+      "sha256": "e74fa0580249c36a839cf5138831330f8b277c5a259d86eed34b93f69b383218"
+    },
+    {
+      "path": "kakao_report_style.sty",
+      "sha256": "85b07eaa30faa077a9c2dec593640186f512d576a0abf1e2ab89aa15b8434052"
+    },
+    {
+      "path": "cpii_comparator_v2_section.tex",
+      "sha256": "68f0d3b86c974332a676c0474904a198e925d317176019c9fda9bba8a0366b00"
+    },
+    {
+      "path": "cpii_simulator_manual.tex",
+      "sha256": "3dc4ee4458c90d1832388ab3709312594dd69e09986e92389b8bf19f69a2bcb4"
+    },
+    {
+      "path": "evidence_scope_appendix.tex",
+      "sha256": "c547feb04ba7b7890c14be9a6eacdc1caf2095a3e2ccb05ea74c367ae43ed3b6"
+    },
+    {
+      "path": "latexmkrc",
+      "sha256": "d7cafb356872e7654a36d6f440022139438cb9d84ed003ec50105eb3728597ed"
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/appendix/cpii_interpretation_appendix.tex",
+      "sha256": "f6473bf32cfe9f6be35fe0a85577077a35801cc4b5707fa964fe75302df8f036"
+    },
+    {
+      "path": "docs/comprehensive_revision_20261026/figures/music_measurement_evidence_revised.pdf",
+      "sha256": "51c63f0089d6f7e8e9e6f0dbd0ad2fcbc0efd3d418497d68eb4a8385e5f686b9"
+    },
+    {
+      "path": "docs/comprehensive_revision_20261026/figures/music_bundle_posted_price_comparison_revised.pdf",
+      "sha256": "6a8a721694c3b1a893332ed06fd4a5d9aa105c8ae53092c7e883456a18f12f14"
+    },
+    {
+      "path": "docs/comprehensive_revision_20261026/figures/claim_channel_score_gaps_revised.pdf",
+      "sha256": "13e939f316e1c509210ea88bab130eba1b494e313bd6415d6220ddc5d0ae648a"
+    },
+    {
+      "path": "docs/comprehensive_revision_20261026/figures/music_channel_evidence_map_revised.pdf",
+      "sha256": "becdb4e9494049524a2be75f66683492828b1d084a832a931d862be09306cc22"
+    },
+    {
+      "path": "outputs/figures/claim_strengthening/F_music_econ_effective_burden_wedge.png",
+      "sha256": "010ff61a21b7b2875ac3639c1bf8bfbdf8519e1b82f29be1745424e62b8a465c"
+    },
+    {
+      "path": "outputs/figures/claim_strengthening/F_claim_channel_decomposition.png",
+      "sha256": "edf7b84bab52c2bcd944fedd5ca335236ca36546c4aadb1f6a5f9090c8299dfc"
+    }
+  ]
+}

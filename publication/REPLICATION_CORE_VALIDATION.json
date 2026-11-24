@@ -1,0 +1,465 @@
+{
+  "created_utc": "2026-11-24T08:50:03.770941+00:00",
+  "profile": "core",
+  "python": "3.12.3",
+  "network_required": false,
+  "commands": [
+    {
+      "command": [
+        "python",
+        "scripts/build_subindex_panels.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/01.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/build_cpii_panels.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/02.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/build_policy_scenarios.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/03.log"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/review_strengthening_20260915.py"
+      ],
+      "exit_code": 0,
+      "log": "logs/04.log"
+    },
+    {
+      "command": [
+        "python",
+        "-m",
+        "scripts.cpii_simulator.build_fictional_examples"
+      ],
+      "exit_code": 0,
+      "log": "logs/05.log"
+    }
+  ],
+  "numeric_tolerance": {
+    "absolute": 1e-08,
+    "relative": 1e-10
+  },
+  "comparisons": [
+    {
+      "path": "data/processed/cpii_panel_firm_country_quarter.csv",
+      "rows": 580,
+      "numeric_cells": 16215,
+      "mismatches": [],
+      "reference_sha256": "0d64e795924c09e4177ace99e2fcbd0b3145c041c1152d354648e55c4db242b8",
+      "generated_sha256": "0d64e795924c09e4177ace99e2fcbd0b3145c041c1152d354648e55c4db242b8",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_sector_country_quarter.csv",
+      "rows": 159,
+      "numeric_cells": 3798,
+      "mismatches": [],
+      "reference_sha256": "d4250e8bbc4efa67f9e445ef16199fc7b8d384b6bf58fdc9c74f53a8e8bba1f5",
+      "generated_sha256": "d4250e8bbc4efa67f9e445ef16199fc7b8d384b6bf58fdc9c74f53a8e8bba1f5",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_panel_sector_quarter.csv",
+      "rows": 19,
+      "numeric_cells": 293,
+      "mismatches": [],
+      "reference_sha256": "a61e5a105e2823628b4707726f9c9f69fd7347e04462dd6f18969e392a167b91",
+      "generated_sha256": "a61e5a105e2823628b4707726f9c9f69fd7347e04462dd6f18969e392a167b91",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/fictional_companies.csv",
+      "rows": 4,
+      "numeric_cells": 52,
+      "mismatches": [],
+      "reference_sha256": "36c851ef130ca99f7e985116b01b1f50bffa3603801dabcddfe9bae60199a424",
+      "generated_sha256": "36c851ef130ca99f7e985116b01b1f50bffa3603801dabcddfe9bae60199a424",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/fictional_exposures.csv",
+      "rows": 4,
+      "numeric_cells": 84,
+      "mismatches": [],
+      "reference_sha256": "0e03db8462cd850f348331309cce01dc1b405f8198e51a1e9f6b661e193dd096",
+      "generated_sha256": "0e03db8462cd850f348331309cce01dc1b405f8198e51a1e9f6b661e193dd096",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/fictional_feature_provenance.csv",
+      "rows": 40,
+      "numeric_cells": 40,
+      "mismatches": [],
+      "reference_sha256": "ef60966f56c879f91aece71d61d9af8384da7ea1469a51beb2e240909b67465a",
+      "generated_sha256": "ef60966f56c879f91aece71d61d9af8384da7ea1469a51beb2e240909b67465a",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/fictional_feature_ranges.csv",
+      "rows": 40,
+      "numeric_cells": 120,
+      "mismatches": [],
+      "reference_sha256": "eb98e2b5e6a85c4f1f42aa78903c253a61a9728b19e9363b4794b459ca30a7f3",
+      "generated_sha256": "eb98e2b5e6a85c4f1f42aa78903c253a61a9728b19e9363b4794b459ca30a7f3",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/golden_equal_gap_companies.csv",
+      "rows": 4,
+      "numeric_cells": 52,
+      "mismatches": [],
+      "reference_sha256": "1fe25a814f1e8e91e416f7a55b453e43f35b549f2be924955f1f2ee6c8104e3a",
+      "generated_sha256": "1fe25a814f1e8e91e416f7a55b453e43f35b549f2be924955f1f2ee6c8104e3a",
+      "passed": true
+    },
+    {
+      "path": "data/processed/cpii_simulator/examples/golden_equal_gap_exposures.csv",
+      "rows": 4,
+      "numeric_cells": 84,
+      "mismatches": [],
+      "reference_sha256": "cd773bf6d8ce528f532be55251ecc5caae0a23d2ad83b84ab2a56e9cf8db901d",
+      "generated_sha256": "cd773bf6d8ce528f532be55251ecc5caae0a23d2ad83b84ab2a56e9cf8db901d",
+      "passed": true
+    },
+    {
+      "path": "data/processed/subindex_panel_sector_country_quarter.csv",
+      "rows": 159,
+      "numeric_cells": 2571,
+      "mismatches": [],
+      "reference_sha256": "9721ecb7e15f4d3ccaf592d852f9e87ec82ba9239ef1f38467bfe9ad017b1338",
+      "generated_sha256": "9721ecb7e15f4d3ccaf592d852f9e87ec82ba9239ef1f38467bfe9ad017b1338",
+      "passed": true
+    },
+    {
+      "path": "data/processed/subindex_panel_sector_quarter.csv",
+      "rows": 19,
+      "numeric_cells": 137,
+      "mismatches": [],
+      "reference_sha256": "13c14893c463c15dee64d24b30a2734f8fc2c6e87519b847cc9a416761f7a0c2",
+      "generated_sha256": "13c14893c463c15dee64d24b30a2734f8fc2c6e87519b847cc9a416761f7a0c2",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/company_ranking.csv",
+      "rows": 4,
+      "numeric_cells": 132,
+      "mismatches": [],
+      "reference_sha256": "5a62789c6fe4b7d62836aa37e4ff333861afa68b6f0650af1a9951e5e976d725",
+      "generated_sha256": "5a62789c6fe4b7d62836aa37e4ff333861afa68b6f0650af1a9951e5e976d725",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/company_scores.csv",
+      "rows": 4,
+      "numeric_cells": 124,
+      "mismatches": [],
+      "reference_sha256": "f8fc1d8152d01f5726645e7098a4c5751e75fd823033c478084a78d753af4b77",
+      "generated_sha256": "f8fc1d8152d01f5726645e7098a4c5751e75fd823033c478084a78d753af4b77",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/economic_interpretations.csv",
+      "rows": 60,
+      "numeric_cells": 1164,
+      "mismatches": [],
+      "reference_sha256": "af728bcf517b486544e41c63ade504407f94099fe739de3f3603b76461b1116c",
+      "generated_sha256": "af728bcf517b486544e41c63ade504407f94099fe739de3f3603b76461b1116c",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/golden_equal_gap_summary.csv",
+      "rows": 2,
+      "numeric_cells": 6,
+      "mismatches": [],
+      "reference_sha256": "2a5b6257fe17573c9a1d5df83952ca51f43684e7d7ff24d58b6692260a38e425",
+      "generated_sha256": "2a5b6257fe17573c9a1d5df83952ca51f43684e7d7ff24d58b6692260a38e425",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/pair_contributions.csv",
+      "rows": 60,
+      "numeric_cells": 720,
+      "mismatches": [],
+      "reference_sha256": "60261463ff4ec83f4c01f53896f41d9e9bf1af4c56aab7c0c09ffbd29d4934b7",
+      "generated_sha256": "60261463ff4ec83f4c01f53896f41d9e9bf1af4c56aab7c0c09ffbd29d4934b7",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/pair_gap_matrix.csv",
+      "rows": 4,
+      "numeric_cells": 16,
+      "mismatches": [],
+      "reference_sha256": "5d9eca9d3b803d7e5d84984a58f9c4f7c00d75ed3138c18498c756cf7d7cf4d4",
+      "generated_sha256": "5d9eca9d3b803d7e5d84984a58f9c4f7c00d75ed3138c18498c756cf7d7cf4d4",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/pair_gaps.csv",
+      "rows": 6,
+      "numeric_cells": 28,
+      "mismatches": [],
+      "reference_sha256": "67f537cab8de4b305f33f79eafa424db0e913463cc25ac62498b8771521deaf3",
+      "generated_sha256": "67f537cab8de4b305f33f79eafa424db0e913463cc25ac62498b8771521deaf3",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/pair_narratives.csv",
+      "rows": 6,
+      "numeric_cells": 0,
+      "mismatches": [],
+      "reference_sha256": "741ac00a3393ac330a487682d9553c82bea3cff0c537609c89d5062aad443c19",
+      "generated_sha256": "741ac00a3393ac330a487682d9553c82bea3cff0c537609c89d5062aad443c19",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/sensitivity_summary.csv",
+      "rows": 6,
+      "numeric_cells": 54,
+      "mismatches": [],
+      "reference_sha256": "f4bd091cdf9e2f3fcb1238c474a769e9019749bf22884851400cdef7a1685050",
+      "generated_sha256": "f4bd091cdf9e2f3fcb1238c474a769e9019749bf22884851400cdef7a1685050",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/cpii_simulator/examples/sensitivity_variants.csv",
+      "rows": 36,
+      "numeric_cells": 108,
+      "mismatches": [],
+      "reference_sha256": "be2e838e0cbc3f7c331ff97307a27f14d78b66aff6344bc86270d852bb61b77e",
+      "generated_sha256": "be2e838e0cbc3f7c331ff97307a27f14d78b66aff6344bc86270d852bb61b77e",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/policy_scenario_summary.csv",
+      "rows": 44,
+      "numeric_cells": 924,
+      "mismatches": [],
+      "reference_sha256": "37e541837b09c561facc9a63e035846867375ec48e439873194ca421405d3ed9",
+      "generated_sha256": "37e541837b09c561facc9a63e035846867375ec48e439873194ca421405d3ed9",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/policy_sensitivity_summary.csv",
+      "rows": 132,
+      "numeric_cells": 1188,
+      "mismatches": [],
+      "reference_sha256": "341a991061fcafc67272221c35560ba733f7174dd167f3eaf17b2e9e58168582",
+      "generated_sha256": "341a991061fcafc67272221c35560ba733f7174dd167f3eaf17b2e9e58168582",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/policy_adverse_sensitivity_contrasts.csv",
+      "rows": 30,
+      "numeric_cells": 30,
+      "mismatches": [],
+      "reference_sha256": "19b1e548a877015eecf8cb14fd2a7ec920bc62524c8800ab8db3ac332c1e2028",
+      "generated_sha256": "19b1e548a877015eecf8cb14fd2a7ec920bc62524c8800ab8db3ac332c1e2028",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/policy_baseline_decomposition.csv",
+      "rows": 44,
+      "numeric_cells": 264,
+      "mismatches": [],
+      "reference_sha256": "5d496a80af98a1de2a35bfaa21acaafa22336404a6bc606c58ee6ca187f510dd",
+      "generated_sha256": "5d496a80af98a1de2a35bfaa21acaafa22336404a6bc606c58ee6ca187f510dd",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/policy_baseline_decomposition_summary.csv",
+      "rows": 9,
+      "numeric_cells": 45,
+      "mismatches": [],
+      "reference_sha256": "af8cb467f0fe4d363efbf76ae26cb53e7444ac32fb07eda462ee8ad87d8800d7",
+      "generated_sha256": "af8cb467f0fe4d363efbf76ae26cb53e7444ac32fb07eda462ee8ad87d8800d7",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/policy_matched_contrasts.csv",
+      "rows": 30,
+      "numeric_cells": 30,
+      "mismatches": [],
+      "reference_sha256": "1947b9284778fe83a5d4aff689f1f3c309742fff25261682f6ad4d47540a4150",
+      "generated_sha256": "1947b9284778fe83a5d4aff689f1f3c309742fff25261682f6ad4d47540a4150",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/signed_axis_robustness.csv",
+      "rows": 11,
+      "numeric_cells": 97,
+      "mismatches": [],
+      "reference_sha256": "3f7271ce0e6a5eb0b4a3c27aa1b2b1f4916f5c5440f863b26f00e01bd97c471b",
+      "generated_sha256": "3f7271ce0e6a5eb0b4a3c27aa1b2b1f4916f5c5440f863b26f00e01bd97c471b",
+      "passed": true
+    },
+    {
+      "path": "outputs/tables/review_20260915/subindex_channel_contrasts.csv",
+      "rows": 14,
+      "numeric_cells": 56,
+      "mismatches": [],
+      "reference_sha256": "d5349f0c5392f65c726aecf728172d83887f5f05da4765171b9e22b91f56d270",
+      "generated_sha256": "d5349f0c5392f65c726aecf728172d83887f5f05da4765171b9e22b91f56d270",
+      "passed": true
+    }
+  ],
+  "new_generated_tables": [],
+  "expected_reference_tables_not_regenerated": [],
+  "report_claims": [
+    {
+      "claim": "CPII full-period mean: music",
+      "actual": 53.21906297611667,
+      "expected": 53.22,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "claim": "CPII full-period mean: webtoon_story",
+      "actual": 55.055940894799996,
+      "expected": 55.06,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "claim": "CPII full-period mean: digital_infra",
+      "actual": 42.4956927796,
+      "expected": 42.5,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "claim": "CPII 2025Q2-Q4 mean: music",
+      "actual": 55.1254526017,
+      "expected": 55.125,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "CPII 2025Q2-Q4 mean: webtoon_story",
+      "actual": 49.97244802963333,
+      "expected": 49.972,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "CPII 2025Q2-Q4 mean: digital_infra",
+      "actual": 42.8873160858,
+      "expected": 42.887,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "NET same-input reduction: digital_infra",
+      "actual": 7.848407518925002,
+      "expected": 7.848,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "NET same-input reduction: music",
+      "actual": 10.793172690783335,
+      "expected": 10.793,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "NET same-input reduction: webtoon_story",
+      "actual": 13.421916834025001,
+      "expected": 13.422,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "Melon-Spotify core direction",
+      "actual": 0.5,
+      "expected": 0.5,
+      "tolerance": 5e-05,
+      "passed": true
+    },
+    {
+      "claim": "Melon-Spotify extended direction",
+      "actual": 0.5375,
+      "expected": 0.5375,
+      "tolerance": 5e-05,
+      "passed": true
+    },
+    {
+      "claim": "FLO-Spotify core direction",
+      "actual": 0.25,
+      "expected": 0.25,
+      "tolerance": 5e-05,
+      "passed": true
+    },
+    {
+      "claim": "FLO-Spotify extended direction",
+      "actual": 0.38,
+      "expected": 0.38,
+      "tolerance": 5e-05,
+      "passed": true
+    },
+    {
+      "claim": "Extended direction mean: music",
+      "actual": 0.43416666666666665,
+      "expected": 0.434,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "Extended direction mean: webtoon_story",
+      "actual": 0.1666665,
+      "expected": 0.167,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "Extended direction mean: digital_infra",
+      "actual": 0.4824946666666667,
+      "expected": 0.482,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "claim": "Extended cases positive after axis deletion",
+      "actual": 11,
+      "expected": 11,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "claim": "Extended cases positive across weight box",
+      "actual": 11,
+      "expected": 11,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "claim": "Music core cases positive after axis deletion",
+      "actual": 5,
+      "expected": 5,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "claim": "Positive adverse NET pairwise contrasts",
+      "actual": 30,
+      "expected": 30,
+      "tolerance": 0,
+      "passed": true
+    }
+  ],
+  "tests_exit_code": 0,
+  "status": "PASS",
+  "regenerated_reference_tables": 29,
+  "verified_numeric_cells": 28432,
+  "test_count": 91
+}

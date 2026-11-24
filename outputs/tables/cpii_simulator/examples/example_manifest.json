@@ -1,0 +1,27 @@
+{
+  "build_date": "2026-11-24",
+  "company_count": 4,
+  "files_sha256": {
+    "data/processed/cpii_simulator/examples/fictional_companies.csv": "36c851ef130ca99f7e985116b01b1f50bffa3603801dabcddfe9bae60199a424",
+    "data/processed/cpii_simulator/examples/fictional_exposures.csv": "0e03db8462cd850f348331309cce01dc1b405f8198e51a1e9f6b661e193dd096",
+    "data/processed/cpii_simulator/examples/fictional_feature_provenance.csv": "ef60966f56c879f91aece71d61d9af8384da7ea1469a51beb2e240909b67465a",
+    "data/processed/cpii_simulator/examples/fictional_feature_ranges.csv": "eb98e2b5e6a85c4f1f42aa78903c253a61a9728b19e9363b4794b459ca30a7f3",
+    "data/processed/cpii_simulator/examples/golden_equal_gap_companies.csv": "1fe25a814f1e8e91e416f7a55b453e43f35b549f2be924955f1f2ee6c8104e3a",
+    "data/processed/cpii_simulator/examples/golden_equal_gap_exposures.csv": "cd773bf6d8ce528f532be55251ecc5caae0a23d2ad83b84ab2a56e9cf8db901d",
+    "outputs/tables/cpii_simulator/examples/company_ranking.csv": "5a62789c6fe4b7d62836aa37e4ff333861afa68b6f0650af1a9951e5e976d725",
+    "outputs/tables/cpii_simulator/examples/company_scores.csv": "f8fc1d8152d01f5726645e7098a4c5751e75fd823033c478084a78d753af4b77",
+    "outputs/tables/cpii_simulator/examples/economic_interpretations.csv": "af728bcf517b486544e41c63ade504407f94099fe739de3f3603b76461b1116c",
+    "outputs/tables/cpii_simulator/examples/golden_equal_gap_summary.csv": "2a5b6257fe17573c9a1d5df83952ca51f43684e7d7ff24d58b6692260a38e425",
+    "outputs/tables/cpii_simulator/examples/pair_contributions.csv": "60261463ff4ec83f4c01f53896f41d9e9bf1af4c56aab7c0c09ffbd29d4934b7",
+    "outputs/tables/cpii_simulator/examples/pair_gap_matrix.csv": "5d9eca9d3b803d7e5d84984a58f9c4f7c00d75ed3138c18498c756cf7d7cf4d4",
+    "outputs/tables/cpii_simulator/examples/pair_gaps.csv": "67f537cab8de4b305f33f79eafa424db0e913463cc25ac62498b8771521deaf3",
+    "outputs/tables/cpii_simulator/examples/pair_narratives.csv": "741ac00a3393ac330a487682d9553c82bea3cff0c537609c89d5062aad443c19",
+    "outputs/tables/cpii_simulator/examples/sensitivity_summary.csv": "f4bd091cdf9e2f3fcb1238c474a769e9019749bf22884851400cdef7a1685050",
+    "outputs/tables/cpii_simulator/examples/sensitivity_variants.csv": "be2e838e0cbc3f7c331ff97307a27f14d78b66aff6344bc86270d852bb61b77e"
+  },
+  "golden_amount_ratio": 498.95478591171974,
+  "golden_gap_difference_points": 7.105427357601002e-15,
+  "golden_pair_count": 2,
+  "synthetic_data": true,
+  "unordered_pair_count": 6
+}

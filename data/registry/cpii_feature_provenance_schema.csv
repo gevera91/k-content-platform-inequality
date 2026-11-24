@@ -1,0 +1,11 @@
+field_name,display_name_ko,data_type,required,allowed_values_or_format,description
+observation_id,관측치 ID,string,yes,must match company input,회사 입력 행과의 키
+variable_name,변수명,string,yes,must be active variable,해당 입력 feature
+source_id,변수별 출처 ID,string,yes,non-empty,공시·원자료·산식의 식별자
+source_date,변수별 기준일,date,yes,YYYY-MM-DD,해당 feature의 정보 시점
+input_quality,변수별 품질,enum,yes,A|B|C|SYNTHETIC,근거 품질을 feature별로 보존
+construction_mode,변수별 구축방식,enum,yes,direct|derived|proxy,서로 다른 구축경로를 행 수준 요약에 숨기지 않음
+carry_lag_q,변수별 이월 시차,integer,yes,0 or positive,1분기 초과 이월은 경고
+benchmark_id,변수별 벤치마크 ID,string,conditional,registry ID for benchmark-gap variables,비gap 변수의 비교집단 추적
+formula_note,산식·가정 메모,string,yes,non-empty,원천 항목·배분·대체 proxy 설명
+synthetic_flag,합성자료 표시,enum,yes,yes|no,실제 기업 추정 오인 방지

@@ -1,0 +1,333 @@
+{
+  "source_sha256": {
+    "data/processed/policy_simulator_baseline_inputs.csv": "71860cc7dd68a90254039b205e7bfd3b5e1c25c042afe32b99cdbeab8e3ea883",
+    "data/processed/policy_simulator_calibrated_parameters.csv": "045b3a2aacb5ae7fd15d3dfecb62e6fefd5797d309c9e4dc597bc8aef868192e",
+    "data/processed/variable_panel_sector_quarter.csv": "d6c870f99463ea9e3b9dcd7d37cc839a525646b22a3b3d5a8e4146c78a36f53f",
+    "data/processed/variable_panel_platform_quarter.csv": "627fb826956a48474f08bc166f8b7e993b062f1c7274044f70de05178f44373e",
+    "data/processed/subindex_panel_sector_quarter.csv": "13c14893c463c15dee64d24b30a2734f8fc2c6e87519b847cc9a416761f7a0c2",
+    "outputs/tables/policy_scenario_summary.csv": "37e541837b09c561facc9a63e035846867375ec48e439873194ca421405d3ed9",
+    "outputs/tables/policy_sensitivity_summary.csv": "341a991061fcafc67272221c35560ba733f7174dd167f3eaf17b2e9e58168582",
+    "outputs/tables/claim_strengthening/signed_rebuild/T_signed_korea_market_case_studies.csv": "8e501f414b33484dd0dfd66d03d2781ce4ca46b6bcce1859f270171e252a04e4"
+  },
+  "policy_checks": {
+    "active": {
+      "I_reg": [
+        "effective_tax_rate_gap",
+        "network_cost_ratio",
+        "infra_dependency_ratio"
+      ],
+      "I_risk": [
+        "funding_cost_spread",
+        "ip_assetization_gap",
+        "investment_recovery_ratio",
+        "cashflow_recovery_ratio"
+      ],
+      "I_market": [
+        "cross_market_transfer_index",
+        "foreign_dependency_ratio",
+        "outflow_to_capex_ratio"
+      ]
+    },
+    "inactive": {
+      "bundle_leverage_index": {
+        "reason": "n_lt_2",
+        "n_obs": "1"
+      },
+      "creator_share_ratio": {
+        "reason": "winsorized_zero_variation",
+        "n_obs": "2",
+        "winsor_lower": "-1",
+        "winsor_upper": "-1"
+      }
+    },
+    "cba_cap_cases": [
+      "baseline_011",
+      "baseline_012",
+      "baseline_013",
+      "baseline_014"
+    ],
+    "zero_intensity_changes": [
+      {
+        "baseline_id": "baseline_005",
+        "scenario": "IPF",
+        "zero_intensity_difference": -1.9005847952999986
+      },
+      {
+        "baseline_id": "baseline_006",
+        "scenario": "IPF",
+        "zero_intensity_difference": -1.9005847952999986
+      }
+    ],
+    "adverse_sensitivity": {
+      "BND": {
+        "n": 10,
+        "positive": 10,
+        "min": 0.18267514510000105
+      },
+      "IPF": {
+        "n": 10,
+        "positive": 10,
+        "min": 4.3551201924
+      },
+      "CBA": {
+        "n": 10,
+        "positive": 10,
+        "min": 4.217757555
+      }
+    }
+  },
+  "policy_summary": [
+    {
+      "sector": "digital_infra",
+      "scenario": "NET",
+      "n": 4,
+      "mean_reported_delta": 2.951670731725,
+      "mean_rebase_offset": -4.896736787200002,
+      "mean_same_input_difference": 7.848407518925002,
+      "latest_quarter": "2025Q4",
+      "latest_same_input_difference": 9.660865685000005
+    },
+    {
+      "sector": "music",
+      "scenario": "BND",
+      "n": 6,
+      "mean_reported_delta": -2.81724952605,
+      "mean_rebase_offset": -3.743175451966669,
+      "mean_same_input_difference": 0.9259259259166678,
+      "latest_quarter": "2026Q1",
+      "latest_same_input_difference": 0.0
+    },
+    {
+      "sector": "music",
+      "scenario": "CBA",
+      "n": 6,
+      "mean_reported_delta": -3.639747556,
+      "mean_rebase_offset": -3.743175451966669,
+      "mean_same_input_difference": 0.1034278959666679,
+      "latest_quarter": "2026Q1",
+      "latest_same_input_difference": 0.0
+    },
+    {
+      "sector": "music",
+      "scenario": "IPF",
+      "n": 6,
+      "mean_reported_delta": -3.9985505463666664,
+      "mean_rebase_offset": -3.743175451966669,
+      "mean_same_input_difference": -0.2553750943999991,
+      "latest_quarter": "2026Q1",
+      "latest_same_input_difference": 0.9157509157999968
+    },
+    {
+      "sector": "music",
+      "scenario": "NET",
+      "n": 6,
+      "mean_reported_delta": 7.049997238816666,
+      "mean_rebase_offset": -3.743175451966669,
+      "mean_same_input_difference": 10.793172690783335,
+      "latest_quarter": "2026Q1",
+      "latest_same_input_difference": 11.988230700599999
+    },
+    {
+      "sector": "webtoon_story",
+      "scenario": "BND",
+      "n": 4,
+      "mean_reported_delta": 2.0663362114,
+      "mean_rebase_offset": 2.066336211399997,
+      "mean_same_input_difference": 0.0,
+      "latest_quarter": "2026Q1",
+      "latest_same_input_difference": 0.0
+    },
+    {
+      "sector": "webtoon_story",
+      "scenario": "CBA",
+      "n": 4,
+      "mean_reported_delta": 2.12174401285,
+      "mean_rebase_offset": 2.066336211399997,
+      "mean_same_input_difference": 0.05540780145000124,
+      "latest_quarter": "2026Q1",
+      "latest_same_input_difference": 0.0
+    },
+    {
+      "sector": "webtoon_story",
+      "scenario": "IPF",
+      "n": 4,
+      "mean_reported_delta": 2.231463637175,
+      "mean_rebase_offset": 2.066336211399997,
+      "mean_same_input_difference": 0.16512742577500106,
+      "latest_quarter": "2026Q1",
+      "latest_same_input_difference": 0.26595744680000166
+    },
+    {
+      "sector": "webtoon_story",
+      "scenario": "NET",
+      "n": 4,
+      "mean_reported_delta": 15.488253045425001,
+      "mean_rebase_offset": 2.066336211399997,
+      "mean_same_input_difference": 13.421916834025001,
+      "latest_quarter": "2026Q1",
+      "latest_same_input_difference": 17.892402945100002
+    }
+  ],
+  "matched_NET_comparisons": {
+    "BND": {
+      "n": 10,
+      "positive": 10,
+      "min": 4.350736278499998,
+      "mean": 11.28911479253
+    },
+    "IPF": {
+      "n": 10,
+      "positive": 10,
+      "min": 4.355120192399998,
+      "mean": 11.931844434410001
+    },
+    "CBA": {
+      "n": 10,
+      "positive": 10,
+      "min": 4.217757554999999,
+      "mean": 11.76045048992
+    }
+  },
+  "signed_sector_summary": {
+    "digital_infra": {
+      "n": 3,
+      "extended_loo_min": 0.2279935,
+      "extended_box_weight_min": 0.053991333333333315,
+      "core_loo_available": 3,
+      "core_loo_positive": 1
+    },
+    "music": {
+      "n": 6,
+      "extended_loo_min": 0.2833333333333333,
+      "extended_box_weight_min": 0.17272727272727273,
+      "core_loo_available": 6,
+      "core_loo_positive": 5
+    },
+    "webtoon_story": {
+      "n": 2,
+      "extended_loo_min": 0.125,
+      "extended_box_weight_min": 0.11666666666666665,
+      "core_loo_available": 0,
+      "core_loo_positive": 0
+    }
+  },
+  "channel_contrasts": [
+    {
+      "sector": "digital_infra",
+      "quarter": "2024Q4",
+      "risk_minus_reg": 24.3702877084,
+      "risk_minus_market": 17.7036522421,
+      "market_minus_reg": 6.666635466300001,
+      "market_minus_risk": -17.7036522421
+    },
+    {
+      "sector": "digital_infra",
+      "quarter": "2025Q2",
+      "risk_minus_reg": 15.581070864600001,
+      "risk_minus_market": 24.005616150199998,
+      "market_minus_reg": -8.424545285599997,
+      "market_minus_risk": -24.005616150199998
+    },
+    {
+      "sector": "digital_infra",
+      "quarter": "2025Q3",
+      "risk_minus_reg": 13.159557496600002,
+      "risk_minus_market": 18.1831332175,
+      "market_minus_reg": -5.0235757208999985,
+      "market_minus_risk": -18.1831332175
+    },
+    {
+      "sector": "digital_infra",
+      "quarter": "2025Q4",
+      "risk_minus_reg": 14.275510887700001,
+      "risk_minus_market": 25.316133205200003,
+      "market_minus_reg": -11.040622317500002,
+      "market_minus_risk": -25.316133205200003
+    },
+    {
+      "sector": "music",
+      "quarter": "2024Q4",
+      "risk_minus_reg": 17.039287258999998,
+      "risk_minus_market": -2.6560701246000065,
+      "market_minus_reg": 19.695357383600005,
+      "market_minus_risk": 2.6560701246000065
+    },
+    {
+      "sector": "music",
+      "quarter": "2025Q1",
+      "risk_minus_reg": 17.039287258999998,
+      "risk_minus_market": -2.6560701246000065,
+      "market_minus_reg": 19.695357383600005,
+      "market_minus_risk": 2.6560701246000065
+    },
+    {
+      "sector": "music",
+      "quarter": "2025Q2",
+      "risk_minus_reg": -33.51955451359999,
+      "risk_minus_market": -12.2990624945,
+      "market_minus_reg": -21.220492019099993,
+      "market_minus_risk": 12.2990624945
+    },
+    {
+      "sector": "music",
+      "quarter": "2025Q3",
+      "risk_minus_reg": -36.072461426,
+      "risk_minus_market": -27.496686857500002,
+      "market_minus_reg": -8.575774568499995,
+      "market_minus_risk": 27.496686857500002
+    },
+    {
+      "sector": "music",
+      "quarter": "2025Q4",
+      "risk_minus_reg": -8.292260035399998,
+      "risk_minus_market": -19.0414507398,
+      "market_minus_reg": 10.7491907044,
+      "market_minus_risk": 19.0414507398
+    },
+    {
+      "sector": "music",
+      "quarter": "2026Q1",
+      "risk_minus_reg": -8.292260035399998,
+      "risk_minus_market": -17.189598888,
+      "market_minus_reg": 8.8973388526,
+      "market_minus_risk": 17.189598888
+    },
+    {
+      "sector": "webtoon_story",
+      "quarter": "2025Q2",
+      "risk_minus_reg": 22.556739212300002,
+      "risk_minus_market": -16.956073944999996,
+      "market_minus_reg": 39.512813157299995,
+      "market_minus_risk": 16.956073944999996
+    },
+    {
+      "sector": "webtoon_story",
+      "quarter": "2025Q3",
+      "risk_minus_reg": -9.137773426299994,
+      "risk_minus_market": -13.530582758899996,
+      "market_minus_reg": 4.392809332600002,
+      "market_minus_risk": 13.530582758899996
+    },
+    {
+      "sector": "webtoon_story",
+      "quarter": "2025Q4",
+      "risk_minus_reg": -13.298893900600007,
+      "risk_minus_market": 0.4415340812000039,
+      "market_minus_reg": -13.74042798180001,
+      "market_minus_risk": -0.4415340812000039
+    },
+    {
+      "sector": "webtoon_story",
+      "quarter": "2026Q1",
+      "risk_minus_reg": -13.298893900600007,
+      "risk_minus_market": 5.699719600999998,
+      "market_minus_reg": -18.998613501600005,
+      "market_minus_risk": -5.699719600999998
+    }
+  ],
+  "limits": [
+    "No new source observations; frozen historical data.",
+    "Sensitivity results are deterministic, not confidence intervals.",
+    "Policy decomposition does not repair historical scenario boundary rules."
+  ]
+}

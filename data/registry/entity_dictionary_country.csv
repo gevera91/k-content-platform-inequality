@@ -1,0 +1,12 @@
+country_std,country_name_std,country_name_ko,iso_alpha2,currency_code,analysis_universe_flag,priority_tier,role,notes
+au,Australia,호주,AU,AUD,y,secondary,analysis_country,보조 비교국
+ca,Canada,캐나다,CA,CAD,y,primary,analysis_country,우선 비교국
+cn,China,중국,CN,CNY,n,home_country_only,firm_home_only,텐센트뮤직 본국 메타데이터용
+de,Germany,독일,DE,EUR,y,secondary,analysis_country,보조 비교국
+jp,Japan,일본,JP,JPY,y,primary,analysis_country,우선 비교국
+kr,Korea,대한민국,KR,KRW,y,primary,analysis_country,국내 기준시장
+lu,Luxembourg,룩셈부르크,LU,EUR,n,home_country_only,firm_home_only,스포티파이 본국 메타데이터용
+sg,Singapore,싱가포르,SG,SGD,y,secondary,analysis_country,보조 비교국
+tw,Taiwan,대만,TW,TWD,y,primary,analysis_country,우선 비교국
+uk,United Kingdom,영국,GB,GBP,y,primary,analysis_country,std는 uk로 유지하고 ISO는 GB 사용
+us,United States,미국,US,USD,y,primary,analysis_country,우선 비교국

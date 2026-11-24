@@ -1,0 +1,6 @@
+source_id,platform_or_actor,whether_public_tariff_exists,whether_contract_is_public,whether_rate_basis_is_comparable,evidence_grade,implication_for_claim
+LICCOMP01,domestic_online_music_services,yes,not_applicable_public_tariff_rule,yes_as_domestic_benchmark,official_direct,"국내 월정액 스트리밍 서비스에는 공개 tariff가 존재하므로 국내 사업자의 기본 정산 원리는 외부에서 직접 확인 가능하다."
+LICCOMP02,nonlisted_or_mixed_services_under_article_39,no_for_unlisted_service_classes,no,no,official_direct,"공개 tariff에 없는 서비스는 별도 협의와 보고·승인 구조를 탈 수 있으므로, 혼합형 또는 예외적 서비스는 공개 tariff와 동일한 방식으로 바로 비교되지 않을 수 있다."
+LICCOMP03,Korea_Copyright_Commission_and_KOMCA_2026_amendment_notice,yes,no,partial,official_direct,"저작권위는 KOMCA 징수규정 개정안을 공식 의견수렴에 부쳤다. 이는 tariff-governed 서비스의 규칙이 공개적으로 논의된다는 점을 보여 주며, 비교가능성의 국내 공개 기준점 역할을 한다."
+LICCOMP04,KOMCA_YouTube_residual_claim_system,separate_youtube_residual_system,no,no,official_indirect,"KOMCA는 유튜브 잔여사용료 청구시스템을 별도로 운영하고 있어, YouTube 관련 정산 구조가 공개 tariff 하나로 완결되지 않음을 시사한다."
+LICCOMP05,YouTube_Music_and_KOMCA_reported_contract,reported_separate_contract_basis,no,no,reported_actor_quote,"보도와 음저협 측 인용 발언에 따르면 유튜브와 유튜브뮤직은 복합 플랫폼으로 함께 계약되며 국내 업체와 계약 및 요율이 다를 수 있다고 설명된다. 다만 계약서와 요율 산식 원문은 비공개다."

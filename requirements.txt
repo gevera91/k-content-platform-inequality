@@ -1,0 +1,3 @@
+# Numerical replication, Python 3.12 (tested). The comparator itself uses stdlib.
+numpy==2.3.5
+Pillow==12.3.0

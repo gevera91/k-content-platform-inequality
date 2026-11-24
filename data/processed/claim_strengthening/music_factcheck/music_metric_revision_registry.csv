@@ -1,0 +1,14 @@
+metric_id,revision_action,old_support_score,new_support_score,why_changed,affected_layer
+gross_sales_streaming_rule,keep,100.000000,100.000000,"공개 징수규정 원문과 clause-level 추출로 국내 월정액 스트리밍의 gross-sales 기준이 직접 확인되어 유지.",L1
+foreign_contract_opacity,upgrade,85.000000,88.000000,"정확한 계약 요율은 여전히 비공개지만, 공식 tariff 부재와 별도 정산·청구 구조가 확인돼 비교가능성 부족 주장은 v1보다 약간 더 강해짐.",L1
+gross_vs_net_slogan_overstatement,downgrade,25.000000,10.000000,"`모든 국내는 gross, 모든 해외는 net` 슬로건은 factcheck에서 과장으로 재확인되어, v2에서는 더 강한 caution metric으로 낮춤.",L1
+ftc_bundle_structural_relief,keep,100.000000,100.000000,"동의의결의 법적 성격 caveat는 붙지만, 한국 경쟁당국의 구조시정 개입 자체는 여전히 가장 강한 직접 근거라 유지.",L2
+bundle_price_leverage_index,keep,80.469799,80.469799,"raw HTML 기준 가격 재감사에서 값과 비교 규칙이 재현돼 기존 점수를 유지.",L2
+mcst_audit_governance_risk,keep,90.000000,90.000000,"문체부 공식 점검 결과가 issue-level로 재확인되어 거버넌스 risk metric은 유지.",L3
+youtube_residual_claim_signal,downgrade,70.000000,45.000000,"별도 포털 존재는 `예외적 workflow`까지는 지지하지만, 부당 정산이나 특혜를 직접 뜻하지 않는다는 점이 factcheck로 분명해져 점수를 낮춤.",L3
+billboard_repeat_download_shift,downgrade,80.000000,50.000000,"Billboard 변화는 foreign metric dependence를 부분적으로 지지하지만, anti-K-pop 직접 증거는 아니고 대체설명도 강해져 export-facing partial-risk 수준으로 낮춤.",L4
+luminate_korea_panel_inclusion_counterevidence,add,,40.000000,"Luminate 2023 report의 Melon·FLO 편입은 blanket exclusion narrative를 약화시키는 직접 반대근거이므로 새 tempering metric으로 추가.",L4
+matched_fy2025_etr_gap,keep,94.818250,94.818250,"Dreamus vs Spotify FY2025 유효세율 gap은 원천 row에서 재구축되어 그대로 유지.",L5
+streaming_peer_tax_score_gap,downgrade,100.000000,70.000000,"직접 비용 panel의 tax burden score는 2차 가공 score라 matched ETR gap보다 증거강도가 낮아 보조적 점수로 하향.",L5
+bigtech_korea_tax_visibility_gap,downgrade,25.000000,10.000000,"current panel missingness는 nonpayment가 아니라 visibility gap만 시사하므로, inference-only metric으로 크게 낮춤.",L5
+korea_digital_tax_reach_exists,add,,20.000000,"한국 법제가 외국 디지털 플랫폼을 VAT·법인세 체계 밖에 완전히 두지 않는다는 공식 법령 확인을 반영해 blanket untaxed narrative를 temper하는 새 metric을 추가.",L5

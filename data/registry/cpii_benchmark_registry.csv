@@ -1,0 +1,2 @@
+benchmark_id,sector,reporting_period,cohort_definition,calculation_rule,benchmark_version,source_type,source_hash,status,notes
+BM-DIGITAL-CONTENT-2025Q4,digital_content,2025Q4,methodology-demo non-KR peer cohort,median by active benchmark-gap feature,BM_SYNTHETIC_V1,synthetic,37ce0afdbab9f73c20c867ea40074af397a5eeac16ecc235f149942962362ade,synthetic_only,방법론 설명용으로 실제 비교집단이 아님

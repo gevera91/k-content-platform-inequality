@@ -1,0 +1,35 @@
+{
+  "version": "1.0.1",
+  "release_date": "2026-11-24",
+  "repository": "https://github.com/gevera91/k-content-platform-inequality",
+  "report": "reports/kakao_enter.pdf",
+  "report_pages": 169,
+  "report_sha256": "a7ce457169540b98e8242c577e2bde278bf9952c7f8baf1d2f54021caa0603dc",
+  "google_sheets": "https://docs.google.com/spreadsheets/d/1qrbtViewFJKwZeBRDOmfXA8kzCt3vyrlDmGcW93DgTY/edit",
+  "workbook": "spreadsheet/CPII_Company_Comparator.xlsx",
+  "dataset_files": 291,
+  "data_csv_files": 261,
+  "full_replication": {
+    "tables": 49,
+    "numeric_cells": 75305,
+    "status": "PASS",
+    "steps": 15,
+    "report_checks": 25,
+    "tests": 91
+  },
+  "core_replication": {
+    "tables": 29,
+    "numeric_cells": 28432,
+    "status": "PASS"
+  },
+  "google_sheets_release": "v1.0.0",
+  "workbook_version": "CPII_COMPARATOR_XLSX_V2.0.1",
+  "workbook_validation": {
+    "formula_count": 11425,
+    "formula_errors": 0,
+    "scenario_assertions_passed": 65,
+    "libreoffice_cached_assertions_passed": 72,
+    "max_abs_python_difference": 7.11e-15
+  },
+  "correction_pipeline_steps": 35
+}

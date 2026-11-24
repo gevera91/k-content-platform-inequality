@@ -1,0 +1,9 @@
+subclaim_id,subclaim_sentence,verification_status,best_available_source_type,can_be_used_in_main_text,replacement_sentence_if_not
+GVN01,"국내 월정액 스트리밍 서비스는 공개 징수규정상 gross-sales 기준을 적용받는다.",verified_official,official_tariff_pdf,yes,
+GVN02,"국내 공개 징수규정의 매출액 정의에는 판매촉진 등에 따른 할인 금액이 포함된다.",verified_official,official_tariff_pdf,yes,
+GVN03,"인앱결제 서비스와 PCWEB 등이 동일한 서비스인 경우 인앱결제 사용료는 PCWEB 가격 및 정산 산식으로 정산한다.",verified_official,official_tariff_pdf,yes,
+GVN04,"2025년 말 총매출 기준을 순매출 기준으로 바꾸는 개정안이 심의 중이었다.",reported_with_official_quote,reported_article_with_official_quote,conditional,"2025년 11월 보도에 따르면 문체부 산하 심의 과정에서 총매출 기준을 순매출 기준으로 바꾸는 개정안이 검토되고 있었다."
+GVN05,"유튜브 관련 사용료 중 적어도 일부는 공개 tariff 외에 별도 잔여사용료 청구 체계로 관리된다.",verified_official_indirect,official_residual_claim_portal,conditional,"KOMCA는 유튜브 잔여사용료 청구시스템을 별도로 운영하고 있어 유튜브 관련 정산 구조가 공개 tariff 하나로 완결되지 않음을 보여 준다."
+GVN06,"유튜브뮤직은 음저협과 별도 계약을 체결하고 요율도 국내 플랫폼과 다르다.",reported_actor_quote,reported_article_with_actor_quote,conditional,"보도에 따르면 음저협 측은 유튜브와 유튜브뮤직을 함께 계약하는 복합 플랫폼이라 국내 업체와 계약과 요율이 다를 수 있다고 설명했다."
+GVN07,"모든 국내 플랫폼은 gross 기준이고 모든 해외 플랫폼은 net 기준이다.",not_verified_overstatement,mixed_sources_none_direct,no,"현재 직접 확인되는 것은 국내 공개 tariff의 gross-sales 규정과 외국 플랫폼 계약 비교의 불투명성이다. 모든 국내와 모든 해외를 한 줄 공식으로 대비하는 문장은 본문에서 쓰지 않는 것이 맞다."
+GVN08,"기능상 경쟁 서비스들이 동일하게 투명하고 비교가능한 라이선스 규칙 아래 있는지는 공개 자료만으로 확인되지 않는다.",supported_reframed_claim,official_tariff_plus_reported_comparability_gap,yes,""

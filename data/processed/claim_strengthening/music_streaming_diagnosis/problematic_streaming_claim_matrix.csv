@@ -1,0 +1,4 @@
+claim_id,claim_sentence_ko,claim_type,source_asset,requires_numeric_validity,requires_market_reality_consistency,downstream_outputs_affected
+MSC01,"음악 스트리밍은 한국 평균이 글로벌 비교군 평균보다 높게 나타났지만(+16.591978)","numeric_direct_gap_claim","kakao_enter.tex:73; outputs/tables/claim_strengthening/T_claim_korea_vs_global_gap.csv:4",yes,yes,"summary_headline; music_section_narrative; future_revision_map; final_freeze_decision"
+MSC02,"일부 비교 가능한 셀에서 더 높은 부담이 반복 관측된다고 해석하는 것이 타당하다","bounded_summary_claim","kakao_enter.tex:73; kakao_enter.tex:2033",no,yes,"summary_interpretation; overall_strongest_line; conclusion_memo; freeze_memo"
+MSC03,"한국 음악산업의 일부 핵심 접점에서는 구조적 비대칭이 반복 관측된다","music_safe_line_claim","kakao_enter.tex:71; docs/music_reanalysis_factchecked_conclusion_memo.md:7; docs/music_econ_extension_conclusion_memo.md:8",no,yes,"music_strongest_line; music_factcheck_cap; econ_extension_cap; corrected_wording_matrix"

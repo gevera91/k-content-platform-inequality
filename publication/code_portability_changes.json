@@ -1,0 +1,286 @@
+[
+  {
+    "path": "scripts/thicken_uk_tw_infra_country_proxies.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_alt_spec_cpii_panels.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/thicken_us_infra_fy2024_filings.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_standardized_numeric_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_policy_calibration.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_spec_robustness.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/collect_global_filings.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_firm_comparison_tables.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_timeseries_analysis.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/run_sector_regressions.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_variable_panels.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/thicken_us_infra_q2_filings.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_report_asset_index.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_subindex_panels.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_report_ready_assets.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/thicken_kr_telecom_fy2024_filings.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_deduplicated_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_financial_extraction_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_firm_service_coverage_audit.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_row_level_lineage_table.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_panel_skeletons.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_variable_qc_report.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_event_registry.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_country_comparison_tables.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_policy_scenarios.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/build_filing_metadata_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/collect_kr_filings.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_claim_leave_one_country_out.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_common_period_audit_matched.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_jp_uk_regulatory_obligations_core.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_regulatory_lag_comparison_table.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_claim_alt_hypothesis_reduction.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_ca_tw_regulatory_obligations_core.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_regulatory_enforcement_evidence_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_i_risk_narrow_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_report_ready_claim_figures_index.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_i_reg_narrow_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_kr_regulatory_obligations_core.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_funding_cost_matched_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_reverse_discrimination_core_sample_v1.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_core_sample_exclusion_log.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_investment_recovery_horizon_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_final_claim_evidence_grading.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_cost_sensitivity_outputs.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_network_cost_incidence_table.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_placebo_event_registry.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_us_regulatory_obligations_core.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_claim_placebo_event_results.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_claim_peer_rank_table.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_traffic_cost_pressure_matched_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_direct_cost_burden_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_local_share_erosion_episode_table.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_ip_assetization_comparison_table.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_claim_leave_one_peer_out.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_claim_placebo_outcome_results.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_claim_channel_decomposition_outputs.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_parafiscal_burden_table.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_i_market_narrow_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_event_registry_narrow.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_concentration_decomposition_outputs.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_cashflow_recovery_pressure_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_direct_regulatory_burden_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_claim_korea_vs_global_gap_outputs.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_report_ready_claim_tables_index.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_matched_effective_tax_rate_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_claim_pretrend_check.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_reverse_discrimination_balanced_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_switching_cost_narrow_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_cross_market_transfer_matched_panel.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/build_reverse_discrimination_composite_narrow.py",
+    "root_replacements": 1
+  },
+  {
+    "path": "scripts/claim_strengthening/music_factcheck/build_music_peer_tax_rebuild.py",
+    "root_replacements": 1
+  }
+]

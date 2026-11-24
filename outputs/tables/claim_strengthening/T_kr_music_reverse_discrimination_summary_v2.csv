@@ -1,0 +1,7 @@
+summary_level,layer_id,layer_name,metric_count,supportive_metric_count,tempering_metric_count,average_support_score_0_100,supportive_share,headline_judgment,interpretation_note
+layer,L1,regulatory_licensing_asymmetry,3,2,1,66.000000,0.666667,mixed_support,This layer remains directionally supportive but now needs stronger caveats.
+layer,L2,google_bundle_platform_power,2,2,0,90.234899,1.000000,strong_support,This layer continues to support the domestic structural-disadvantage reading for Korean music.
+layer,L3,domestic_governance_opacity,2,2,0,67.500000,1.000000,mixed_support,This layer remains directionally supportive but now needs stronger caveats.
+layer,L4,foreign_metric_dependence,2,1,1,45.000000,0.500000,weak_support,This layer is now too mixed to headline without stronger additional evidence.
+layer,L5,tax_asymmetry,4,3,1,48.704563,0.750000,weak_support,This layer is now too mixed to headline without stronger additional evidence.
+overall,OVERALL,kr_music_domestic_structural_average_v2,13,10,3,63.487892,0.769231,mixed_support,"한국 음악산업의 일부 핵심 접점에서는 구조적 비대칭이 반복 관측되지만, 산업 전체 평균의 역차별 headline은 더 조건부로 읽어야 한다."

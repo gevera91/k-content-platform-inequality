@@ -1,0 +1,23 @@
+firm_std,firm_name_std,firm_name_ko,firm_name_original,home_country,listed_flag,filing_system,filing_name_primary,service_relation_rule,notes
+akamai,Akamai Technologies Inc.,아카마이 테크놀로지스,Akamai Technologies Inc.,us,y,SEC_EDGAR,Akamai Technologies Inc.,firm_to_service_many,service_std=akamai_cdn
+alphabet,Alphabet Inc.,알파벳,Alphabet Inc.,us,y,SEC_EDGAR,Alphabet Inc.,firm_to_service_many,service_std=youtube
+amazon,Amazon.com Inc.,아마존닷컴,Amazon.com Inc.,us,y,SEC_EDGAR,Amazon.com Inc.,firm_to_service_many,service_std=aws
+cloudflare,Cloudflare Inc.,클라우드플레어,Cloudflare Inc.,us,y,SEC_EDGAR,Cloudflare Inc.,firm_to_service_many,service_std=cloudflare_cdn
+dreamus,Dreamus Company,드림어스컴퍼니,Dreamus Company,kr,y,OpenDART,Dreamus Company,firm_to_service_one,service_std=flo
+hybe,HYBE,하이브,HYBE,kr,y,OpenDART,HYBE Co. Ltd.,firm_to_service_many,service_std=weverse
+jyp_ent,JYP Entertainment,제이와이피엔터테인먼트,JYP Entertainment,kr,y,OpenDART,JYP Ent.,firm_to_service_ip,service_std=jyp_music_ip
+kadokawa,KADOKAWA Corporation,카도카와,KADOKAWA Corporation,jp,y,EDINET,KADOKAWA CORPORATION,firm_to_service_many,service_std=bookwalker
+kakao_ent,Kakao Entertainment,카카오엔터테인먼트,Kakao Entertainment,kr,n,parent_indirect_public,Kakao Entertainment,firm_to_service_many,"music=melon; webtoon_story=kakao_page"
+kakao_piccoma,Kakao piccoma Corp.,카카오픽코마,Kakao piccoma Corp.,jp,n,parent_indirect_public,Kakao piccoma Corp.,firm_to_service_one,service_std=piccoma
+kidari_studio,KidariStudio Inc.,키다리스튜디오,KidariStudio Inc.,kr,y,OpenDART,KidariStudio Inc.,firm_to_service_many,service_std=lezhin_comics
+kt,KT Corp.,KT,KT Corp.,kr,y,OpenDART,KT Corporation,firm_to_service_one,service_std=kt_network
+lg_uplus,LG Uplus Corp.,LG유플러스,LG Uplus Corp.,kr,y,OpenDART,LG Uplus Corp.,firm_to_service_one,service_std=lguplus_network
+naver,NAVER Corp.,네이버,NAVER Corp.,kr,y,OpenDART,NAVER Corporation,firm_to_service_many,service_std=naver_webtoon
+netflix,Netflix Inc.,넷플릭스,Netflix Inc.,us,y,SEC_EDGAR,Netflix Inc.,firm_to_service_one,service_std=netflix
+ridi,RIDI Corporation,리디,RIDI Corporation,kr,n,company_only_nonlisted,RIDI Corporation,firm_to_service_one,service_std=ridi
+sk_telecom,SK Telecom Co. Ltd.,SK텔레콤,SK Telecom Co. Ltd.,kr,y,OpenDART,SK Telecom Co. Ltd.,firm_to_service_one,service_std=skt_network
+spotify,Spotify Technology S.A.,스포티파이,Spotify Technology S.A.,lu,y,SEC_EDGAR,Spotify Technology S.A.,firm_to_service_one,service_std=spotify
+tencent_music,Tencent Music Entertainment Group,텐센트뮤직,Tencent Music Entertainment Group,cn,y,SEC_EDGAR,Tencent Music Entertainment Group,firm_to_service_many,service_std=qq_music
+warner_music,Warner Music Group Corp.,워너뮤직그룹,Warner Music Group Corp.,us,y,SEC_EDGAR,Warner Music Group Corp.,firm_to_service_ip,service_std=wmg_music_ip
+webtoon_ent,WEBTOON Entertainment Inc.,웹툰엔터테인먼트,WEBTOON Entertainment Inc.,us,y,SEC_EDGAR,WEBTOON Entertainment Inc.,firm_to_service_one,service_std=webtoon
+yg_ent,YG Entertainment,와이지엔터테인먼트,YG Entertainment,kr,y,OpenDART,YG Entertainment Inc.,firm_to_service_ip,service_std=yg_music_ip

@@ -1,0 +1,141 @@
+peer_group_id,comparison_basis,obligation_id,domestic_first_date,global_first_date,lag_months_domestic_minus_global,interpretation,domestic_date_status,global_date_status,domestic_service_pool,global_service_pool
+infra_traffic_ott,enforcement,CON01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,CON02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,DATA01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,DATA02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,DOC01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,DOC02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,NET01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,NET02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,PARA01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,REG01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,REV01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,REV02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,TAX01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,enforcement,TAX02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,CON01,pre-2026-03-28,,,글로벌 peer의 서비스-매칭 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,left_censored,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,CON02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,DATA01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,DATA02,pre-2026-03-28,,,글로벌 peer의 서비스-매칭 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,left_censored,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,DOC01,pre-2026-03-28,,,글로벌 peer의 서비스-매칭 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,left_censored,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,DOC02,pre-2026-03-28,,,글로벌 peer의 서비스-매칭 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,left_censored,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,NET01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,NET02,pre-2026-03-28,,,글로벌 peer의 서비스-매칭 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,left_censored,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,PARA01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,REG01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,REV01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,REV02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,TAX01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+infra_traffic_ott,law,TAX02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kt_network|lguplus_network|skt_network,netflix
+mus_label_ip_export,enforcement,CON01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,CON02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,DATA01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,DATA02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,DOC01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,DOC02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,NET01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,NET02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,PARA01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,REG01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,REV01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,REV02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,TAX01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,enforcement,TAX02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,CON01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,CON02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,DATA01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,DATA02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,DOC01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,DOC02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,NET01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,NET02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,PARA01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,REG01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,REV01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,REV02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,TAX01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_label_ip_export,law,TAX02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,jyp_music_ip|yg_music_ip,wmg_music_ip
+mus_streaming_paid_core,enforcement,CON01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,CON02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,DATA01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,DATA02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,DOC01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,DOC02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,NET01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,NET02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,PARA01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,REG01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,REV01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,REV02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,TAX01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,enforcement,TAX02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,law,CON01,pre-2026-03-28,,,글로벌 peer의 서비스-매칭 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,left_censored,missing,flo|melon,spotify
+mus_streaming_paid_core,law,CON02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,law,DATA01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,law,DATA02,pre-2026-03-28,,,글로벌 peer의 서비스-매칭 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,left_censored,missing,flo|melon,spotify
+mus_streaming_paid_core,law,DOC01,pre-2026-03-28,,,글로벌 peer의 서비스-매칭 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,left_censored,missing,flo|melon,spotify
+mus_streaming_paid_core,law,DOC02,pre-2026-03-28,,,글로벌 peer의 서비스-매칭 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,left_censored,missing,flo|melon,spotify
+mus_streaming_paid_core,law,NET01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,law,NET02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,law,PARA01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,law,REG01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,law,REV01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,law,REV02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,law,TAX01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+mus_streaming_paid_core,law,TAX02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,flo|melon,spotify
+webtoon_internal_geo_split,enforcement,CON01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,CON02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,DATA01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,DATA02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,DOC01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,DOC02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,NET01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,NET02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,PARA01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,REG01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,REV01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,REV02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,TAX01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,enforcement,TAX02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,CON01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,CON02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,DATA01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,DATA02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,DOC01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,DOC02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,NET01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,NET02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,PARA01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,REG01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,REV01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,REV02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,TAX01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_internal_geo_split,law,TAX02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,CON01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,CON02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,DATA01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,DATA02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,DOC01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,DOC02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,NET01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,NET02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,PARA01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,REG01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,REV01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,REV02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,TAX01,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,enforcement,TAX02,,,,국내와 글로벌 모두 서비스-매칭된 집행 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,CON01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,CON02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,DATA01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,DATA02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,DOC01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,DOC02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,NET01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,NET02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,PARA01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,REG01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,REV01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,REV02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,TAX01,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon
+webtoon_serial_platform,law,TAX02,,,,국내와 글로벌 모두 서비스-매칭된 규제 도입 날짜가 없어 직접 시차 비교가 불가하다.,missing,missing,kakao_page|lezhin_comics|naver_webtoon,piccoma|webtoon

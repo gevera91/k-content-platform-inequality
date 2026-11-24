@@ -1,0 +1,5 @@
+spec_id,spec_description,korean_mean,global_mean,gap,gap_sign,headline_usable_yes_no,why
+FCA01,"current published spec: dreamus eligible + kakao_ent fallback vs spotify eligible",41.666667,25.074689,16.591978,korean_higher,no,"Published row is contaminated by one Korean fallback firm and all_korean_eligible_flag=no."
+FCA02,"eligible-only spec: use only rank-eligible Korean firm(s)",50.000000,25.074689,24.925311,korean_higher,no,"Sign remains positive, but the Korean side collapses to a single eligible firm, so the gap becomes one-firm thin evidence rather than a stable Korean mean."
+FCA03,"fallback-excluded Korean mean: remove kakao_ent fallback from Korean average",50.000000,25.074689,24.925311,korean_higher,no,"Numerically identical to eligible-only because dreamus is the only Korean eligible row; fallback exclusion does not solve thin comparability."
+FCA04,"one-firm Korean anchor gap: dreamus only vs spotify only",50.000000,25.074689,24.925311,korean_higher,no,"This is no longer a Korean mean gap; it is a one-firm anchor comparison and cannot support summary wording about Korean music streaming services as a class."

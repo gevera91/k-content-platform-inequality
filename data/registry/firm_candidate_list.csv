@@ -1,0 +1,24 @@
+firm_std,firm_name,home_country,sector_primary,listed_flag,filing_system,service_scope,priority_tier,selection_reason,service_std_candidate,source_url_1,source_url_2
+kakao_ent,Kakao Entertainment,kr,music,n,parent_indirect_public,multi_service_separable,primary,국내 기준사업자이며 멜론 단위 추적이 가능해 우선 분석 필요,melon,https://newsroom.kakaoent.com/,https://www.melon.com/
+dreamus,Dreamus Company,kr,music,y,OpenDART,single_service_clear,primary,국내 상장 스트리밍 비교군이며 FLO 서비스 분리가 명확함,flo,https://englishdart.fss.or.kr/,https://www.dreamuscompany.com/service/flo.html
+hybe,HYBE,kr,music,y,OpenDART,multi_service_separable,primary,국내 상장 음악 IP 기업으로 Weverse와 재무 연결이 가능함,weverse,https://englishdart.fss.or.kr/,https://weverse.io/
+jyp_ent,JYP Entertainment,kr,music,y,OpenDART,firm_level_content_ip,secondary,국내 상장 레이블 비교군으로 음악 IP 회수 구조 비교에 적합함,jyp_music_ip,https://englishdart.fss.or.kr/,https://www.jype.com/en/JYP
+yg_ent,YG Entertainment,kr,music,y,OpenDART,firm_level_content_ip,secondary,국내 상장 레이블 비교군으로 디지털과 공연 수익 구조를 비교할 수 있음,yg_music_ip,https://englishdart.fss.or.kr/,https://ygfamily.com/en/about/introduction
+spotify,Spotify Technology S.A.,lu,music,y,SEC_EDGAR,single_service_clear,primary,글로벌 스트리밍 기준 비교군으로 서비스 단위 분리가 가장 쉬움,spotify,https://www.sec.gov/edgar/search-and-access,https://www.spotify.com/
+warner_music,Warner Music Group Corp.,us,music,y,SEC_EDGAR,firm_level_content_ip,primary,글로벌 레이블 비교군으로 공시 접근성과 재무 재현성이 높음,wmg_music_ip,https://www.sec.gov/edgar/search-and-access,https://www.wmg.com/
+tencent_music,Tencent Music Entertainment Group,cn,music,y,SEC_EDGAR,multi_service_separable,secondary,아시아 대형 음악 플랫폼 비교군으로 서비스 포트폴리오 분리가 가능함,qq_music,https://www.sec.gov/edgar/search-and-access,https://ir.tencentmusic.com/
+kakao_ent,Kakao Entertainment,kr,webtoon_story,n,parent_indirect_public,multi_service_separable,primary,국내 핵심 사업자이며 카카오페이지 단위 추적이 가능함,kakao_page,https://newsroom.kakaoent.com/,https://page.kakao.com/
+kakao_piccoma,Kakao piccoma Corp.,jp,webtoon_story,n,parent_indirect_public,single_service_clear,primary,일본 핵심 비교군이며 Piccoma 서비스 단위가 명확함,piccoma,https://www.kakaopiccoma.com/wp-content/uploads/kakaopiccoma_corpprofile_kr_202505.pdf,https://piccoma.com/web/
+naver,NAVER Corp.,kr,webtoon_story,y,OpenDART,multi_service_separable,primary,국내 상장 모회사로 웹툰 사업과 해외 확장을 함께 추적할 수 있음,naver_webtoon,https://englishdart.fss.or.kr/,https://www.navercorp.com/investment/investors.html
+webtoon_ent,WEBTOON Entertainment Inc.,us,webtoon_story,y,SEC_EDGAR,single_service_clear,primary,상장된 글로벌 웹툰 플랫폼으로 서비스와 지역 비교에 적합함,webtoon,https://www.sec.gov/edgar/search-and-access,https://ir.webtoon.com/
+kidari_studio,KidariStudio Inc.,kr,webtoon_story,y,OpenDART,multi_service_separable,primary,국내 상장 비교군이며 Lezhin 등 서비스와 연결이 가능함,lezhin_comics,https://englishdart.fss.or.kr/,https://kidaristudio.com/
+ridi,RIDI Corporation,kr,webtoon_story,n,company_only_nonlisted,single_service_clear,secondary,비상장이나 서비스 자체 관측이 가능해 보조 비교군으로 유용함,ridi,https://ridicorp.com/about/,https://www.ridibooks.com/
+kadokawa,KADOKAWA Corporation,jp,webtoon_story,y,EDINET,multi_service_separable,secondary,일본 스토리 IP 및 전자서적 비교군으로 활용 가능함,bookwalker,https://disclosure2.edinet-fsa.go.jp/week0010.aspx,https://global.bookwalker.jp/
+sk_telecom,SK Telecom Co. Ltd.,kr,digital_infra,y,OpenDART,network_operator_domestic,primary,국내 이동통신과 망비용 기준선을 제공하는 핵심 사업자임,skt_network,https://englishdart.fss.or.kr/,https://www.sktelecom.com/index_en.html
+kt,KT Corp.,kr,digital_infra,y,OpenDART,network_operator_domestic,primary,국내 유무선 통신망 비교에 필수인 핵심 사업자임,kt_network,https://englishdart.fss.or.kr/,https://corp.kt.com/html/investors/main.html
+lg_uplus,LG Uplus Corp.,kr,digital_infra,y,OpenDART,network_operator_domestic,primary,국내 이동통신과 브로드밴드 비교군으로 분석 가치가 높음,lguplus_network,https://englishdart.fss.or.kr/,https://www.lguplus.com/about/en/investing/ir-resources/data
+netflix,Netflix Inc.,us,digital_infra,y,SEC_EDGAR,single_service_clear,primary,국내 트래픽과 OTT 영향 비교에서 가장 중요한 글로벌 서비스임,netflix,https://www.sec.gov/edgar/search-and-access,https://www.netflix.com/
+alphabet,Alphabet Inc.,us,digital_infra,y,SEC_EDGAR,multi_service_separable,primary,YouTube 중심 트래픽과 광고 전이 비교에 필수적인 글로벌 사업자임,youtube,https://www.sec.gov/edgar/search-and-access,https://abc.xyz/investor/
+amazon,Amazon.com Inc.,us,digital_infra,y,SEC_EDGAR,multi_service_separable,secondary,AWS와 콘텐츠 인프라 연계 구조를 비교하는 보조군으로 적합함,aws,https://www.sec.gov/edgar/search-and-access,https://aws.amazon.com/
+cloudflare,Cloudflare Inc.,us,digital_infra,y,SEC_EDGAR,infra_vendor_global,secondary,CDN 기반 인프라 비교군으로 서비스 구조가 명확함,cloudflare_cdn,https://www.sec.gov/edgar/search-and-access,https://www.cloudflare.com/application-services/products/cdn/
+akamai,Akamai Technologies Inc.,us,digital_infra,y,SEC_EDGAR,infra_vendor_global,secondary,엣지와 CDN 장기 비교군으로 재현 가능한 공시가 충분함,akamai_cdn,https://www.sec.gov/edgar/search-and-access,https://www.ir.akamai.com/

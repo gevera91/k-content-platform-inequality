@@ -1,0 +1,6 @@
+# Optional raw-source parsing / expansion tools; not needed by scripts/replicate.py.
+-r requirements.txt
+lxml==6.1.1
+pypdf==6.10.0
+# Some optional figure scripts use matplotlib; choose a compatible current 3.x release.
+matplotlib>=3.8,<4

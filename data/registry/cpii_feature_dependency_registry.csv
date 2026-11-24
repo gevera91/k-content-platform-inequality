@@ -1,0 +1,4 @@
+relationship_id,primitive_features,derived_or_related_features,relationship_type,validation_rule,sensitivity_action,notes_ko
+DEP-NETWORK-01,network_cost_ratio|foreign_dependency_ratio,infra_dependency_ratio,deterministic_or_approximate_derivation,infra_dependency_ratio approximately equals network_cost_ratio times foreign_dependency_ratio,exclude infra_dependency_ratio in overlap-reduced specification,인프라 결합비율이 복수 채널로 네트워크 비용 신호를 반복할 수 있음
+DEP-NETWORK-02,network_cost_ratio,outflow_to_capex_ratio,shared_numerator,network or cloud cost may be the numerator of both features,exclude outflow_to_capex_ratio in overlap-reduced specification,네트워크 비용 원천항목이 중복될 수 있음
+DEP-RECOVERY-01,investment_recovery_ratio,cashflow_recovery_ratio,shared_denominator,both may use content investment as denominator,exclude cashflow_recovery_ratio in overlap-reduced specification,동일 콘텐츠투자 분모로 회수성 신호가 중복될 수 있음

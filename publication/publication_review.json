@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-24",
+  "files_scanned": 458,
+  "checks": [
+    "Tracked release files screened for private raw files, temporary paths, and credentials.",
+    "Report PDF rebuilt and checked for corrected contents and layout.",
+    "Corrected workbook verified and recalculated independently."
+  ],
+  "findings": [],
+  "excluded_from_publication": [
+    "contracts",
+    "client proposal documents",
+    "private correspondence",
+    "raw third-party document bodies",
+    "credentials",
+    "internal editing and agent records"
+  ],
+  "report_pdf_sha256": "a7ce457169540b98e8242c577e2bde278bf9952c7f8baf1d2f54021caa0603dc",
+  "xlsx_embedded_private_path_or_secret_findings": [],
+  "final_frozen_tree_review": "PASS",
+  "report_pdf_and_xlsx_hashes_verified": true
+}
